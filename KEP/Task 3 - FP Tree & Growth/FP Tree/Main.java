@@ -20,6 +20,8 @@ public class Main{
 
             printFPTree();
 
+            // buildConditionalPatternBase();
+
             ot.println(map+"\n"+list);
             ot.close();
         } catch(Exception e){
@@ -81,7 +83,6 @@ public class Main{
 
         for(Map.Entry<Integer, Trie> e : node.child.entrySet()){
             printBranch(e.getValue());
-            // ot.println();
         }
     }
     static void printFPTree(){
@@ -99,7 +100,7 @@ public class Main{
             }
             node.child.get(x).itemId = x;
             node.child.get(x).freq++;     
-
+            node.child.get(x).parent = node;
             node = node.child.get(x);
         }
     }
@@ -111,17 +112,37 @@ public class Main{
         }
 
     }
+    // static void buildConditionalPatternBase(){
+    //     List<Trie> leaves;
+    //     while((leaves = findLeaves()).size()>0){
+    //         for(Trie x : leaves){
+    //             List<Trie> path = getReversedPath(x);
+    //             Collections.reverse(path);
+    //             if(!mapCPB.containsKey(x.itemId)){
+    //                 mapCPB.put(x.itemId, new Trie());
+    //             }
+    //             insert(map.get(x.itemId), path, x.freq);
+    //         }
+    //     }
+
+    // }
+    // static Map<Integer, Trie> mapCPB;
     static Trie root;
     static Map<Integer, Integer> map;
     static List<List<Integer>> list;
     static class Trie{
         int itemId, freq;
+        int numOfChildDeleted;
         Map<Integer, Trie> child;
-
+        Trie parent;
         Trie(){
             freq = 0;
+            numOfChildDeleted = 0;
             child = new HashMap<>();
 
+        }
+        boolean isLeaf(){
+            return numOfChildDeleted == child.size();
         }
     }
 }
