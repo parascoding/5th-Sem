@@ -1,0 +1,113 @@
+C1 is - 
+1  with support 0.3333333333333333
+2  with support 1.0
+3  with support 0.3333333333333333
+4  with support 0.3333333333333333
+5  with support 0.3333333333333333
+L1 is - 
+1 
+2 
+3 
+4 
+5 
+C2 is - 
+1 2  with support 0.3333333333333333
+1 3  with support 0.0
+1 4  with support 0.0
+1 5  with support 0.3333333333333333
+2 3  with support 0.3333333333333333
+2 4  with support 0.3333333333333333
+2 5  with support 0.3333333333333333
+3 4  with support 0.0
+3 5  with support 0.0
+4 5  with support 0.0
+L2 is - 
+1 2 
+1 5 
+2 3 
+2 4 
+2 5 
+C3 is - 
+1 2 5  with support 0.3333333333333333
+L3 is - 
+1 2 5 
+C1 is - 
+1  with support 0.6666666666666666
+2  with support 0.6666666666666666
+3  with support 0.6666666666666666
+4  with support 0.3333333333333333
+L1 is - 
+1 
+2 
+3 
+4 
+C2 is - 
+1 2  with support 0.3333333333333333
+1 3  with support 0.3333333333333333
+1 4  with support 0.3333333333333333
+2 3  with support 0.3333333333333333
+2 4  with support 0.3333333333333333
+3 4  with support 0.0
+L2 is - 
+1 2 
+1 3 
+1 4 
+2 3 
+2 4 
+C3 is - 
+1 2 3  with support 0.0
+1 2 4  with support 0.3333333333333333
+L3 is - 
+1 2 4 
+C1 is - 
+1  with support 1.0
+2  with support 0.5
+3  with support 1.0
+5  with support 0.5
+L1 is - 
+1 
+2 
+3 
+5 
+C2 is - 
+1 2  with support 0.5
+1 3  with support 1.0
+1 5  with support 0.5
+2 3  with support 0.5
+2 5  with support 0.5
+3 5  with support 0.5
+L2 is - 
+1 2 
+1 3 
+1 5 
+2 3 
+2 5 
+3 5 
+C3 is - 
+1 2 3  with support 0.5
+1 2 5  with support 0.5
+1 3 5  with support 0.5
+2 3 5  with support 0.5
+L3 is - 
+1 2 3 
+1 2 5 
+1 3 5 
+2 3 5 
+C4 is - 
+1 2 3 5  with support 0.5
+L4 is - 
+1 2 3 5 
+The final itemsets with support count greater than or equal to 2 are
+1 
+2 
+3 
+4 
+5 
+1 2 
+1 3 
+1 5 
+2 3 
+2 4 
+2 5 
+1 2 3 
+1 2 5 

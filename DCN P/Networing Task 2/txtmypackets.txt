@@ -1,0 +1,1018 @@
+14:08:38.706539 ARP, Request who-has 172.16.16.42 tell 172.16.21.120, length 46
+14:08:38.784930 ARP, Request who-has 172.16.18.253 tell 172.16.20.66, length 46
+14:08:38.796031 ARP, Request who-has 172.16.16.66 tell 172.16.20.250, length 46
+14:08:38.796033 ARP, Request who-has 172.16.16.67 tell 172.16.20.250, length 46
+14:08:38.826962 ARP, Request who-has 172.16.19.26 tell 0.0.0.0, length 46
+14:08:38.832827 ARP, Request who-has 172.16.19.27 tell 0.0.0.0, length 46
+14:08:38.854938 IP 172.16.16.1.67 > 255.255.255.255.68: BOOTP/DHCP, Reply, length 278
+14:08:38.856759 ARP, Request who-has 172.16.16.61 tell 172.16.16.61, length 46
+14:08:38.869140 ARP, Request who-has 192.168.1.121 tell 192.168.1.1, length 46
+14:08:38.918865 IP 172.16.23.122.49974 > 239.255.255.250.1900: UDP, length 125
+14:08:38.944887 IP 172.16.16.45.45088 > 255.255.255.255.7437: UDP, length 173
+14:08:39.127136 ARP, Request who-has 172.16.18.201 tell 172.16.16.61, length 46
+14:08:39.158047 ARP, Request who-has 172.16.19.5 tell 0.0.0.0, length 46
+14:08:39.171229 ARP, Request who-has 172.16.16.213 tell 172.16.20.66, length 46
+14:08:39.171230 ARP, Request who-has 172.16.16.37 tell 172.16.20.66, length 46
+14:08:39.171230 ARP, Request who-has 172.16.16.5 tell 172.16.20.66, length 46
+14:08:39.171231 ARP, Request who-has 172.16.19.66 tell 172.16.20.66, length 46
+14:08:39.173694 ARP, Request who-has 172.16.19.43 tell 0.0.0.0, length 46
+14:08:39.196697 IP 192.168.1.1.67 > 255.255.255.255.68: BOOTP/DHCP, Reply, length 300
+14:08:39.254894 IP 172.16.23.3.51579 > 239.255.255.250.1900: UDP, length 175
+14:08:39.301452 IP 172.16.23.3.51580 > 239.255.255.250.1900: UDP, length 175
+14:08:39.312766 ARP, Request who-has 172.16.19.2 tell 0.0.0.0, length 46
+14:08:39.322992 ARP, Request who-has 172.16.21.243 tell 172.16.16.3, length 46
+14:08:39.398765 ARP, Request who-has 172.16.16.249 tell 172.16.16.202, length 46
+14:08:39.427332 IP 172.16.20.14.51354 > 255.255.255.255.3956: UDP, length 8
+14:08:39.451455 ARP, Request who-has 172.16.16.42 tell 172.16.21.120, length 46
+14:08:39.475209 ARP, Request who-has 172.16.19.12 tell 0.0.0.0, length 46
+14:08:39.502886 ARP, Request who-has 172.16.17.4 tell 172.16.16.60, length 46
+14:08:39.502888 ARP, Request who-has 172.16.17.2 tell 172.16.16.60, length 46
+14:08:39.502888 ARP, Request who-has 172.16.17.9 tell 172.16.16.60, length 46
+14:08:39.502888 ARP, Request who-has 172.16.17.1 tell 172.16.16.60, length 46
+14:08:39.502889 ARP, Request who-has 172.16.17.21 tell 172.16.16.60, length 46
+14:08:39.502889 ARP, Request who-has 172.16.17.19 tell 172.16.16.60, length 46
+14:08:39.502890 ARP, Request who-has 172.16.17.22 tell 172.16.16.60, length 46
+14:08:39.502890 ARP, Request who-has 172.16.17.15 tell 172.16.16.60, length 46
+14:08:39.502909 ARP, Request who-has 172.16.17.11 tell 172.16.16.60, length 46
+14:08:39.502910 ARP, Request who-has 172.16.17.12 tell 172.16.16.60, length 46
+14:08:39.506062 IP6 fe80::2c0a:4b3a:180e:d317.5353 > ff02::fb.5353: 0 [7q] PTR (QM)? _ftp._tcp.local. PTR (QM)? _nfs._tcp.local. PTR (QM)? _afpovertcp._tcp.local. PTR (QM)? _smb._tcp.local. PTR (QM)? _sftp-ssh._tcp.local. PTR (QM)? _webdavs._tcp.local. PTR (QM)? _webdav._tcp.local. (118)
+14:08:39.506064 IP 172.16.19.128.5353 > 224.0.0.251.5353: 0 [7q] PTR (QM)? _ftp._tcp.local. PTR (QM)? _nfs._tcp.local. PTR (QM)? _afpovertcp._tcp.local. PTR (QM)? _smb._tcp.local. PTR (QM)? _sftp-ssh._tcp.local. PTR (QM)? _webdavs._tcp.local. PTR (QM)? _webdav._tcp.local. (118)
+14:08:39.566122 ARP, Request who-has 172.16.18.208 tell 172.16.16.61, length 46
+14:08:39.629695 IP 172.16.21.197.65521 > 255.255.255.255.5353: 38400 PTR (QM)? _nvstream_dbd._tcp.local. (42)
+14:08:39.673067 ARP, Request who-has 172.16.19.66 tell 172.16.20.63, length 46
+14:08:39.762551 ARP, Request who-has 169.254.114.82 tell 0.0.0.0, length 46
+14:08:39.804174 IP6 fe80::50a3:a7be:c300:446c.53372 > ff02::c.1900: UDP, length 146
+14:08:39.839878 ARP, Request who-has 172.16.19.6 tell 0.0.0.0, length 46
+14:08:39.864472 IP 172.16.20.14.64002 > 255.255.255.255.3956: UDP, length 8
+14:08:40.033938 IP 172.16.20.14.64443 > 255.255.255.255.3956: UDP, length 8
+14:08:40.110650 ARP, Request who-has 172.16.18.209 tell 172.16.16.61, length 46
+14:08:40.132405 IP 172.16.22.141.1716 > 10.42.0.213.1716: UDP, bad length 1798 > 1472
+14:08:40.132411 IP 172.16.22.141 > 10.42.0.213: ip-proto-17
+14:08:40.140662 ARP, Request who-has 172.16.18.201 tell 172.16.16.61, length 46
+14:08:40.190967 ARP, Request who-has 172.16.16.42 tell 172.16.22.173, length 46
+14:08:40.193573 ARP, Request who-has 172.16.19.41 tell 0.0.0.0, length 46
+14:08:40.199468 IP 139.59.32.29.80 > 172.16.22.141.58712: Flags [F.], seq 2797832930, ack 1640197883, win 432, options [nop,nop,TS val 3592428858 ecr 10315094], length 0
+14:08:40.225303 ARP, Request who-has 172.16.16.42 tell 172.16.21.120, length 46
+14:08:40.242552 IP 172.16.22.141.58712 > 139.59.32.29.80: Flags [.], ack 1, win 1767, options [nop,nop,TS val 10380172 ecr 3592428858], length 0
+14:08:40.309661 ARP, Request who-has 172.16.19.37 tell 0.0.0.0, length 46
+14:08:40.309662 ARP, Request who-has 172.16.18.253 tell 172.16.22.205, length 46
+14:08:40.435631 IP 192.168.1.1.48727 > 255.255.255.255.7437: UDP, length 173
+14:08:40.457062 IP 172.16.16.44.35218 > 255.255.255.255.7437: UDP, length 173
+14:08:40.516690 ARP, Request who-has 172.16.17.1 tell 172.16.16.60, length 46
+14:08:40.516691 ARP, Request who-has 172.16.17.2 tell 172.16.16.60, length 46
+14:08:40.516692 ARP, Request who-has 172.16.17.4 tell 172.16.16.60, length 46
+14:08:40.516692 ARP, Request who-has 172.16.17.9 tell 172.16.16.60, length 46
+14:08:40.516692 ARP, Request who-has 172.16.17.21 tell 172.16.16.60, length 46
+14:08:40.516693 ARP, Request who-has 172.16.17.19 tell 172.16.16.60, length 46
+14:08:40.516693 ARP, Request who-has 172.16.17.22 tell 172.16.16.60, length 46
+14:08:40.516694 ARP, Request who-has 172.16.17.11 tell 172.16.16.60, length 46
+14:08:40.516713 ARP, Request who-has 172.16.17.15 tell 172.16.16.60, length 46
+14:08:40.516713 ARP, Request who-has 172.16.17.12 tell 172.16.16.60, length 46
+14:08:40.520574 IP6 fe80::b03f:c897:6ca0:dcc5.5353 > ff02::fb.5353: 45914 PTR (QM)? _arduino._tcp.local. (37)
+14:08:40.586531 IP 192.168.1.1.56696 > 224.0.0.251.5353: 4473 PTR (QM)? 192.168.1.10.in-addr.arpa. (43)
+14:08:40.596654 IP 192.168.1.1.49173 > 224.0.0.251.5353: 4474 PTR (QM)? 192.168.1.10.in-addr.arpa. (43)
+14:08:40.660672 IP 172.16.19.62.52473 > 239.255.255.250.1900: UDP, length 175
+14:08:40.721656 IP 172.16.16.61.40623 > 239.255.255.250.1900: UDP, length 137
+14:08:40.863702 ARP, Request who-has 172.16.19.154 (ff:ff:ff:ff:ff:ff) tell 172.16.16.1, length 46
+14:08:40.863704 ARP, Request who-has 172.16.19.198 (ff:ff:ff:ff:ff:ff) tell 172.16.16.1, length 46
+14:08:40.864178 ARP, Request who-has 172.16.23.67 (ff:ff:ff:ff:ff:ff) tell 172.16.16.1, length 46
+14:08:40.875646 IP 0.0.0.0.68 > 255.255.255.255.67: BOOTP/DHCP, Request from 00:00:00:00:09:ab, length 300
+14:08:40.890552 IP 192.168.1.1.67 > 255.255.255.255.68: BOOTP/DHCP, Reply, length 300
+14:08:40.891909 IP 172.16.16.1.67 > 255.255.255.255.68: BOOTP/DHCP, Reply, length 278
+14:08:40.899637 IP6 fe80::54ce:277b:b210:e6ee.546 > ff02::1:2.547: dhcp6 inf-req
+14:08:40.923062 ARP, Request who-has 172.16.16.42 tell 172.16.22.173, length 46
+14:08:41.000218 ARP, Request who-has 172.16.16.42 tell 172.16.21.120, length 46
+14:08:41.104732 ARP, Request who-has 172.16.18.209 tell 172.16.16.61, length 46
+14:08:41.191653 IP 172.16.20.157.17500 > 172.16.23.255.17500: UDP, length 133
+14:08:41.465127 ARP, Request who-has 172.16.19.1 tell 172.16.16.62, length 46
+14:08:41.465128 ARP, Request who-has 172.16.19.2 tell 172.16.16.62, length 46
+14:08:41.465129 ARP, Request who-has 172.16.19.3 tell 172.16.16.62, length 46
+14:08:41.465930 ARP, Request who-has 172.16.19.13 tell 172.16.16.62, length 46
+14:08:41.465931 ARP, Request who-has 172.16.19.15 tell 172.16.16.62, length 46
+14:08:41.465968 ARP, Request who-has 172.16.19.14 tell 172.16.16.62, length 46
+14:08:41.466197 ARP, Request who-has 172.16.19.27 tell 172.16.16.62, length 46
+14:08:41.466197 ARP, Request who-has 172.16.19.28 tell 172.16.16.62, length 46
+14:08:41.466215 ARP, Request who-has 172.16.19.30 tell 172.16.16.62, length 46
+14:08:41.466216 ARP, Request who-has 172.16.19.29 tell 172.16.16.62, length 46
+14:08:41.466230 ARP, Request who-has 172.16.19.26 tell 172.16.16.62, length 46
+14:08:41.466230 ARP, Request who-has 172.16.19.31 tell 172.16.16.62, length 46
+14:08:41.466955 ARP, Request who-has 172.16.19.39 (d0:67:b8:b4:18:8e) tell 172.16.16.62, length 46
+14:08:41.475468 ARP, Request who-has 172.16.19.12 (f0:2e:fd:ab:18:8e) tell 172.16.16.62, length 46
+14:08:41.511622 ARP, Request who-has 172.16.17.1 tell 172.16.16.60, length 46
+14:08:41.511623 ARP, Request who-has 172.16.17.9 tell 172.16.16.60, length 46
+14:08:41.511624 ARP, Request who-has 172.16.17.4 tell 172.16.16.60, length 46
+14:08:41.511624 ARP, Request who-has 172.16.17.2 tell 172.16.16.60, length 46
+14:08:41.511625 ARP, Request who-has 172.16.17.19 tell 172.16.16.60, length 46
+14:08:41.511625 ARP, Request who-has 172.16.17.21 tell 172.16.16.60, length 46
+14:08:41.511625 ARP, Request who-has 172.16.17.11 tell 172.16.16.60, length 46
+14:08:41.511626 ARP, Request who-has 172.16.17.22 tell 172.16.16.60, length 46
+14:08:41.511641 ARP, Request who-has 172.16.17.15 tell 172.16.16.60, length 46
+14:08:41.511642 ARP, Request who-has 172.16.17.12 tell 172.16.16.60, length 46
+14:08:41.537636 ARP, Request who-has 172.16.17.13 tell 172.16.16.60, length 46
+14:08:41.537637 ARP, Request who-has 172.16.17.10 tell 172.16.16.60, length 46
+14:08:41.564616 IP 172.16.20.14.51354 > 255.255.255.255.3956: UDP, length 8
+14:08:41.591499 IP 172.16.16.43.33897 > 255.255.255.255.7437: UDP, length 173
+14:08:41.603831 ARP, Request who-has 172.16.19.4 tell 0.0.0.0, length 46
+14:08:41.669300 IP 172.16.19.62.52473 > 239.255.255.250.1900: UDP, length 175
+14:08:41.686461 IP 172.16.20.99.60515 > 239.255.255.250.1900: UDP, length 101
+14:08:41.741066 ARP, Request who-has 172.16.19.1 tell 0.0.0.0, length 46
+14:08:41.767731 IP6 fe80::3dd0:2628:8b28:d13a.546 > ff02::1:2.547: dhcp6 solicit
+14:08:41.778971 ARP, Request who-has 172.16.16.42 tell 172.16.21.120, length 46
+14:08:41.819647 ARP, Request who-has 172.16.16.62 tell 0.0.0.0, length 46
+14:08:41.918518 ARP, Request who-has 172.16.16.42 tell 172.16.22.173, length 46
+14:08:42.000466 IP 172.16.20.14.64002 > 255.255.255.255.3956: UDP, length 8
+14:08:42.021936 IP 172.16.16.45.45088 > 255.255.255.255.7437: UDP, length 173
+14:08:42.085335 IP 172.16.22.141.32916 > 107.167.110.211.443: Flags [F.], seq 2628392494, ack 1540586727, win 501, options [nop,nop,TS val 2867005952 ecr 2812726919], length 0
+14:08:42.085410 IP 172.16.22.141.32914 > 107.167.110.211.443: Flags [R.], seq 1247385214, ack 1768015778, win 501, options [nop,nop,TS val 2867005952 ecr 2812732036], length 0
+14:08:42.085456 IP 172.16.22.141.50558 > 107.167.110.216.443: Flags [F.], seq 1208143000, ack 892866625, win 501, options [nop,nop,TS val 3849231371 ecr 2025763097], length 0
+14:08:42.085490 IP 172.16.22.141.50556 > 107.167.110.216.443: Flags [R.], seq 3809667625, ack 1693775937, win 501, options [nop,nop,TS val 3849231371 ecr 2025768174], length 0
+14:08:42.086213 IP 172.16.22.141.52485 > 8.8.8.8.53: 56248+ [1au] A? sitecheck.opera.com. (48)
+14:08:42.119531 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [.], seq 4261301801:4261303219, ack 50582226, win 1336, options [nop,nop,TS val 3782084877 ecr 1053029137], length 1418
+14:08:42.119532 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [P.], seq 1418:2706, ack 1, win 1336, options [nop,nop,TS val 3782084877 ecr 1053029137], length 1288
+14:08:42.119570 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [P.], seq 2706:2745, ack 1, win 1336, options [nop,nop,TS val 3782084877 ecr 1053029137], length 39
+14:08:42.141941 ARP, Request who-has 172.16.19.14 tell 0.0.0.0, length 46
+14:08:42.148129 IP 8.8.8.8.53 > 172.16.22.141.52485: 56248 7/0/1 CNAME sitecheck.geo.opera.com., CNAME lati-sitecheck.opera.com., CNAME lati.lb.opera.technology., A 107.167.110.216, A 107.167.110.211, A 107.167.110.224, A 107.167.110.223 (207)
+14:08:42.148723 IP 172.16.22.141.34144 > 107.167.110.223.443: Flags [S], seq 3790653514, win 64240, options [mss 1460,sackOK,TS val 1558447224 ecr 0,nop,wscale 7], length 0
+14:08:42.151500 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [P.], seq 1:40, ack 2745, win 405, options [nop,nop,TS val 1053055751 ecr 3782084877], length 39
+14:08:42.172086 IP 172.16.20.14.64443 > 255.255.255.255.3956: UDP, length 8
+14:08:42.194491 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [.], ack 40, win 1336, options [nop,nop,TS val 3782084952 ecr 1053055751], length 0
+14:08:42.251328 ARP, Request who-has 172.16.18.208 tell 172.16.16.61, length 46
+14:08:42.301754 IP 107.167.110.211.443 > 172.16.22.141.32910: Flags [P.], seq 4123055469:4123055493, ack 591819729, win 83, options [nop,nop,TS val 2812741368 ecr 2866941153], length 24
+14:08:42.301779 IP 172.16.22.141.32910 > 107.167.110.211.443: Flags [.], ack 24, win 501, options [nop,nop,TS val 2867006169 ecr 2812741368], length 0
+14:08:42.301783 IP 107.167.110.211.443 > 172.16.22.141.32910: Flags [F.], seq 24, ack 1, win 83, options [nop,nop,TS val 2812741368 ecr 2866941153], length 0
+14:08:42.336381 IP 172.16.22.141.34146 > 107.167.110.223.443: Flags [S], seq 1883372280, win 64240, options [mss 1460,sackOK,TS val 1558447411 ecr 0,nop,wscale 7], length 0
+14:08:42.342441 IP 172.16.22.141.32910 > 107.167.110.211.443: Flags [.], ack 25, win 501, options [nop,nop,TS val 2867006209 ecr 2812741368], length 0
+14:08:42.355920 IP 107.167.110.211.443 > 172.16.22.141.32916: Flags [.], ack 1, win 84, options [nop,nop,TS val 2812741437 ecr 2867005952], length 0
+14:08:42.356164 ARP, Request who-has 172.16.19.7 tell 0.0.0.0, length 46
+14:08:42.364088 IP 139.59.32.29.80 > 172.16.22.141.58716: Flags [F.], seq 2277810877, ack 1603718479, win 308, options [nop,nop,TS val 3592431013 ecr 10317214], length 0
+14:08:42.406542 IP 172.16.22.141.58716 > 139.59.32.29.80: Flags [.], ack 1, win 1208, options [nop,nop,TS val 10382336 ecr 3592431013], length 0
+14:08:42.423294 IP 107.167.110.223.443 > 172.16.22.141.34144: Flags [S.], seq 381683029, ack 3790653515, win 43440, options [mss 1460,sackOK,TS val 2277205201 ecr 1558447224,nop,wscale 9], length 0
+14:08:42.423372 IP 172.16.22.141.34144 > 107.167.110.223.443: Flags [.], ack 1, win 502, options [nop,nop,TS val 1558447498 ecr 2277205201], length 0
+14:08:42.423846 IP 172.16.22.141.34144 > 107.167.110.223.443: Flags [P.], seq 1:518, ack 1, win 502, options [nop,nop,TS val 1558447499 ecr 2277205201], length 517
+14:08:42.467950 ARP, Request who-has 172.16.19.3 tell 172.16.16.62, length 46
+14:08:42.467951 ARP, Request who-has 172.16.19.1 tell 172.16.16.62, length 46
+14:08:42.467952 ARP, Request who-has 172.16.19.2 tell 172.16.16.62, length 46
+14:08:42.467952 ARP, Request who-has 172.16.19.15 tell 172.16.16.62, length 46
+14:08:42.467953 ARP, Request who-has 172.16.19.14 tell 172.16.16.62, length 46
+14:08:42.467953 ARP, Request who-has 172.16.19.13 tell 172.16.16.62, length 46
+14:08:42.467953 ARP, Request who-has 172.16.19.27 tell 172.16.16.62, length 46
+14:08:42.467954 ARP, Request who-has 172.16.19.28 tell 172.16.16.62, length 46
+14:08:42.467972 ARP, Request who-has 172.16.19.30 tell 172.16.16.62, length 46
+14:08:42.467973 ARP, Request who-has 172.16.19.29 tell 172.16.16.62, length 46
+14:08:42.467973 ARP, Request who-has 172.16.19.31 tell 172.16.16.62, length 46
+14:08:42.467973 ARP, Request who-has 172.16.19.26 tell 172.16.16.62, length 46
+14:08:42.536747 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [P.], seq 942:2360, ack 2745, win 405, options [nop,nop,TS val 1053056137 ecr 3782084952], length 1418
+14:08:42.536785 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [.], ack 40, win 1336, options [nop,nop,TS val 3782085294 ecr 1053055751,nop,nop,sack 1 {942:2360}], length 0
+14:08:42.537608 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [.], seq 2360:3778, ack 2745, win 405, options [nop,nop,TS val 1053056137 ecr 3782084952], length 1418
+14:08:42.537624 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [.], ack 40, win 1336, options [nop,nop,TS val 3782085295 ecr 1053055751,nop,nop,sack 1 {942:3778}], length 0
+14:08:42.537810 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [P.], seq 3778:5196, ack 2745, win 405, options [nop,nop,TS val 1053056137 ecr 3782084952], length 1418
+14:08:42.537814 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [.], ack 40, win 1336, options [nop,nop,TS val 3782085295 ecr 1053055751,nop,nop,sack 1 {942:5196}], length 0
+14:08:42.538372 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [P.], seq 5196:5382, ack 2745, win 405, options [nop,nop,TS val 1053056138 ecr 3782084952], length 186
+14:08:42.538390 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [.], ack 40, win 1336, options [nop,nop,TS val 3782085295 ecr 1053055751,nop,nop,sack 1 {942:5382}], length 0
+14:08:42.540167 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [P.], seq 5382:6800, ack 2745, win 405, options [nop,nop,TS val 1053056140 ecr 3782084952], length 1418
+14:08:42.540210 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [.], ack 40, win 1336, options [nop,nop,TS val 3782085297 ecr 1053055751,nop,nop,sack 1 {942:6800}], length 0
+14:08:42.540599 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [.], seq 6800:8218, ack 2745, win 405, options [nop,nop,TS val 1053056140 ecr 3782084952], length 1418
+14:08:42.540618 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [.], ack 40, win 1336, options [nop,nop,TS val 3782085298 ecr 1053055751,nop,nop,sack 1 {942:8218}], length 0
+14:08:42.540712 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [P.], seq 8218:9636, ack 2745, win 405, options [nop,nop,TS val 1053056140 ecr 3782084952], length 1418
+14:08:42.540722 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [.], ack 40, win 1336, options [nop,nop,TS val 3782085298 ecr 1053055751,nop,nop,sack 1 {942:9636}], length 0
+14:08:42.564117 ARP, Request who-has 172.16.17.15 tell 172.16.16.60, length 46
+14:08:42.564118 ARP, Request who-has 172.16.17.19 tell 172.16.16.60, length 46
+14:08:42.568068 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [P.], seq 40:942, ack 2745, win 405, options [nop,nop,TS val 1053056169 ecr 3782085295], length 902
+14:08:42.568125 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [.], ack 9636, win 1283, options [nop,nop,TS val 3782085325 ecr 1053056169], length 0
+14:08:42.571722 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [P.], seq 2745:2780, ack 9636, win 1341, options [nop,nop,TS val 3782085329 ecr 1053056169], length 35
+14:08:42.597366 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [.], seq 9636:11054, ack 2745, win 405, options [nop,nop,TS val 1053056199 ecr 3782085325], length 1418
+14:08:42.597385 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [.], ack 11054, win 1332, options [nop,nop,TS val 3782085354 ecr 1053056199], length 0
+14:08:42.597447 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [P.], seq 11054:12207, ack 2745, win 405, options [nop,nop,TS val 1053056199 ecr 3782085325], length 1153
+14:08:42.597451 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [.], ack 12207, win 1333, options [nop,nop,TS val 3782085355 ecr 1053056199], length 0
+14:08:42.597462 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [P.], seq 12207:12326, ack 2745, win 405, options [nop,nop,TS val 1053056199 ecr 3782085325], length 119
+14:08:42.597464 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [.], ack 12326, win 1333, options [nop,nop,TS val 3782085355 ecr 1053056199], length 0
+14:08:42.597919 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [P.], seq 2780:2819, ack 12326, win 1341, options [nop,nop,TS val 3782085355 ecr 1053056199], length 39
+14:08:42.606122 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [.], ack 2780, win 405, options [nop,nop,TS val 1053056207 ecr 3782085329], length 0
+14:08:42.646174 IP 172.16.21.197.65525 > 255.255.255.255.5353: 40960 PTR (QM)? _ni-logos._tcp.local. (38)
+14:08:42.681484 IP 172.16.19.62.52473 > 239.255.255.250.1900: UDP, length 175
+14:08:42.710834 IP 172.16.22.141.48368 > 142.250.195.131.443: UDP, length 1250
+14:08:42.711026 IP 172.16.22.141.48368 > 142.250.195.131.443: UDP, length 78
+14:08:42.711227 IP 172.16.22.141.48368 > 142.250.195.131.443: UDP, length 444
+14:08:42.741749 ARP, Request who-has 172.16.18.206 tell 172.16.16.61, length 46
+14:08:42.746586 IP 172.16.22.141.58712 > 139.59.32.29.80: Flags [F.], seq 1, ack 1, win 1767, options [nop,nop,TS val 10382676 ecr 3592428858], length 0
+14:08:42.746615 IP 172.16.22.141.58716 > 139.59.32.29.80: Flags [F.], seq 1, ack 1, win 1208, options [nop,nop,TS val 10382676 ecr 3592431013], length 0
+14:08:42.746641 IP 172.16.22.141.32910 > 107.167.110.211.443: Flags [R.], seq 1, ack 25, win 501, options [nop,nop,TS val 2867006614 ecr 2812741368], length 0
+14:08:42.747101 IP 172.16.22.141.38999 > 8.8.8.8.53: 18635+ [1au] A? af.opera.com. (41)
+14:08:42.767162 ARP, Request who-has 172.16.19.10 tell 0.0.0.0, length 46
+14:08:42.771037 IP 142.250.195.131.443 > 172.16.22.141.48368: UDP, length 1250
+14:08:42.771485 IP6 fe80::3dd0:2628:8b28:d13a.546 > ff02::1:2.547: dhcp6 solicit
+14:08:42.777084 IP 8.8.8.8.53 > 172.16.22.141.38999: 18635 6/0/1 CNAME af.geo.opera.com., CNAME lati-af.opera.com., A 107.167.110.211, A 107.167.110.223, A 107.167.110.216, A 107.167.110.224 (148)
+14:08:42.777667 IP 172.16.22.141.58860 > 107.167.110.224.443: Flags [S], seq 99879459, win 64240, options [mss 1460,sackOK,TS val 422833568 ecr 0,nop,wscale 7], length 0
+14:08:42.779078 IP 142.250.195.131.443 > 172.16.22.141.48368: UDP, length 1250
+14:08:42.779129 IP 142.250.195.131.443 > 172.16.22.141.48368: UDP, length 790
+14:08:42.779145 IP 142.250.195.131.443 > 172.16.22.141.48368: UDP, length 69
+14:08:42.779146 IP 142.250.195.131.443 > 172.16.22.141.48368: UDP, length 25
+14:08:42.779489 IP 172.16.22.141.48368 > 142.250.195.131.443: UDP, length 78
+14:08:42.779542 IP 172.16.22.141.48368 > 142.250.195.131.443: UDP, length 33
+14:08:42.785624 IP 139.59.32.29.80 > 172.16.22.141.58712: Flags [.], ack 2, win 432, options [nop,nop,TS val 3592431438 ecr 10382676], length 0
+14:08:42.789847 IP 139.59.32.29.80 > 172.16.22.141.58716: Flags [.], ack 2, win 308, options [nop,nop,TS val 3592431438 ecr 10382676], length 0
+14:08:42.804941 IP 172.16.22.141.48368 > 142.250.195.131.443: UDP, length 33
+14:08:42.813676 IP 142.250.195.131.443 > 172.16.22.141.48368: UDP, length 92
+14:08:42.813850 IP 172.16.22.141.48368 > 142.250.195.131.443: UDP, length 33
+14:08:42.830482 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [P.], seq 2780:2819, ack 12326, win 1341, options [nop,nop,TS val 3782085588 ecr 1053056207], length 39
+14:08:42.834424 IP 172.16.22.141.50558 > 107.167.110.216.443: Flags [F.], seq 0, ack 1, win 501, options [nop,nop,TS val 3849232119 ecr 2025763097], length 0
+14:08:42.843305 IP 142.250.195.131.443 > 172.16.22.141.48368: UDP, length 25
+14:08:42.843512 IP 172.16.22.141.48368 > 142.250.195.131.443: UDP, length 35
+14:08:42.855518 IP 142.250.195.131.443 > 172.16.22.141.48368: UDP, length 25
+14:08:42.855791 IP 172.16.22.141.48368 > 142.250.195.131.443: UDP, length 35
+14:08:42.870870 ARP, Request who-has 172.16.16.61 tell 172.16.16.61, length 46
+14:08:42.886512 IP 142.250.195.131.443 > 172.16.22.141.48368: UDP, length 625
+14:08:42.886929 IP 172.16.22.141.48368 > 142.250.195.131.443: UDP, length 39
+14:08:42.945009 IP 142.250.195.131.443 > 172.16.22.141.48368: UDP, length 26
+14:08:42.997742 IP 172.16.22.141.58862 > 107.167.110.224.443: Flags [S], seq 4105109912, win 64240, options [mss 1460,sackOK,TS val 422833788 ecr 0,nop,wscale 7], length 0
+14:08:43.052624 IP 107.167.110.224.443 > 172.16.22.141.58860: Flags [S.], seq 154638609, ack 99879460, win 43440, options [mss 1460,sackOK,TS val 1032915602 ecr 422833568,nop,wscale 9], length 0
+14:08:43.052696 IP 172.16.22.141.58860 > 107.167.110.224.443: Flags [.], ack 1, win 502, options [nop,nop,TS val 422833843 ecr 1032915602], length 0
+14:08:43.053210 IP 172.16.22.141.58860 > 107.167.110.224.443: Flags [P.], seq 1:518, ack 1, win 502, options [nop,nop,TS val 422833843 ecr 1032915602], length 517
+14:08:43.058558 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [P.], seq 2780:2819, ack 12326, win 1341, options [nop,nop,TS val 3782085816 ecr 1053056207], length 39
+14:08:43.064877 IP 172.16.21.65.63138 > 239.255.255.250.1900: UDP, length 175
+14:08:43.186536 IP 172.16.22.141.34144 > 107.167.110.223.443: Flags [P.], seq 1:518, ack 1, win 502, options [nop,nop,TS val 1558448262 ecr 2277205201], length 517
+14:08:43.200634 ARP, Request who-has 172.16.16.42 tell 172.16.22.173, length 46
+14:08:43.250530 ARP, Request who-has 172.16.18.208 tell 172.16.16.61, length 46
+14:08:43.261574 ARP, Request who-has 172.16.18.207 tell 172.16.16.61, length 46
+14:08:43.270741 IP 107.167.110.223.443 > 172.16.22.141.34144: Flags [P.], seq 2897:3141, ack 518, win 84, options [nop,nop,TS val 2277206047 ecr 1558447499], length 244
+14:08:43.270790 IP 172.16.22.141.34144 > 107.167.110.223.443: Flags [.], ack 1, win 502, options [nop,nop,TS val 1558448346 ecr 2277205201,nop,nop,sack 1 {2897:3141}], length 0
+14:08:43.300695 IP6 fe80::29a1:7e32:11bb:27a0.53815 > ff02::c.3702: UDP, length 656
+14:08:43.327855 IP 107.167.110.224.443 > 172.16.22.141.58860: Flags [.], ack 518, win 83, options [nop,nop,TS val 1032915919 ecr 422833843], length 0
+14:08:43.327882 IP 107.167.110.224.443 > 172.16.22.141.58860: Flags [.], seq 1:1449, ack 518, win 83, options [nop,nop,TS val 1032915919 ecr 422833843], length 1448
+14:08:43.327897 IP 172.16.22.141.58860 > 107.167.110.224.443: Flags [.], ack 1449, win 501, options [nop,nop,TS val 422834118 ecr 1032915919], length 0
+14:08:43.327963 IP 107.167.110.224.443 > 172.16.22.141.58860: Flags [P.], seq 1449:2897, ack 518, win 83, options [nop,nop,TS val 1032915919 ecr 422833843], length 1448
+14:08:43.327971 IP 172.16.22.141.58860 > 107.167.110.224.443: Flags [.], ack 2897, win 495, options [nop,nop,TS val 422834118 ecr 1032915919], length 0
+14:08:43.327973 IP 107.167.110.224.443 > 172.16.22.141.58860: Flags [P.], seq 2897:3141, ack 518, win 83, options [nop,nop,TS val 1032915920 ecr 422833843], length 244
+14:08:43.327976 IP 172.16.22.141.58860 > 107.167.110.224.443: Flags [.], ack 3141, win 494, options [nop,nop,TS val 422834118 ecr 1032915920], length 0
+14:08:43.329264 IP 172.16.22.141.58860 > 107.167.110.224.443: Flags [P.], seq 518:598, ack 3141, win 501, options [nop,nop,TS val 422834119 ecr 1032915920], length 80
+14:08:43.329533 IP 172.16.22.141.58860 > 107.167.110.224.443: Flags [P.], seq 598:1105, ack 3141, win 501, options [nop,nop,TS val 422834120 ecr 1032915920], length 507
+14:08:43.342531 ARP, Request who-has 169.254.239.20 tell 0.0.0.0, length 46
+14:08:43.346561 IP 172.16.22.141.34146 > 107.167.110.223.443: Flags [S], seq 1883372280, win 64240, options [mss 1460,sackOK,TS val 1558448422 ecr 0,nop,wscale 7], length 0
+14:08:43.469676 ARP, Request who-has 172.16.19.3 tell 172.16.16.62, length 46
+14:08:43.469677 ARP, Request who-has 172.16.19.2 tell 172.16.16.62, length 46
+14:08:43.469678 ARP, Request who-has 172.16.19.1 tell 172.16.16.62, length 46
+14:08:43.469678 ARP, Request who-has 172.16.19.14 tell 172.16.16.62, length 46
+14:08:43.469678 ARP, Request who-has 172.16.19.13 tell 172.16.16.62, length 46
+14:08:43.469679 ARP, Request who-has 172.16.19.28 tell 172.16.16.62, length 46
+14:08:43.469679 ARP, Request who-has 172.16.19.27 tell 172.16.16.62, length 46
+14:08:43.469679 ARP, Request who-has 172.16.19.30 tell 172.16.16.62, length 46
+14:08:43.469700 ARP, Request who-has 172.16.19.29 tell 172.16.16.62, length 46
+14:08:43.469701 ARP, Request who-has 172.16.19.31 tell 172.16.16.62, length 46
+14:08:43.469701 ARP, Request who-has 172.16.19.26 tell 172.16.16.62, length 46
+14:08:43.469702 ARP, Request who-has 172.16.19.15 tell 172.16.16.62, length 46
+14:08:43.489012 IP6 fe80::29a1:7e32:11bb:27a0.53815 > ff02::c.3702: UDP, length 656
+14:08:43.493236 ARP, Request who-has 172.16.19.40 tell 0.0.0.0, length 46
+14:08:43.526723 IP 172.16.16.44.35218 > 255.255.255.255.7437: UDP, length 173
+14:08:43.535838 ARP, Request who-has 172.16.17.13 tell 172.16.16.60, length 46
+14:08:43.535840 ARP, Request who-has 172.16.17.10 tell 172.16.16.60, length 46
+14:08:43.538457 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [P.], seq 2780:2819, ack 12326, win 1341, options [nop,nop,TS val 3782086296 ecr 1053056207], length 39
+14:08:43.546323 IP 107.167.110.223.443 > 172.16.22.141.34144: Flags [.], seq 1:1449, ack 518, win 84, options [nop,nop,TS val 2277206323 ecr 1558448346], length 1448
+14:08:43.546362 IP 172.16.22.141.34144 > 107.167.110.223.443: Flags [.], ack 1449, win 499, options [nop,nop,TS val 1558448621 ecr 2277206323,nop,nop,sack 1 {2897:3141}], length 0
+14:08:43.551323 IP 172.16.19.98.53814 > 239.255.255.250.3702: UDP, length 656
+14:08:43.565304 ARP, Request who-has 172.16.17.19 tell 172.16.16.60, length 46
+14:08:43.565305 ARP, Request who-has 172.16.17.15 tell 172.16.16.60, length 46
+14:08:43.570017 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [.], ack 2819, win 405, options [nop,nop,TS val 1053057170 ecr 3782086296,nop,nop,sack 1 {2780:2819}], length 0
+14:08:43.602343 IP 107.167.110.224.443 > 172.16.22.141.58860: Flags [.], ack 598, win 83, options [nop,nop,TS val 1032916195 ecr 422834119], length 0
+14:08:43.602566 IP 107.167.110.224.443 > 172.16.22.141.58860: Flags [.], ack 1105, win 83, options [nop,nop,TS val 1032916195 ecr 422834120], length 0
+14:08:43.605204 IP 107.167.110.224.443 > 172.16.22.141.58860: Flags [P.], seq 3141:3419, ack 1105, win 83, options [nop,nop,TS val 1032916197 ecr 422834120], length 278
+14:08:43.605228 IP 172.16.22.141.58860 > 107.167.110.224.443: Flags [.], ack 3419, win 501, options [nop,nop,TS val 422834395 ecr 1032916197], length 0
+14:08:43.606462 IP 172.16.22.141.50558 > 107.167.110.216.443: Flags [F.], seq 0, ack 1, win 501, options [nop,nop,TS val 3849232891 ecr 2025763097], length 0
+14:08:43.613210 IP 107.167.110.223.443 > 172.16.22.141.34146: Flags [S.], seq 652892807, ack 1883372281, win 43440, options [mss 1460,sackOK,TS val 2277206388 ecr 1558448422,nop,wscale 9], length 0
+14:08:43.613275 IP 172.16.22.141.34146 > 107.167.110.223.443: Flags [.], ack 1, win 502, options [nop,nop,TS val 1558448688 ecr 2277206388], length 0
+14:08:43.613754 IP 172.16.22.141.34146 > 107.167.110.223.443: Flags [P.], seq 1:518, ack 1, win 502, options [nop,nop,TS val 1558448689 ecr 2277206388], length 517
+14:08:43.621119 IP 107.167.110.216.443 > 172.16.22.141.50558: Flags [R], seq 892866625, win 0, length 0
+14:08:43.692929 IP 172.16.19.62.52473 > 239.255.255.250.1900: UDP, length 175
+14:08:43.698340 IP 172.16.20.14.51354 > 255.255.255.255.3956: UDP, length 8
+14:08:43.741099 ARP, Request who-has 172.16.18.206 tell 172.16.16.61, length 46
+14:08:43.804027 IP6 fe80::50a3:a7be:c300:446c.53372 > ff02::c.1900: UDP, length 146
+14:08:43.817618 IP 107.167.110.223.443 > 172.16.22.141.34144: Flags [.], seq 1449:2897, ack 518, win 84, options [nop,nop,TS val 2277206600 ecr 1558448621], length 1448
+14:08:43.817668 IP 172.16.22.141.34144 > 107.167.110.223.443: Flags [.], ack 3141, win 499, options [nop,nop,TS val 1558448893 ecr 2277206600], length 0
+14:08:43.818792 IP 172.16.22.141.34144 > 107.167.110.223.443: Flags [P.], seq 518:598, ack 3141, win 501, options [nop,nop,TS val 1558448894 ecr 2277206600], length 80
+14:08:43.819099 IP 172.16.22.141.34144 > 107.167.110.223.443: Flags [P.], seq 598:1017, ack 3141, win 501, options [nop,nop,TS val 1558448894 ecr 2277206600], length 419
+14:08:43.819154 IP 172.16.22.141.34144 > 107.167.110.223.443: Flags [P.], seq 1017:1100, ack 3141, win 501, options [nop,nop,TS val 1558448894 ecr 2277206600], length 83
+14:08:43.872647 IP6 fe80::29a1:7e32:11bb:27a0.53815 > ff02::c.3702: UDP, length 656
+14:08:43.876308 IP 107.167.110.223.443 > 172.16.22.141.34146: Flags [.], ack 518, win 83, options [nop,nop,TS val 2277206666 ecr 1558448689], length 0
+14:08:43.877022 IP 107.167.110.223.443 > 172.16.22.141.34146: Flags [.], seq 1:1449, ack 518, win 83, options [nop,nop,TS val 2277206667 ecr 1558448689], length 1448
+14:08:43.877044 IP 172.16.22.141.34146 > 107.167.110.223.443: Flags [.], ack 1449, win 501, options [nop,nop,TS val 1558448952 ecr 2277206667], length 0
+14:08:43.877075 IP 107.167.110.223.443 > 172.16.22.141.34146: Flags [P.], seq 1449:2897, ack 518, win 83, options [nop,nop,TS val 2277206667 ecr 1558448689], length 1448
+14:08:43.877082 IP 172.16.22.141.34146 > 107.167.110.223.443: Flags [.], ack 2897, win 495, options [nop,nop,TS val 1558448952 ecr 2277206667], length 0
+14:08:43.877095 IP 107.167.110.223.443 > 172.16.22.141.34146: Flags [P.], seq 2897:3142, ack 518, win 83, options [nop,nop,TS val 2277206667 ecr 1558448689], length 245
+14:08:43.877099 IP 172.16.22.141.34146 > 107.167.110.223.443: Flags [.], ack 3142, win 494, options [nop,nop,TS val 1558448952 ecr 2277206667], length 0
+14:08:43.878331 IP 172.16.22.141.34146 > 107.167.110.223.443: Flags [P.], seq 518:598, ack 3142, win 501, options [nop,nop,TS val 1558448953 ecr 2277206667], length 80
+14:08:43.894158 IP 172.16.21.179.53655 > 239.255.255.250.1900: UDP, length 175
+14:08:43.919695 ARP, Request who-has 172.16.16.42 tell 172.16.22.173, length 46
+14:08:43.946097 IP6 fe80::a3fe:9bf8:3f2:3909 > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+14:08:44.018527 IP 172.16.22.141.58862 > 107.167.110.224.443: Flags [S], seq 4105109912, win 64240, options [mss 1460,sackOK,TS val 422834809 ecr 0,nop,wscale 7], length 0
+14:08:44.031538 IP 172.16.19.98.53814 > 239.255.255.250.3702: UDP, length 656
+14:08:44.035234 ARP, Request who-has 172.16.23.204 tell 172.16.20.201, length 46
+14:08:44.069742 IP 172.16.21.65.63138 > 239.255.255.250.1900: UDP, length 175
+14:08:44.101886 IP 107.167.110.223.443 > 172.16.22.141.34144: Flags [.], ack 598, win 84, options [nop,nop,TS val 2277206880 ecr 1558448894], length 0
+14:08:44.102963 IP 107.167.110.223.443 > 172.16.22.141.34144: Flags [.], ack 1017, win 84, options [nop,nop,TS val 2277206881 ecr 1558448894], length 0
+14:08:44.102987 IP 107.167.110.223.443 > 172.16.22.141.34144: Flags [.], ack 1100, win 84, options [nop,nop,TS val 2277206881 ecr 1558448894], length 0
+14:08:44.137025 IP 172.16.20.14.64002 > 255.255.255.255.3956: UDP, length 8
+14:08:44.157755 IP 107.167.110.223.443 > 172.16.22.141.34146: Flags [.], ack 598, win 83, options [nop,nop,TS val 2277206942 ecr 1558448953], length 0
+14:08:44.178560 IP 172.16.22.141.41960 > 185.26.182.112.443: Flags [.], ack 636207110, win 501, options [nop,nop,TS val 4208951043 ecr 3765983705], length 0
+14:08:44.180653 ARP, Request who-has 172.16.18.209 tell 172.16.16.61, length 46
+14:08:44.250572 ARP, Request who-has 172.16.18.208 tell 172.16.16.61, length 46
+14:08:44.254366 IP6 fe80::a3fe:9bf8:3f2:3909 > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+14:08:44.304521 IP 107.167.110.224.443 > 172.16.22.141.58862: Flags [S.], seq 1319819594, ack 4105109913, win 43440, options [mss 1460,sackOK,TS val 1032916882 ecr 422834809,nop,wscale 9], length 0
+14:08:44.304585 IP 172.16.22.141.58862 > 107.167.110.224.443: Flags [.], ack 1, win 502, options [nop,nop,TS val 422835095 ecr 1032916882], length 0
+14:08:44.305088 IP 172.16.22.141.58862 > 107.167.110.224.443: Flags [P.], seq 1:518, ack 1, win 502, options [nop,nop,TS val 422835095 ecr 1032916882], length 517
+14:08:44.307302 IP 172.16.20.14.64443 > 255.255.255.255.3956: UDP, length 8
+14:08:44.348225 IP 185.26.182.112.443 > 172.16.22.141.41960: Flags [.], ack 1, win 83, options [nop,nop,TS val 3766030289 ecr 4208904416], length 0
+14:08:44.379025 IP6 fe80::3eec:efff:fe7a:6812.546 > ff02::1:2.547: dhcp6 inf-req
+14:08:44.400522 ARP, Request who-has 172.16.19.3 tell 0.0.0.0, length 46
+14:08:44.429464 ARP, Request who-has 169.254.49.29 tell 0.0.0.0, length 46
+14:08:44.455837 ARP, Request who-has 172.16.16.62 tell 172.16.16.41, length 46
+14:08:44.468457 ARP, Request who-has 172.16.19.3 tell 172.16.16.62, length 46
+14:08:44.468458 ARP, Request who-has 172.16.19.15 tell 172.16.16.62, length 46
+14:08:44.468458 ARP, Request who-has 172.16.19.1 tell 172.16.16.62, length 46
+14:08:44.468458 ARP, Request who-has 172.16.19.13 tell 172.16.16.62, length 46
+14:08:44.468458 ARP, Request who-has 172.16.19.27 tell 172.16.16.62, length 46
+14:08:44.468459 ARP, Request who-has 172.16.19.2 tell 172.16.16.62, length 46
+14:08:44.468459 ARP, Request who-has 172.16.19.29 tell 172.16.16.62, length 46
+14:08:44.468459 ARP, Request who-has 172.16.19.14 tell 172.16.16.62, length 46
+14:08:44.468466 ARP, Request who-has 172.16.19.26 tell 172.16.16.62, length 46
+14:08:44.468466 ARP, Request who-has 172.16.19.28 tell 172.16.16.62, length 46
+14:08:44.468561 ARP, Request who-has 172.16.19.30 tell 172.16.16.62, length 46
+14:08:44.468779 ARP, Request who-has 172.16.19.31 tell 172.16.16.62, length 46
+14:08:44.521231 ARP, Request who-has 172.16.17.14 tell 172.16.17.14, length 46
+14:08:44.565663 IP6 fe80::b03f:c897:6ca0:dcc5.5353 > ff02::fb.5353: 28780 PTR (QM)? _arduino._tcp.local. (37)
+14:08:44.565665 ARP, Request who-has 172.16.17.15 tell 172.16.16.60, length 46
+14:08:44.565697 ARP, Request who-has 172.16.17.19 tell 172.16.16.60, length 46
+14:08:44.567614 ARP, Request who-has 172.16.19.42 tell 0.0.0.0, length 46
+14:08:44.579492 IP 107.167.110.224.443 > 172.16.22.141.58862: Flags [.], ack 518, win 83, options [nop,nop,TS val 1032917171 ecr 422835095], length 0
+14:08:44.579853 IP 107.167.110.224.443 > 172.16.22.141.58862: Flags [.], seq 1:1449, ack 518, win 83, options [nop,nop,TS val 1032917171 ecr 422835095], length 1448
+14:08:44.579875 IP 172.16.22.141.58862 > 107.167.110.224.443: Flags [.], ack 1449, win 501, options [nop,nop,TS val 422835370 ecr 1032917171], length 0
+14:08:44.579914 IP 107.167.110.224.443 > 172.16.22.141.58862: Flags [P.], seq 1449:2897, ack 518, win 83, options [nop,nop,TS val 1032917171 ecr 422835095], length 1448
+14:08:44.579977 IP 172.16.22.141.58862 > 107.167.110.224.443: Flags [.], ack 2897, win 495, options [nop,nop,TS val 422835370 ecr 1032917171], length 0
+14:08:44.579979 IP 107.167.110.224.443 > 172.16.22.141.58862: Flags [P.], seq 2897:3141, ack 518, win 83, options [nop,nop,TS val 1032917171 ecr 422835095], length 244
+14:08:44.579982 IP 172.16.22.141.58862 > 107.167.110.224.443: Flags [.], ack 3141, win 494, options [nop,nop,TS val 422835370 ecr 1032917171], length 0
+14:08:44.581270 IP 172.16.22.141.58862 > 107.167.110.224.443: Flags [P.], seq 518:598, ack 3141, win 501, options [nop,nop,TS val 422835371 ecr 1032917171], length 80
+14:08:44.620126 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [.], seq 2819:4237, ack 12326, win 1341, options [nop,nop,TS val 3782087377 ecr 1053057170], length 1418
+14:08:44.620135 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [P.], seq 4237:5247, ack 12326, win 1341, options [nop,nop,TS val 3782087377 ecr 1053057170], length 1010
+14:08:44.644864 IP6 fe80::29a1:7e32:11bb:27a0.53815 > ff02::c.3702: UDP, length 656
+14:08:44.651181 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [.], ack 4237, win 416, options [nop,nop,TS val 1053058251 ecr 3782087377], length 0
+14:08:44.651212 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [.], ack 5247, win 427, options [nop,nop,TS val 1053058251 ecr 3782087377], length 0
+14:08:44.661406 IP 172.16.16.43.33897 > 255.255.255.255.7437: UDP, length 173
+14:08:44.689784 IP 172.16.20.99.60515 > 239.255.255.250.1900: UDP, length 101
+14:08:44.741197 ARP, Request who-has 172.16.18.206 tell 172.16.16.61, length 46
+14:08:44.749910 IP6 fe80::988:549e:97e4:bda2.53605 > ff02::c.3702: UDP, length 656
+14:08:44.750096 IP 172.16.20.128.53604 > 239.255.255.250.3702: UDP, length 656
+14:08:44.782392 IP6 fe80::3dd0:2628:8b28:d13a.546 > ff02::1:2.547: dhcp6 solicit
+14:08:44.855179 IP 107.167.110.224.443 > 172.16.22.141.58862: Flags [.], ack 598, win 83, options [nop,nop,TS val 1032917447 ecr 422835371], length 0
+14:08:44.870721 IP 107.167.110.223.443 > 172.16.22.141.34144: Flags [P.], seq 3141:3447, ack 1100, win 84, options [nop,nop,TS val 2277207651 ecr 1558448894], length 306
+14:08:44.870753 IP 172.16.22.141.34144 > 107.167.110.223.443: Flags [.], ack 3447, win 501, options [nop,nop,TS val 1558449946 ecr 2277207651], length 0
+14:08:44.892246 ARP, Request who-has 172.16.17.5 tell 172.16.17.5, length 46
+14:08:44.897995 IP 172.16.21.179.53655 > 239.255.255.250.1900: UDP, length 175
+14:08:44.910690 ARP, Request who-has 172.16.16.42 tell 172.16.22.173, length 46
+14:08:44.955288 IP 172.16.16.61.54510 > 239.255.255.250.1900: UDP, length 137
+14:08:44.989377 IP 172.16.19.98.53814 > 239.255.255.250.3702: UDP, length 656
+14:08:44.990443 IP 172.16.20.128.53604 > 239.255.255.250.3702: UDP, length 656
+14:08:44.991680 IP6 fe80::988:549e:97e4:bda2.53605 > ff02::c.3702: UDP, length 656
+14:08:45.050418 IP6 fe80::53e:b5a5:4c04:f118.546 > ff02::1:2.547: dhcp6 solicit
+14:08:45.062258 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [.], seq 5247:6665, ack 12326, win 1341, options [nop,nop,TS val 3782087819 ecr 1053058251], length 1418
+14:08:45.062260 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [P.], seq 6665:7958, ack 12326, win 1341, options [nop,nop,TS val 3782087819 ecr 1053058251], length 1293
+14:08:45.075212 IP 172.16.21.65.63138 > 239.255.255.250.1900: UDP, length 175
+14:08:45.089684 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [.], ack 6665, win 438, options [nop,nop,TS val 1053058693 ecr 3782087819], length 0
+14:08:45.089711 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [.], ack 7958, win 449, options [nop,nop,TS val 1053058693 ecr 3782087819], length 0
+14:08:45.128266 IP 172.16.22.141.1716 > 10.42.0.213.1716: UDP, bad length 1798 > 1472
+14:08:45.128272 IP 172.16.22.141 > 10.42.0.213: ip-proto-17
+14:08:45.141260 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [P.], seq 12326:12988, ack 7958, win 449, options [nop,nop,TS val 1053058744 ecr 3782087819], length 662
+14:08:45.141294 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [.], ack 12988, win 1336, options [nop,nop,TS val 3782087898 ecr 1053058744], length 0
+14:08:45.143745 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [P.], seq 12988:14406, ack 7958, win 449, options [nop,nop,TS val 1053058747 ecr 3782087819], length 1418
+14:08:45.143783 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [.], ack 14406, win 1332, options [nop,nop,TS val 3782087901 ecr 1053058747], length 0
+14:08:45.144101 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [.], seq 14406:15824, ack 7958, win 449, options [nop,nop,TS val 1053058747 ecr 3782087819], length 1418
+14:08:45.144116 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [.], ack 15824, win 1324, options [nop,nop,TS val 3782087901 ecr 1053058747], length 0
+14:08:45.144219 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [P.], seq 15824:17242, ack 7958, win 449, options [nop,nop,TS val 1053058747 ecr 3782087819], length 1418
+14:08:45.144225 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [.], ack 17242, win 1315, options [nop,nop,TS val 3782087901 ecr 1053058747], length 0
+14:08:45.144324 ARP, Request who-has 172.16.19.39 tell 0.0.0.0, length 46
+14:08:45.144362 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [P.], seq 17242:17428, ack 7958, win 449, options [nop,nop,TS val 1053058748 ecr 3782087819], length 186
+14:08:45.144367 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [.], ack 17428, win 1336, options [nop,nop,TS val 3782087901 ecr 1053058748], length 0
+14:08:45.152652 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [P.], seq 17428:18846, ack 7958, win 449, options [nop,nop,TS val 1053058756 ecr 3782087819], length 1418
+14:08:45.152683 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [.], ack 18846, win 1332, options [nop,nop,TS val 3782087910 ecr 1053058756], length 0
+14:08:45.152705 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [P.], seq 18846:21682, ack 7958, win 449, options [nop,nop,TS val 1053058756 ecr 3782087819], length 2836
+14:08:45.152709 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [.], ack 21682, win 1316, options [nop,nop,TS val 3782087910 ecr 1053058756], length 0
+14:08:45.153135 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [.], seq 21682:23100, ack 7958, win 449, options [nop,nop,TS val 1053058757 ecr 3782087819], length 1418
+14:08:45.153144 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [.], ack 23100, win 1332, options [nop,nop,TS val 3782087910 ecr 1053058757], length 0
+14:08:45.153260 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [P.], seq 23100:24518, ack 7958, win 449, options [nop,nop,TS val 1053058757 ecr 3782087819], length 1418
+14:08:45.153265 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [.], ack 24518, win 1332, options [nop,nop,TS val 3782087910 ecr 1053058757], length 0
+14:08:45.153896 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [P.], seq 24518:25905, ack 7958, win 449, options [nop,nop,TS val 1053058758 ecr 3782087819], length 1387
+14:08:45.153915 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [.], ack 25905, win 1333, options [nop,nop,TS val 3782087911 ecr 1053058758], length 0
+14:08:45.161018 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [P.], seq 25905:27323, ack 7958, win 449, options [nop,nop,TS val 1053058764 ecr 3782087819], length 1418
+14:08:45.161053 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [.], ack 27323, win 1332, options [nop,nop,TS val 3782087918 ecr 1053058764], length 0
+14:08:45.161092 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [.], seq 27323:28741, ack 7958, win 449, options [nop,nop,TS val 1053058764 ecr 3782087819], length 1418
+14:08:45.161097 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [.], ack 28741, win 1324, options [nop,nop,TS val 3782087918 ecr 1053058764], length 0
+14:08:45.161194 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [P.], seq 28741:30159, ack 7958, win 449, options [nop,nop,TS val 1053058764 ecr 3782087819], length 1418
+14:08:45.161204 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [.], ack 30159, win 1324, options [nop,nop,TS val 3782087918 ecr 1053058764], length 0
+14:08:45.162289 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [.], seq 30159:31577, ack 7958, win 449, options [nop,nop,TS val 1053058765 ecr 3782087819], length 1418
+14:08:45.162297 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [.], ack 31577, win 1332, options [nop,nop,TS val 3782087919 ecr 1053058765], length 0
+14:08:45.162372 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [P.], seq 31577:32995, ack 7958, win 449, options [nop,nop,TS val 1053058765 ecr 3782087819], length 1418
+14:08:45.162377 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [.], ack 32995, win 1332, options [nop,nop,TS val 3782087919 ecr 1053058765], length 0
+14:08:45.162512 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [.], seq 32995:34413, ack 7958, win 449, options [nop,nop,TS val 1053058766 ecr 3782087819], length 1418
+14:08:45.162518 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [.], ack 34413, win 1332, options [nop,nop,TS val 3782087920 ecr 1053058766], length 0
+14:08:45.162646 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [P.], seq 34413:35831, ack 7958, win 449, options [nop,nop,TS val 1053058766 ecr 3782087819], length 1418
+14:08:45.163709 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [P.], seq 35831:36278, ack 7958, win 449, options [nop,nop,TS val 1053058767 ecr 3782087819], length 447
+14:08:45.163713 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [.], ack 36278, win 1336, options [nop,nop,TS val 3782087921 ecr 1053058766], length 0
+14:08:45.164586 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [P.], seq 7958:7997, ack 36278, win 1341, options [nop,nop,TS val 3782087922 ecr 1053058766], length 39
+14:08:45.175129 ARP, Request who-has 172.16.18.209 tell 172.16.16.61, length 46
+14:08:45.188471 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [.], ack 7997, win 449, options [nop,nop,TS val 1053058795 ecr 3782087922], length 0
+14:08:45.245862 ARP, Request who-has 172.16.18.207 tell 172.16.16.61, length 46
+14:08:45.467903 ARP, Request who-has 172.16.19.1 tell 172.16.16.62, length 46
+14:08:45.467904 ARP, Request who-has 172.16.19.2 tell 172.16.16.62, length 46
+14:08:45.467904 ARP, Request who-has 172.16.19.14 tell 172.16.16.62, length 46
+14:08:45.467905 ARP, Request who-has 172.16.19.13 tell 172.16.16.62, length 46
+14:08:45.467905 ARP, Request who-has 172.16.19.3 tell 172.16.16.62, length 46
+14:08:45.467905 ARP, Request who-has 172.16.19.28 tell 172.16.16.62, length 46
+14:08:45.467906 ARP, Request who-has 172.16.19.27 tell 172.16.16.62, length 46
+14:08:45.467906 ARP, Request who-has 172.16.19.30 tell 172.16.16.62, length 46
+14:08:45.467923 ARP, Request who-has 172.16.19.29 tell 172.16.16.62, length 46
+14:08:45.467924 ARP, Request who-has 172.16.19.31 tell 172.16.16.62, length 46
+14:08:45.467924 ARP, Request who-has 172.16.19.26 tell 172.16.16.62, length 46
+14:08:45.467925 ARP, Request who-has 172.16.19.15 tell 172.16.16.62, length 46
+14:08:45.470660 IP 172.16.20.128.53604 > 239.255.255.250.3702: UDP, length 656
+14:08:45.471253 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [P.], seq 36278:37185, ack 7997, win 449, options [nop,nop,TS val 1053059074 ecr 3782087922], length 907
+14:08:45.472496 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [P.], seq 37185:38603, ack 7997, win 449, options [nop,nop,TS val 1053059075 ecr 3782087922], length 1418
+14:08:45.472613 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [.], seq 38603:40021, ack 7997, win 449, options [nop,nop,TS val 1053059075 ecr 3782087922], length 1418
+14:08:45.472734 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [P.], seq 40021:41369, ack 7997, win 449, options [nop,nop,TS val 1053059075 ecr 3782087922], length 1348
+14:08:45.473782 IP6 fe80::988:549e:97e4:bda2.53605 > ff02::c.3702: UDP, length 656
+14:08:45.473953 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [.], ack 41369, win 1341, options [nop,nop,TS val 3782088231 ecr 1053059074], length 0
+14:08:45.475492 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [P.], seq 41369:42787, ack 7997, win 449, options [nop,nop,TS val 1053059077 ecr 3782087922], length 1418
+14:08:45.475596 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [.], seq 42787:44205, ack 7997, win 449, options [nop,nop,TS val 1053059077 ecr 3782087922], length 1418
+14:08:45.475632 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [.], ack 44205, win 1341, options [nop,nop,TS val 3782088233 ecr 1053059077], length 0
+14:08:45.475717 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [P.], seq 44205:45623, ack 7997, win 449, options [nop,nop,TS val 1053059077 ecr 3782087922], length 1418
+14:08:45.476716 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [.], seq 45623:47041, ack 7997, win 449, options [nop,nop,TS val 1053059078 ecr 3782087922], length 1418
+14:08:45.476749 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [.], ack 47041, win 1341, options [nop,nop,TS val 3782088234 ecr 1053059077], length 0
+14:08:45.476900 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [P.], seq 47041:48224, ack 7997, win 449, options [nop,nop,TS val 1053059078 ecr 3782087922], length 1183
+14:08:45.477955 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [P.], seq 48224:48411, ack 7997, win 449, options [nop,nop,TS val 1053059080 ecr 3782087922], length 187
+14:08:45.477966 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [P.], seq 48411:48450, ack 7997, win 449, options [nop,nop,TS val 1053059080 ecr 3782087922], length 39
+14:08:45.478000 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [.], ack 48450, win 1341, options [nop,nop,TS val 3782088235 ecr 1053059078], length 0
+14:08:45.479191 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [P.], seq 7997:8036, ack 48450, win 1341, options [nop,nop,TS val 3782088236 ecr 1053059078], length 39
+14:08:45.506131 IP 172.16.23.248.48999 > 239.255.255.250.1900: UDP, length 125
+14:08:45.508753 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [.], ack 8036, win 449, options [nop,nop,TS val 1053059110 ecr 3782088236], length 0
+14:08:45.512325 ARP, Request who-has 172.16.19.58 tell 172.16.22.145, length 46
+14:08:45.513260 IP 172.16.22.141.48368 > 142.250.195.131.443: UDP, length 56
+14:08:45.535142 ARP, Request who-has 172.16.17.13 tell 172.16.16.60, length 46
+14:08:45.535143 ARP, Request who-has 172.16.17.10 tell 172.16.16.60, length 46
+14:08:45.547031 IP 142.250.195.131.443 > 172.16.22.141.48368: UDP, length 29
+14:08:45.565308 ARP, Request who-has 172.16.17.15 tell 172.16.16.60, length 46
+14:08:45.565308 ARP, Request who-has 172.16.17.19 tell 172.16.16.60, length 46
+14:08:45.572292 IP 172.16.22.141.48368 > 142.250.195.131.443: UDP, length 33
+14:08:45.610100 IP 142.250.195.131.443 > 172.16.22.141.48368: UDP, length 115
+14:08:45.610114 IP 142.250.195.131.443 > 172.16.22.141.48368: UDP, length 25
+14:08:45.610320 IP 172.16.22.141.48368 > 142.250.195.131.443: UDP, length 35
+14:08:45.635935 IP 172.16.22.141.48368 > 142.250.195.131.443: UDP, length 33
+14:08:45.637755 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [P.], seq 8036:8730, ack 48450, win 1341, options [nop,nop,TS val 3782088395 ecr 1053059110], length 694
+14:08:45.652598 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [.], ack 8730, win 460, options [nop,nop,TS val 1053059269 ecr 3782088395], length 0
+14:08:45.654259 IP 142.250.195.131.443 > 172.16.22.141.48368: UDP, length 25
+14:08:45.670053 IP 172.16.21.197.65526 > 255.255.255.255.5353: 43520 PTR (QM)? _nvstream_dbd._tcp.local. (42)
+14:08:45.706529 ARP, Request who-has 172.16.17.3 tell 172.16.17.3, length 46
+14:08:45.714912 IP 172.16.20.14.51354 > 255.255.255.255.3956: UDP, length 8
+14:08:45.817758 IP 172.16.23.248.48999 > 239.255.255.250.1900: UDP, length 125
+14:08:45.840107 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [P.], seq 8730:8765, ack 48450, win 1341, options [nop,nop,TS val 3782088597 ecr 1053059269], length 35
+14:08:45.869642 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [.], ack 8765, win 460, options [nop,nop,TS val 1053059471 ecr 3782088597], length 0
+14:08:45.870639 IP 0.0.0.0.68 > 255.255.255.255.67: BOOTP/DHCP, Request from 00:00:00:00:09:ab, length 300
+14:08:45.888290 IP 192.168.1.1.67 > 255.255.255.255.68: BOOTP/DHCP, Reply, length 300
+14:08:45.895758 IP 172.16.16.1.67 > 255.255.255.255.68: BOOTP/DHCP, Reply, length 278
+14:08:45.897213 ARP, Request who-has 172.16.19.8 tell 0.0.0.0, length 46
+14:08:45.910767 IP 172.16.21.179.53655 > 239.255.255.250.1900: UDP, length 175
+14:08:46.087290 IP 172.16.21.65.63138 > 239.255.255.250.1900: UDP, length 175
+14:08:46.115601 IP 172.16.23.248.48999 > 239.255.255.250.1900: UDP, length 125
+14:08:46.146047 IP6 fe80::29a1:7e32:11bb:27a0.53815 > ff02::c.3702: UDP, length 656
+14:08:46.165597 ARP, Request who-has 172.16.18.209 tell 172.16.16.61, length 46
+14:08:46.185629 IP 172.16.21.199.57621 > 172.16.23.255.57621: UDP, length 44
+14:08:46.213007 IP6 fe80::9de:8edc:d144:1008.546 > ff02::1:2.547: dhcp6 solicit
+14:08:46.261810 IP 172.16.20.14.64002 > 255.255.255.255.3956: UDP, length 8
+14:08:46.299030 ARP, Request who-has 172.16.19.13 tell 0.0.0.0, length 46
+14:08:46.376425 IP 172.16.16.3.58818 > 239.255.255.250.1900: UDP, length 175
+14:08:46.431107 IP 172.16.20.128.53604 > 239.255.255.250.3702: UDP, length 656
+14:08:46.432250 IP 172.16.20.14.64443 > 255.255.255.255.3956: UDP, length 8
+14:08:46.438133 IP6 fe80::988:549e:97e4:bda2.53605 > ff02::c.3702: UDP, length 656
+14:08:46.468582 ARP, Request who-has 172.16.19.1 tell 172.16.16.62, length 46
+14:08:46.468583 ARP, Request who-has 172.16.19.3 tell 172.16.16.62, length 46
+14:08:46.468584 ARP, Request who-has 172.16.19.2 tell 172.16.16.62, length 46
+14:08:46.468604 ARP, Request who-has 172.16.19.15 tell 172.16.16.62, length 46
+14:08:46.468604 ARP, Request who-has 172.16.19.14 tell 172.16.16.62, length 46
+14:08:46.468621 ARP, Request who-has 172.16.19.28 tell 172.16.16.62, length 46
+14:08:46.468621 ARP, Request who-has 172.16.19.13 tell 172.16.16.62, length 46
+14:08:46.468621 ARP, Request who-has 172.16.19.30 tell 172.16.16.62, length 46
+14:08:46.468633 ARP, Request who-has 172.16.19.31 tell 172.16.16.62, length 46
+14:08:46.468648 ARP, Request who-has 172.16.19.27 tell 172.16.16.62, length 46
+14:08:46.468648 ARP, Request who-has 172.16.19.29 tell 172.16.16.62, length 46
+14:08:46.468648 ARP, Request who-has 172.16.19.26 tell 172.16.16.62, length 46
+14:08:46.506726 ARP, Request who-has 172.16.19.9 tell 0.0.0.0, length 46
+14:08:46.545852 ARP, Request who-has 172.16.17.9 tell 172.16.16.60, length 46
+14:08:46.545853 ARP, Request who-has 172.16.17.4 tell 172.16.16.60, length 46
+14:08:46.545853 ARP, Request who-has 172.16.17.1 tell 172.16.16.60, length 46
+14:08:46.545951 ARP, Request who-has 172.16.17.22 tell 172.16.16.60, length 46
+14:08:46.546825 ARP, Request who-has 172.16.17.2 tell 172.16.16.60, length 46
+14:08:46.554477 IP 192.168.1.1.48727 > 255.255.255.255.7437: UDP, length 173
+14:08:46.565797 ARP, Request who-has 172.16.17.15 tell 172.16.16.60, length 46
+14:08:46.565799 ARP, Request who-has 172.16.17.19 tell 172.16.16.60, length 46
+14:08:46.596081 IP 172.16.16.44.35218 > 255.255.255.255.7437: UDP, length 173
+14:08:46.722658 ARP, Request who-has 172.16.23.204 tell 172.16.20.201, length 46
+14:08:46.803985 IP6 fe80::50a3:a7be:c300:446c.53372 > ff02::c.1900: UDP, length 146
+14:08:46.846192 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [.], seq 8765:10183, ack 48450, win 1341, options [nop,nop,TS val 3782089603 ecr 1053059471], length 1418
+14:08:46.846195 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [P.], seq 10183:10823, ack 48450, win 1341, options [nop,nop,TS val 3782089603 ecr 1053059471], length 640
+14:08:46.855845 ARP, Request who-has 172.16.16.61 tell 172.16.16.61, length 46
+14:08:46.855846 ARP, Unknown (5) 
+	0x0000:  0001 0800 0604 0005 fef6 0c30 8eed ac10  ...........0....
+	0x0010:  103d 0000 0000 0000 ac10 103d 6154 7a51  .=.........=aTzQ
+	0x0020:  0000 0000 0000 0000 0000 0000 0000 0000  ................
+	0x0030:  0000 0000 0000 0000 0000 0000 0000 0000  ................
+	0x0040:  0000 0000 0000 0000 0000 0000 0000 0000  ................
+	0x0050:  0000 0000 0000 0000 0000 0000            ............
+14:08:46.860474 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [.], ack 10183, win 471, options [nop,nop,TS val 1053060477 ecr 3782089603], length 0
+14:08:46.860502 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [.], ack 10823, win 482, options [nop,nop,TS val 1053060477 ecr 3782089603], length 0
+14:08:46.881643 IP 172.16.19.98.53814 > 239.255.255.250.3702: UDP, length 656
+14:08:46.898064 IP 172.16.20.250.58827 > 239.255.255.250.1900: UDP, length 175
+14:08:46.898071 IP 172.16.20.250.58826 > 239.255.255.250.1900: UDP, length 173
+14:08:46.912984 IP 172.16.21.179.53655 > 239.255.255.250.1900: UDP, length 175
+14:08:47.112882 ARP, Request who-has 172.16.20.56 tell 172.16.16.1, length 46
+14:08:47.125605 IP 172.16.16.61.50934 > 239.255.255.250.1900: UDP, length 137
+14:08:47.150692 ARP, Request who-has 172.16.20.56 tell 172.16.16.1, length 46
+14:08:47.201666 ARP, Request who-has 172.16.20.56 tell 172.16.16.1, length 46
+14:08:47.204600 ARP, Request who-has 172.16.16.42 tell 172.16.22.173, length 46
+14:08:47.218066 ARP, Request who-has 172.16.19.44 tell 0.0.0.0, length 46
+14:08:47.234144 IP 172.16.23.248.5353 > 224.0.0.251.5353: 51 [3q] PTR (QM)? _233637DE._sub._googlecast._tcp.local. PTR (QM)? _CC32E753._sub._googlecast._tcp.local. PTR (QM)? _googlecast._tcp.local. (77)
+14:08:47.366022 ARP, Request who-has 172.16.18.207 tell 172.16.16.61, length 46
+14:08:47.367597 IP 172.16.16.3.58818 > 239.255.255.250.1900: UDP, length 175
+14:08:47.456160 ARP, Request who-has 172.16.19.12 (d0:67:b8:b4:18:8e) tell 172.16.16.62, length 46
+14:08:47.476600 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [P.], seq 48450:49114, ack 10823, win 482, options [nop,nop,TS val 1053061082 ecr 3782089603], length 664
+14:08:47.481321 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [P.], seq 49114:50532, ack 10823, win 482, options [nop,nop,TS val 1053061084 ecr 3782089603], length 1418
+14:08:47.481419 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [.], ack 50532, win 1341, options [nop,nop,TS val 3782090238 ecr 1053061082], length 0
+14:08:47.481644 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [.], seq 50532:51950, ack 10823, win 482, options [nop,nop,TS val 1053061085 ecr 3782089603], length 1418
+14:08:47.481775 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [P.], seq 51950:53368, ack 10823, win 482, options [nop,nop,TS val 1053061085 ecr 3782089603], length 1418
+14:08:47.481802 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [.], ack 53368, win 1341, options [nop,nop,TS val 3782090239 ecr 1053061085], length 0
+14:08:47.482871 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [P.], seq 53368:53534, ack 10823, win 482, options [nop,nop,TS val 1053061085 ecr 3782089603], length 166
+14:08:47.492598 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [P.], seq 54952:57788, ack 10823, win 482, options [nop,nop,TS val 1053061093 ecr 3782089603], length 2836
+14:08:47.492628 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [.], ack 53534, win 1340, options [nop,nop,TS val 3782090250 ecr 1053061085,nop,nop,sack 1 {54952:57788}], length 0
+14:08:47.492902 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [.], seq 57788:59206, ack 10823, win 482, options [nop,nop,TS val 1053061094 ecr 3782089603], length 1418
+14:08:47.492919 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [.], ack 53534, win 1340, options [nop,nop,TS val 3782090250 ecr 1053061085,nop,nop,sack 1 {54952:59206}], length 0
+14:08:47.493051 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [P.], seq 59206:60624, ack 10823, win 482, options [nop,nop,TS val 1053061094 ecr 3782089603], length 1418
+14:08:47.493069 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [.], ack 53534, win 1340, options [nop,nop,TS val 3782090250 ecr 1053061085,nop,nop,sack 1 {54952:60624}], length 0
+14:08:47.501067 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [P.], seq 67779:70615, ack 10823, win 482, options [nop,nop,TS val 1053061102 ecr 3782089603], length 2836
+14:08:47.502079 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [P.], seq 70615:72678, ack 10823, win 482, options [nop,nop,TS val 1053061103 ecr 3782089603], length 2063
+14:08:47.502206 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [.], ack 53534, win 1340, options [nop,nop,TS val 3782090259 ecr 1053061085,nop,nop,sack 2 {67779:72678}{54952:60624}], length 0
+14:08:47.522499 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [P.], seq 53534:54952, ack 10823, win 482, options [nop,nop,TS val 1053061124 ecr 3782090250], length 1418
+14:08:47.522554 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [.], ack 60624, win 1285, options [nop,nop,TS val 3782090280 ecr 1053061124,nop,nop,sack 1 {67779:72678}], length 0
+14:08:47.524571 ARP, Request who-has 172.16.23.204 tell 172.16.20.201, length 46
+14:08:47.530540 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [P.], seq 60624:62107, ack 10823, win 482, options [nop,nop,TS val 1053061133 ecr 3782090259], length 1483
+14:08:47.530590 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [.], ack 62107, win 1298, options [nop,nop,TS val 3782090288 ecr 1053061133,nop,nop,sack 1 {67779:72678}], length 0
+14:08:47.532141 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [P.], seq 62107:63525, ack 10823, win 482, options [nop,nop,TS val 1053061133 ecr 3782090259], length 1418
+14:08:47.532161 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [.], ack 63525, win 1303, options [nop,nop,TS val 3782090289 ecr 1053061133,nop,nop,sack 1 {67779:72678}], length 0
+14:08:47.532560 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [P.], seq 63525:64943, ack 10823, win 482, options [nop,nop,TS val 1053061134 ecr 3782090259], length 1418
+14:08:47.532593 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [.], ack 64943, win 1303, options [nop,nop,TS val 3782090290 ecr 1053061134,nop,nop,sack 1 {67779:72678}], length 0
+14:08:47.532672 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [.], seq 64943:66361, ack 10823, win 482, options [nop,nop,TS val 1053061134 ecr 3782090259], length 1418
+14:08:47.532684 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [.], ack 66361, win 1303, options [nop,nop,TS val 3782090290 ecr 1053061134,nop,nop,sack 1 {67779:72678}], length 0
+14:08:47.540627 ARP, Request who-has 172.16.18.201 tell 172.16.16.61, length 46
+14:08:47.545562 ARP, Request who-has 172.16.17.22 tell 172.16.16.60, length 46
+14:08:47.545564 ARP, Request who-has 172.16.17.4 tell 172.16.16.60, length 46
+14:08:47.545564 ARP, Request who-has 172.16.17.9 tell 172.16.16.60, length 46
+14:08:47.545564 ARP, Request who-has 172.16.17.1 tell 172.16.16.60, length 46
+14:08:47.545565 ARP, Request who-has 172.16.17.12 tell 172.16.16.60, length 46
+14:08:47.545565 ARP, Request who-has 172.16.17.11 tell 172.16.16.60, length 46
+14:08:47.545566 ARP, Request who-has 172.16.17.2 tell 172.16.16.60, length 46
+14:08:47.545566 ARP, Request who-has 172.16.17.21 tell 172.16.16.60, length 46
+14:08:47.552724 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [P.], seq 66361:67779, ack 10823, win 482, options [nop,nop,TS val 1053061153 ecr 3782090280], length 1418
+14:08:47.552778 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [.], ack 72678, win 1304, options [nop,nop,TS val 3782090310 ecr 1053061153], length 0
+14:08:47.553868 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [P.], seq 10823:10862, ack 72678, win 1341, options [nop,nop,TS val 3782090311 ecr 1053061153], length 39
+14:08:47.566522 ARP, Request who-has 172.16.17.19 tell 172.16.16.60, length 46
+14:08:47.566523 ARP, Request who-has 172.16.17.15 tell 172.16.16.60, length 46
+14:08:47.583605 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [.], ack 10862, win 482, options [nop,nop,TS val 1053061186 ecr 3782090311], length 0
+14:08:47.632645 ARP, Request who-has 169.254.30.80 tell 0.0.0.0, length 46
+14:08:47.783666 ARP, Request who-has 172.16.19.38 tell 0.0.0.0, length 46
+14:08:47.850610 IP 172.16.20.14.51354 > 255.255.255.255.3956: UDP, length 8
+14:08:47.870628 ARP, Unknown (5) 
+	0x0000:  0001 0800 0604 0005 fef6 0c30 8eed ac10  ...........0....
+	0x0010:  103d 0000 0000 0000 ac10 103d 6154 7a51  .=.........=aTzQ
+	0x0020:  0000 0000 0000 0000 0000 0000 0000 0000  ................
+	0x0030:  0000 0000 0000 0000 0000 0000 0000 0000  ................
+	0x0040:  0000 0000 0000 0000 0000 0000 0000 0000  ................
+	0x0050:  0000 0000 0000 0000 0000 0000            ............
+14:08:47.914133 ARP, Request who-has 172.16.16.42 tell 172.16.22.173, length 46
+14:08:47.914490 IP 172.16.20.250.58826 > 239.255.255.250.1900: UDP, length 173
+14:08:47.914497 IP 172.16.20.250.58827 > 239.255.255.250.1900: UDP, length 175
+14:08:48.013114 ARP, Request who-has 172.16.16.213 tell 172.16.20.66, length 46
+14:08:48.013116 ARP, Request who-has 172.16.16.37 tell 172.16.20.66, length 46
+14:08:48.013415 ARP, Request who-has 172.16.16.5 tell 172.16.20.66, length 46
+14:08:48.013416 ARP, Request who-has 172.16.19.66 tell 172.16.20.66, length 46
+14:08:48.074121 ARP, Request who-has 172.16.19.58 tell 172.16.22.145, length 46
+14:08:48.144811 IP 172.16.16.45.45088 > 255.255.255.255.7437: UDP, length 173
+14:08:48.190972 ARP, Request who-has 172.16.18.209 tell 172.16.16.61, length 46
+14:08:48.233432 ARP, Request who-has 172.16.20.183 tell 172.16.16.1, length 46
+14:08:48.233434 ARP, Request who-has 172.16.20.183 tell 172.16.16.1, length 46
+14:08:48.235276 IP 172.16.21.235.53448 > 239.192.152.143.6771: UDP, length 136
+14:08:48.235284 IP 172.16.21.235.6771 > 239.192.152.143.6771: UDP, length 136
+14:08:48.235285 IP 172.16.21.235.6771 > 239.192.152.143.6771: UDP, length 136
+14:08:48.235313 IP6 fe80::b5f5:f01:c9a1:63df.53450 > ff15::efc0:988f.6771: UDP, length 138
+14:08:48.235467 IP6 fe80::b5f5:f01:c9a1:63df.6771 > ff15::efc0:988f.6771: UDP, length 138
+14:08:48.236036 IP6 fe80::b5f5:f01:c9a1:63df.6771 > ff15::efc0:988f.6771: UDP, length 138
+14:08:48.284171 ARP, Request who-has 172.16.20.183 tell 172.16.16.1, length 46
+14:08:48.284172 ARP, Request who-has 172.16.20.183 tell 172.16.16.1, length 46
+14:08:48.351468 IP 172.16.20.128.53604 > 239.255.255.250.3702: UDP, length 656
+14:08:48.358767 IP 172.16.23.122.38915 > 239.255.255.250.1900: UDP, length 125
+14:08:48.366368 IP6 fe80::988:549e:97e4:bda2.53605 > ff02::c.3702: UDP, length 656
+14:08:48.381642 IP 172.16.16.3.58818 > 239.255.255.250.1900: UDP, length 175
+14:08:48.398551 IP 172.16.20.14.64002 > 255.255.255.255.3956: UDP, length 8
+14:08:48.448620 ARP, Request who-has 172.16.19.15 tell 0.0.0.0, length 46
+14:08:48.489644 ARP, Request who-has 172.16.16.51 tell 172.16.21.31, length 46
+14:08:48.517594 ARP, Request who-has 172.16.23.204 tell 172.16.20.201, length 46
+14:08:48.530527 ARP, Request who-has 172.16.18.201 tell 172.16.16.61, length 46
+14:08:48.541863 ARP, Request who-has 172.16.17.22 tell 172.16.16.60, length 46
+14:08:48.541865 ARP, Request who-has 172.16.17.4 tell 172.16.16.60, length 46
+14:08:48.541865 ARP, Request who-has 172.16.17.9 tell 172.16.16.60, length 46
+14:08:48.541866 ARP, Request who-has 172.16.17.1 tell 172.16.16.60, length 46
+14:08:48.541866 ARP, Request who-has 172.16.17.11 tell 172.16.16.60, length 46
+14:08:48.541866 ARP, Request who-has 172.16.17.12 tell 172.16.16.60, length 46
+14:08:48.541876 ARP, Request who-has 172.16.17.2 tell 172.16.16.60, length 46
+14:08:48.541876 ARP, Request who-has 172.16.17.21 tell 172.16.16.60, length 46
+14:08:48.565746 ARP, Request who-has 172.16.17.15 tell 172.16.16.60, length 46
+14:08:48.565747 ARP, Request who-has 172.16.17.19 tell 172.16.16.60, length 46
+14:08:48.567781 ARP, Request who-has 172.16.17.20 tell 172.16.17.20, length 46
+14:08:48.569594 IP 172.16.20.14.64443 > 255.255.255.255.3956: UDP, length 8
+14:08:48.605652 IP6 fe80::b03f:c897:6ca0:dcc5.5353 > ff02::fb.5353: 45793 PTR (QM)? _arduino._tcp.local. (37)
+14:08:48.645330 IP 172.16.23.122.38915 > 239.255.255.250.1900: UDP, length 125
+14:08:48.679513 IP 172.16.21.197.65527 > 255.255.255.255.5353: 46080 PTR (QM)? _nvstream_dbd._tcp.local. (42)
+14:08:48.687115 ARP, Request who-has 172.16.19.11 tell 0.0.0.0, length 46
+14:08:48.709595 IP 20.207.73.85.443 > 172.16.22.141.57292: Flags [P.], seq 1716841416:1716841455, ack 2482643672, win 67, options [nop,nop,TS val 359057997 ecr 710023959], length 39
+14:08:48.709634 IP 20.207.73.85.443 > 172.16.22.141.57292: Flags [F.], seq 39, ack 1, win 67, options [nop,nop,TS val 359057997 ecr 710023959], length 0
+14:08:48.709982 IP 172.16.22.141.57292 > 20.207.73.85.443: Flags [F.], seq 1, ack 40, win 501, options [nop,nop,TS val 710144042 ecr 359057997], length 0
+14:08:48.872598 ARP, Unknown (5) 
+	0x0000:  0001 0800 0604 0005 fef6 0c30 8eed ac10  ...........0....
+	0x0010:  103d 0000 0000 0000 ac10 103d 6154 7a51  .=.........=aTzQ
+	0x0020:  0000 0000 0000 0000 0000 0000 0000 0000  ................
+	0x0030:  0000 0000 0000 0000 0000 0000 0000 0000  ................
+	0x0040:  0000 0000 0000 0000 0000 0000 0000 0000  ................
+	0x0050:  0000 0000 0000 0000 0000 0000            ............
+14:08:48.897439 IP 172.16.19.98.53814 > 239.255.255.250.3702: UDP, length 656
+14:08:48.918285 ARP, Request who-has 172.16.16.42 tell 172.16.22.173, length 46
+14:08:48.946069 IP 172.16.23.122.38915 > 239.255.255.250.1900: UDP, length 125
+14:08:48.954663 ARP, Request who-has 169.254.211.38 tell 0.0.0.0, length 46
+14:08:48.956654 ARP, Request who-has 172.16.16.1 tell 169.254.125.93, length 46
+14:08:48.976707 ARP, Request who-has 172.16.19.26 tell 0.0.0.0, length 46
+14:08:48.978544 IP 172.16.22.141.57292 > 20.207.73.85.443: Flags [F.], seq 1, ack 40, win 501, options [nop,nop,TS val 710144311 ecr 359057997], length 0
+14:08:48.991598 ARP, Request who-has 172.16.18.42 tell 172.16.16.3, length 46
+14:08:49.013880 ARP, Request who-has 172.16.19.58 tell 172.16.22.145, length 46
+14:08:49.107902 ARP, Request who-has 172.16.19.27 tell 0.0.0.0, length 46
+14:08:49.261511 ARP, Request who-has 172.16.18.208 tell 172.16.16.61, length 46
+14:08:49.266565 IP 172.16.22.141.57292 > 20.207.73.85.443: Flags [F.], seq 1, ack 40, win 501, options [nop,nop,TS val 710144599 ecr 359057997], length 0
+14:08:49.282636 IP 20.207.73.85.443 > 172.16.22.141.57292: Flags [R], seq 1716841456, win 0, length 0
+14:08:49.284752 ARP, Request who-has 169.254.204.62 tell 0.0.0.0, length 46
+14:08:49.297025 IP 172.16.22.141.60815 > 8.8.8.8.53: 24743+ [1au] AAAA? locprod2-elb-us-west-2.prod.mozaws.net. (67)
+14:08:49.326630 IP 8.8.8.8.53 > 172.16.22.141.60815: 24743 0/1/1 (152)
+14:08:49.326664 ARP, Request who-has 169.254.142.30 tell 0.0.0.0, length 46
+14:08:49.327460 IP 172.16.22.141.57810 > 52.35.17.16.443: Flags [S], seq 2660440652, win 64240, options [mss 1460,sackOK,TS val 1836501790 ecr 0,nop,wscale 7], length 0
+14:08:49.329728 IP 172.16.20.128.64972 > 239.255.255.250.1900: UDP, length 175
+14:08:49.356097 IP 172.16.16.61.34790 > 239.255.255.250.1900: UDP, length 137
+14:08:49.382044 ARP, Request who-has 172.16.18.207 tell 172.16.16.61, length 46
+14:08:49.391150 IP 172.16.16.3.58818 > 239.255.255.250.1900: UDP, length 175
+14:08:49.423815 ARP, Request who-has 172.16.19.5 tell 0.0.0.0, length 46
+14:08:49.440808 ARP, Request who-has 172.16.19.2 tell 0.0.0.0, length 46
+14:08:49.468712 ARP, Request who-has 172.16.19.43 tell 0.0.0.0, length 46
+14:08:49.545340 ARP, Request who-has 172.16.17.9 tell 172.16.16.60, length 46
+14:08:49.545342 ARP, Request who-has 172.16.17.22 tell 172.16.16.60, length 46
+14:08:49.545342 ARP, Request who-has 172.16.17.11 tell 172.16.16.60, length 46
+14:08:49.545342 ARP, Request who-has 172.16.17.12 tell 172.16.16.60, length 46
+14:08:49.545343 ARP, Request who-has 172.16.17.4 tell 172.16.16.60, length 46
+14:08:49.545343 ARP, Request who-has 172.16.17.1 tell 172.16.16.60, length 46
+14:08:49.545527 ARP, Request who-has 172.16.17.2 tell 172.16.16.60, length 46
+14:08:49.545640 ARP, Request who-has 172.16.17.21 tell 172.16.16.60, length 46
+14:08:49.552785 IP 172.16.21.31.64586 > 255.255.255.255.8610: UDP, length 16
+14:08:49.552806 IP 172.16.21.31.64585 > 255.255.255.255.8610: UDP, length 16
+14:08:49.552808 IP 172.16.21.31.64586 > 255.255.255.255.8610: UDP, length 16
+14:08:49.552809 IP 172.16.21.31.64585 > 255.255.255.255.8610: UDP, length 16
+14:08:49.577984 IP 172.16.22.141.42152 > 54.184.13.11.443: Flags [S], seq 3090629294, win 64240, options [mss 1460,sackOK,TS val 1005468193 ecr 0,nop,wscale 7], length 0
+14:08:49.582177 ARP, Request who-has 172.16.16.1 tell 169.254.125.93, length 46
+14:08:49.599439 ARP, Request who-has 172.16.19.12 tell 0.0.0.0, length 46
+14:08:49.614672 IP 192.168.1.1.48727 > 255.255.255.255.7437: UDP, length 173
+14:08:49.623336 IP 52.35.17.16.443 > 172.16.22.141.57810: Flags [S.], seq 948167124, ack 2660440653, win 26847, options [mss 1460,sackOK,TS val 1248096319 ecr 1836501790,nop,wscale 8], length 0
+14:08:49.623392 IP 172.16.22.141.57810 > 52.35.17.16.443: Flags [.], ack 1, win 502, options [nop,nop,TS val 1836502085 ecr 1248096319], length 0
+14:08:49.624281 IP 172.16.22.141.57810 > 52.35.17.16.443: Flags [P.], seq 1:518, ack 1, win 502, options [nop,nop,TS val 1836502086 ecr 1248096319], length 517
+14:08:49.662749 IP 172.16.16.44.35218 > 255.255.255.255.7437: UDP, length 173
+14:08:49.677856 ARP, Request who-has 172.16.16.213 tell 172.16.20.66, length 46
+14:08:49.677858 ARP, Request who-has 172.16.16.37 tell 172.16.20.66, length 46
+14:08:49.677858 ARP, Request who-has 172.16.16.5 tell 172.16.20.66, length 46
+14:08:49.677858 ARP, Request who-has 172.16.19.66 tell 172.16.20.66, length 46
+14:08:49.790609 IP 172.16.22.205.54300 > 239.255.255.250.1900: UDP, length 175
+14:08:49.803721 IP6 fe80::50a3:a7be:c300:446c.53372 > ff02::c.1900: UDP, length 146
+14:08:49.806318 IP 172.16.19.196.50532 > 239.255.255.250.1900: UDP, length 175
+14:08:49.866387 IP 172.16.20.14.51354 > 255.255.255.255.3956: UDP, length 8
+14:08:49.914835 IP 52.35.17.16.443 > 172.16.22.141.57810: Flags [.], ack 518, win 119, options [nop,nop,TS val 1248096664 ecr 1836502086], length 0
+14:08:49.915628 IP 52.35.17.16.443 > 172.16.22.141.57810: Flags [.], seq 1:1449, ack 518, win 119, options [nop,nop,TS val 1248096665 ecr 1836502086], length 1448
+14:08:49.915641 IP 172.16.22.141.57810 > 52.35.17.16.443: Flags [.], ack 1449, win 501, options [nop,nop,TS val 1836502378 ecr 1248096665], length 0
+14:08:49.915714 IP 52.35.17.16.443 > 172.16.22.141.57810: Flags [.], seq 1449:2897, ack 518, win 119, options [nop,nop,TS val 1248096665 ecr 1836502086], length 1448
+14:08:49.915724 IP 172.16.22.141.57810 > 52.35.17.16.443: Flags [.], ack 2897, win 495, options [nop,nop,TS val 1836502378 ecr 1248096665], length 0
+14:08:49.915760 IP 52.35.17.16.443 > 172.16.22.141.57810: Flags [P.], seq 2897:3445, ack 518, win 119, options [nop,nop,TS val 1248096665 ecr 1836502086], length 548
+14:08:49.915763 IP 172.16.22.141.57810 > 52.35.17.16.443: Flags [.], ack 3445, win 491, options [nop,nop,TS val 1836502378 ecr 1248096665], length 0
+14:08:49.919114 IP 172.16.22.141.57810 > 52.35.17.16.443: Flags [P.], seq 518:593, ack 3445, win 501, options [nop,nop,TS val 1836502381 ecr 1248096665], length 75
+14:08:49.919142 IP 172.16.22.141.57810 > 52.35.17.16.443: Flags [P.], seq 593:644, ack 3445, win 501, options [nop,nop,TS val 1836502381 ecr 1248096665], length 51
+14:08:49.925320 ARP, Request who-has 172.16.19.6 tell 0.0.0.0, length 46
+14:08:49.931572 IP 172.16.19.218.17500 > 172.16.23.255.17500: UDP, length 133
+14:08:50.013596 ARP, Request who-has 172.16.19.58 tell 172.16.22.145, length 46
+14:08:50.128332 IP 172.16.22.141.1716 > 10.42.0.213.1716: UDP, bad length 1798 > 1472
+14:08:50.128337 IP 172.16.22.141 > 10.42.0.213: ip-proto-17
+14:08:50.166040 IP6 fe80::29a1:7e32:11bb:27a0.53815 > ff02::c.3702: UDP, length 656
+14:08:50.191666 ARP, Request who-has 172.16.18.209 tell 172.16.16.61, length 46
+14:08:50.242965 IP 172.16.21.235.53448 > 239.192.152.143.6771: UDP, length 136
+14:08:50.243064 IP 172.16.21.235.6771 > 239.192.152.143.6771: UDP, length 136
+14:08:50.243188 IP 172.16.21.235.6771 > 239.192.152.143.6771: UDP, length 136
+14:08:50.243205 IP6 fe80::b5f5:f01:c9a1:63df.53450 > ff15::efc0:988f.6771: UDP, length 138
+14:08:50.243226 IP6 fe80::b5f5:f01:c9a1:63df.6771 > ff15::efc0:988f.6771: UDP, length 138
+14:08:50.243240 IP6 fe80::b5f5:f01:c9a1:63df.6771 > ff15::efc0:988f.6771: UDP, length 138
+14:08:50.249048 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [.], seq 10862:12280, ack 72678, win 1341, options [nop,nop,TS val 3782093006 ecr 1053061186], length 1418
+14:08:50.249050 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [P.], seq 12280:13618, ack 72678, win 1341, options [nop,nop,TS val 3782093006 ecr 1053061186], length 1338
+14:08:50.261254 ARP, Request who-has 172.16.18.208 tell 172.16.16.61, length 46
+14:08:50.267142 2c:fd:ab:32:5d:23 > ff:ff:ff:ff:ff:ff Null Unnumbered, xid, Flags [Response], length 46: 01 02
+14:08:50.277474 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [.], ack 12280, win 493, options [nop,nop,TS val 1053063880 ecr 3782093006], length 0
+14:08:50.277516 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [.], ack 13618, win 504, options [nop,nop,TS val 1053063880 ecr 3782093006], length 0
+14:08:50.330569 IP 172.16.20.128.64972 > 239.255.255.250.1900: UDP, length 175
+14:08:50.337313 ARP, Request who-has 169.254.177.49 tell 0.0.0.0, length 46
+14:08:50.351649 IP 172.16.20.128.53604 > 239.255.255.250.3702: UDP, length 656
+14:08:50.366622 IP6 fe80::988:549e:97e4:bda2.53605 > ff02::c.3702: UDP, length 656
+14:08:50.373458 IP6 :: > ff02::1:ff32:5d23: ICMP6, neighbor solicitation, who has fe80::2efd:abff:fe32:5d23, length 24
+14:08:50.374001 IP6 :: > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+14:08:50.389476 IP6 fe80::2efd:abff:fe32:5d23.546 > ff02::1:2.547: dhcp6 solicit
+14:08:50.391607 IP6 fd01:db8:1111::2.57653 > fd01:db8:1111::3.53: 55922+ AAAA? www.facebook.com. (34)
+14:08:50.409574 IP 0.0.0.0.68 > 255.255.255.255.67: BOOTP/DHCP, Request from 2c:fd:ab:32:5d:23, length 280
+14:08:50.423869 ARP, Request who-has 169.254.215.12 tell 0.0.0.0, length 46
+14:08:50.426667 ARP, Request who-has 172.16.21.101 tell 172.16.16.1, length 46
+14:08:50.427675 ARP, Request who-has 192.168.1.217 tell 192.168.1.1, length 46
+14:08:50.431831 IP 172.16.23.52.62979 > 239.255.255.250.1900: UDP, length 175
+14:08:50.468039 ARP, Request who-has 172.16.21.101 tell 172.16.16.1, length 46
+14:08:50.487420 ARP, Request who-has 172.16.19.41 tell 0.0.0.0, length 46
+14:08:50.517697 ARP, Request who-has 172.16.21.101 tell 172.16.16.1, length 46
+14:08:50.537348 IP 172.16.20.14.64002 > 255.255.255.255.3956: UDP, length 8
+14:08:50.546049 ARP, Request who-has 172.16.17.4 tell 172.16.16.60, length 46
+14:08:50.546051 ARP, Request who-has 172.16.17.22 tell 172.16.16.60, length 46
+14:08:50.546051 ARP, Request who-has 172.16.17.9 tell 172.16.16.60, length 46
+14:08:50.546080 ARP, Request who-has 172.16.17.11 tell 172.16.16.60, length 46
+14:08:50.546080 ARP, Request who-has 172.16.17.12 tell 172.16.16.60, length 46
+14:08:50.546081 ARP, Request who-has 172.16.17.1 tell 172.16.16.60, length 46
+14:08:50.546081 ARP, Request who-has 172.16.17.2 tell 172.16.16.60, length 46
+14:08:50.546081 ARP, Request who-has 172.16.17.21 tell 172.16.16.60, length 46
+14:08:50.546441 IP 172.16.22.141.57810 > 52.35.17.16.443: Flags [P.], seq 593:644, ack 3445, win 501, options [nop,nop,TS val 1836503008 ecr 1248096665], length 51
+14:08:50.550353 ARP, Request who-has 172.16.19.37 tell 0.0.0.0, length 46
+14:08:50.552838 IP 172.16.23.122.5353 > 224.0.0.251.5353: 6 [2q] PTR (QM)? _233637DE._sub._googlecast._tcp.local. PTR (QM)? _googlecast._tcp.local. (61)
+14:08:50.673092 IP 172.16.16.42.38580 > 239.255.255.250.1900: UDP, length 335
+14:08:50.709106 IP 172.16.20.14.64443 > 255.255.255.255.3956: UDP, length 8
+14:08:50.730431 ARP, Request who-has 172.16.23.204 tell 172.16.20.201, length 46
+14:08:50.794804 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [P.], seq 74096:74171, ack 13618, win 504, options [nop,nop,TS val 1053064395 ecr 3782093006], length 75
+14:08:50.794833 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [.], ack 72678, win 1341, options [nop,nop,TS val 3782093552 ecr 1053063880,nop,nop,sack 1 {74096:74171}], length 0
+14:08:50.795154 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [P.], seq 74171:75589, ack 13618, win 504, options [nop,nop,TS val 1053064395 ecr 3782093006], length 1418
+14:08:50.795171 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [.], ack 72678, win 1341, options [nop,nop,TS val 3782093552 ecr 1053063880,nop,nop,sack 1 {74096:75589}], length 0
+14:08:50.795240 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [.], seq 75589:77007, ack 13618, win 504, options [nop,nop,TS val 1053064395 ecr 3782093006], length 1418
+14:08:50.795244 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [.], ack 72678, win 1341, options [nop,nop,TS val 3782093552 ecr 1053063880,nop,nop,sack 1 {74096:77007}], length 0
+14:08:50.795350 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [P.], seq 77007:78383, ack 13618, win 504, options [nop,nop,TS val 1053064395 ecr 3782093006], length 1376
+14:08:50.796469 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [.], ack 72678, win 1341, options [nop,nop,TS val 3782093552 ecr 1053063880,nop,nop,sack 1 {74096:78383}], length 0
+14:08:50.796581 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [P.], seq 78383:79801, ack 13618, win 504, options [nop,nop,TS val 1053064396 ecr 3782093006], length 1418
+14:08:50.796705 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [.], seq 79801:81219, ack 13618, win 504, options [nop,nop,TS val 1053064397 ecr 3782093006], length 1418
+14:08:50.796828 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [P.], seq 81219:82637, ack 13618, win 504, options [nop,nop,TS val 1053064397 ecr 3782093006], length 1418
+14:08:50.797721 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [.], ack 72678, win 1341, options [nop,nop,TS val 3782093554 ecr 1053063880,nop,nop,sack 1 {74096:82637}], length 0
+14:08:50.798204 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [.], seq 82637:84055, ack 13618, win 504, options [nop,nop,TS val 1053064397 ecr 3782093006], length 1418
+14:08:50.798268 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [P.], seq 84055:84863, ack 13618, win 504, options [nop,nop,TS val 1053064397 ecr 3782093006], length 808
+14:08:50.799321 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [.], ack 72678, win 1341, options [nop,nop,TS val 3782093555 ecr 1053063880,nop,nop,sack 1 {74096:84863}], length 0
+14:08:50.803571 IP 172.16.16.43.33897 > 255.255.255.255.7437: UDP, length 173
+14:08:50.807548 IP 172.16.19.196.50532 > 239.255.255.250.1900: UDP, length 175
+14:08:50.827355 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [P.], seq 72678:74096, ack 13618, win 504, options [nop,nop,TS val 1053064426 ecr 3782093552], length 1418
+14:08:50.827401 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [.], ack 84863, win 1270, options [nop,nop,TS val 3782093584 ecr 1053064426], length 0
+14:08:50.830589 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [P.], seq 13618:13653, ack 84863, win 1341, options [nop,nop,TS val 3782093588 ecr 1053064426], length 35
+14:08:50.839051 IP 52.35.17.16.443 > 172.16.22.141.57810: Flags [.], ack 644, win 119, options [nop,nop,TS val 1248097587 ecr 1836503008,nop,nop,sack 1 {593:644}], length 0
+14:08:50.860359 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [.], ack 13653, win 504, options [nop,nop,TS val 1053064461 ecr 3782093588], length 0
+14:08:50.870690 ARP, Request who-has 172.16.16.61 tell 172.16.16.61, length 46
+14:08:50.879503 IP 172.16.16.42.38580 > 239.255.255.250.1900: UDP, length 390
+14:08:50.897690 IP 172.16.19.98.53814 > 239.255.255.250.3702: UDP, length 656
+14:08:50.931454 ARP, Request who-has 172.16.18.207 tell 172.16.16.61, length 46
+14:08:50.947266 IP 0.0.0.0.68 > 255.255.255.255.67: BOOTP/DHCP, Request from 2c:fd:ab:32:5d:23, length 280
+14:08:50.950562 IP 172.16.22.141.51458 > 8.8.8.8.53: 20085+ [1au] A? ci6.googleusercontent.com. (54)
+14:08:50.953068 IP 172.16.16.1.67 > 255.255.255.255.68: BOOTP/DHCP, Reply, length 290
+14:08:50.953760 IP 172.16.22.141.48368 > 142.250.195.131.443: UDP, length 47
+14:08:50.961200 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [.], seq 13653:15071, ack 84863, win 1341, options [nop,nop,TS val 3782093718 ecr 1053064426], length 1418
+14:08:50.961203 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [P.], seq 15071:16299, ack 84863, win 1341, options [nop,nop,TS val 3782093718 ecr 1053064426], length 1228
+14:08:50.969739 IP 0.0.0.0.68 > 255.255.255.255.67: BOOTP/DHCP, Request from 2c:fd:ab:32:5d:23, length 292
+14:08:50.970900 IP 172.16.16.42.38580 > 239.255.255.250.1900: UDP, length 390
+14:08:50.970922 IP 172.16.16.1.67 > 255.255.255.255.68: BOOTP/DHCP, Reply, length 290
+14:08:50.972423 IP 142.250.195.131.443 > 172.16.22.141.48368: UDP, length 27
+14:08:50.976701 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [.], ack 15071, win 515, options [nop,nop,TS val 1053064592 ecr 3782093718], length 0
+14:08:50.976716 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [.], ack 16299, win 527, options [nop,nop,TS val 1053064592 ecr 3782093718], length 0
+14:08:50.993721 IP 8.8.8.8.53 > 172.16.22.141.51458: 20085 1/0/1 A 142.250.182.1 (70)
+14:08:50.994929 IP 172.16.22.141.59823 > 142.250.182.1.443: UDP, length 1250
+14:08:50.997789 IP 172.16.22.141.48368 > 142.250.195.131.443: UDP, length 33
+14:08:50.999457 IP 172.16.22.141.59823 > 142.250.182.1.443: UDP, length 76
+14:08:50.999740 IP 172.16.22.141.59823 > 142.250.182.1.443: UDP, length 516
+14:08:51.036581 IP 172.16.21.95.51263 > 239.255.255.250.1900: UDP, length 175
+14:08:51.036589 IP 172.16.21.95.51262 > 239.255.255.250.1900: UDP, length 175
+14:08:51.039668 ARP, Request who-has 172.16.16.42 tell 172.16.21.120, length 46
+14:08:51.048572 IP 142.250.195.131.443 > 172.16.22.141.48368: UDP, length 115
+14:08:51.048991 IP 172.16.22.141.48368 > 142.250.195.131.443: UDP, length 35
+14:08:51.050953 IP 142.250.182.1.443 > 172.16.22.141.59823: UDP, length 1250
+14:08:51.051593 IP 172.16.22.141.59823 > 142.250.182.1.443: UDP, length 1250
+14:08:51.058782 IP 142.250.182.1.443 > 172.16.22.141.59823: UDP, length 1250
+14:08:51.058808 IP 142.250.182.1.443 > 172.16.22.141.59823: UDP, length 787
+14:08:51.058810 IP 142.250.182.1.443 > 172.16.22.141.59823: UDP, length 95
+14:08:51.058812 IP 142.250.182.1.443 > 172.16.22.141.59823: UDP, length 25
+14:08:51.059556 IP 172.16.22.141.59823 > 142.250.182.1.443: UDP, length 79
+14:08:51.059653 IP 172.16.22.141.59823 > 142.250.182.1.443: UDP, length 33
+14:08:51.059868 IP 142.250.182.1.443 > 172.16.22.141.59823: UDP, length 1246
+14:08:51.059986 IP 142.250.182.1.443 > 172.16.22.141.59823: UDP, length 1250
+14:08:51.060091 IP 142.250.182.1.443 > 172.16.22.141.59823: UDP, length 1250
+14:08:51.060101 IP 172.16.22.141.59823 > 142.250.182.1.443: UDP, length 35
+14:08:51.060152 IP 172.16.22.141.59823 > 142.250.182.1.443: UDP, length 33
+14:08:51.060196 IP 142.250.182.1.443 > 172.16.22.141.59823: UDP, length 1250
+14:08:51.060302 IP 142.250.182.1.443 > 172.16.22.141.59823: UDP, length 1250
+14:08:51.060413 IP 142.250.182.1.443 > 172.16.22.141.59823: UDP, length 1250
+14:08:51.060512 IP 142.250.182.1.443 > 172.16.22.141.59823: UDP, length 1250
+14:08:51.060625 IP 142.250.182.1.443 > 172.16.22.141.59823: UDP, length 1250
+14:08:51.060724 IP 142.250.182.1.443 > 172.16.22.141.59823: UDP, length 1250
+14:08:51.060829 IP 142.250.182.1.443 > 172.16.22.141.59823: UDP, length 1250
+14:08:51.061264 IP 142.250.182.1.443 > 172.16.22.141.59823: UDP, length 1250
+14:08:51.061356 IP 142.250.182.1.443 > 172.16.22.141.59823: UDP, length 1250
+14:08:51.061460 IP 142.250.182.1.443 > 172.16.22.141.59823: UDP, length 1250
+14:08:51.061565 IP 142.250.182.1.443 > 172.16.22.141.59823: UDP, length 1250
+14:08:51.061670 IP 142.250.182.1.443 > 172.16.22.141.59823: UDP, length 1250
+14:08:51.061777 IP 142.250.182.1.443 > 172.16.22.141.59823: UDP, length 1250
+14:08:51.061881 IP 142.250.182.1.443 > 172.16.22.141.59823: UDP, length 1250
+14:08:51.061987 IP 142.250.182.1.443 > 172.16.22.141.59823: UDP, length 1250
+14:08:51.062040 IP 172.16.22.141.59823 > 142.250.182.1.443: UDP, length 33
+14:08:51.062085 IP 172.16.22.141.59823 > 142.250.182.1.443: UDP, length 33
+14:08:51.062093 IP 142.250.182.1.443 > 172.16.22.141.59823: UDP, length 1250
+14:08:51.062126 IP 172.16.22.141.59823 > 142.250.182.1.443: UDP, length 33
+14:08:51.062168 IP 172.16.22.141.59823 > 142.250.182.1.443: UDP, length 33
+14:08:51.062189 IP 172.16.22.141.59823 > 142.250.182.1.443: UDP, length 33
+14:08:51.062211 IP 172.16.22.141.59823 > 142.250.182.1.443: UDP, length 33
+14:08:51.062231 IP 172.16.22.141.59823 > 142.250.182.1.443: UDP, length 33
+14:08:51.062260 IP 172.16.22.141.59823 > 142.250.182.1.443: UDP, length 33
+14:08:51.062290 IP 172.16.22.141.59823 > 142.250.182.1.443: UDP, length 33
+14:08:51.062297 IP 142.250.182.1.443 > 172.16.22.141.59823: UDP, length 1250
+14:08:51.062337 IP 172.16.22.141.59823 > 142.250.182.1.443: UDP, length 33
+14:08:51.063283 IP 142.250.182.1.443 > 172.16.22.141.59823: UDP, length 1250
+14:08:51.063382 IP 142.250.182.1.443 > 172.16.22.141.59823: UDP, length 1250
+14:08:51.063450 IP 172.16.22.141.59823 > 142.250.182.1.443: UDP, length 33
+14:08:51.063487 IP 142.250.182.1.443 > 172.16.22.141.59823: UDP, length 1250
+14:08:51.063593 IP 142.250.182.1.443 > 172.16.22.141.59823: UDP, length 1250
+14:08:51.063633 IP 172.16.22.141.59823 > 142.250.182.1.443: UDP, length 33
+14:08:51.063698 IP 142.250.182.1.443 > 172.16.22.141.59823: UDP, length 1250
+14:08:51.063804 IP 142.250.182.1.443 > 172.16.22.141.59823: UDP, length 1250
+14:08:51.063862 IP 172.16.22.141.59823 > 142.250.182.1.443: UDP, length 33
+14:08:51.064014 IP 142.250.182.1.443 > 172.16.22.141.59823: UDP, length 1250
+14:08:51.064225 IP 142.250.182.1.443 > 172.16.22.141.59823: UDP, length 1250
+14:08:51.064262 IP 172.16.22.141.59823 > 142.250.182.1.443: UDP, length 33
+14:08:51.064649 IP 142.250.182.1.443 > 172.16.22.141.59823: UDP, length 1250
+14:08:51.064752 IP 142.250.182.1.443 > 172.16.22.141.59823: UDP, length 1250
+14:08:51.064771 IP 142.250.182.1.443 > 172.16.22.141.59823: UDP, length 283
+14:08:51.064801 IP 172.16.22.141.59823 > 142.250.182.1.443: UDP, length 33
+14:08:51.075466 IP 172.16.21.201.62529 > 239.255.255.250.1900: UDP, length 175
+14:08:51.082853 IP 142.250.182.1.443 > 172.16.22.141.59823: UDP, length 1250
+14:08:51.083183 IP 172.16.22.141.59823 > 142.250.182.1.443: UDP, length 119
+14:08:51.089137 IP 172.16.16.42.33602 > 239.255.255.250.1900: UDP, length 400
+14:08:51.090698 IP 142.250.182.1.443 > 172.16.22.141.59823: UDP, length 92
+14:08:51.090717 IP 142.250.182.1.443 > 172.16.22.141.59823: UDP, length 25
+14:08:51.090941 IP 172.16.22.141.59823 > 142.250.182.1.443: UDP, length 35
+14:08:51.091505 IP 52.35.17.16.443 > 172.16.22.141.57810: Flags [P.], seq 3445:3496, ack 644, win 119, options [nop,nop,TS val 1248097840 ecr 1836503008], length 51
+14:08:51.091521 IP 172.16.22.141.57810 > 52.35.17.16.443: Flags [.], ack 3496, win 501, options [nop,nop,TS val 1836503554 ecr 1248097840], length 0
+14:08:51.092090 IP 172.16.22.141.57810 > 52.35.17.16.443: Flags [P.], seq 644:862, ack 3496, win 501, options [nop,nop,TS val 1836503554 ecr 1248097840], length 218
+14:08:51.092151 IP 172.16.22.141.57810 > 52.35.17.16.443: Flags [P.], seq 862:1697, ack 3496, win 501, options [nop,nop,TS val 1836503554 ecr 1248097840], length 835
+14:08:51.092670 IP 142.250.182.1.443 > 172.16.22.141.59823: UDP, length 1250
+14:08:51.092854 IP 172.16.22.141.59823 > 142.250.182.1.443: UDP, length 35
+14:08:51.095738 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [P.], seq 84863:85015, ack 16299, win 527, options [nop,nop,TS val 1053064695 ecr 3782093718], length 152
+14:08:51.095756 IP6 :: > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+14:08:51.096398 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [P.], seq 16299:16338, ack 85015, win 1341, options [nop,nop,TS val 3782093853 ecr 1053064695], length 39
+14:08:51.108862 IP 142.250.195.131.443 > 172.16.22.141.48368: UDP, length 25
+14:08:51.109802 ARP, Request who-has 172.16.16.1 tell 172.16.21.101, length 46
+14:08:51.113636 IP 142.250.195.131.443 > 172.16.22.141.48368: UDP, length 25
+14:08:51.113747 IP 172.16.22.141.48368 > 142.250.195.131.443: UDP, length 35
+14:08:51.126855 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [.], ack 16338, win 527, options [nop,nop,TS val 1053064727 ecr 3782093853], length 0
+14:08:51.134596 IP 172.16.22.141.58860 > 107.167.110.224.443: Flags [P.], seq 1105:1612, ack 3419, win 501, options [nop,nop,TS val 422841925 ecr 1032916197], length 507
+14:08:51.191709 IP 172.16.16.42.33602 > 239.255.255.250.1900: UDP, length 400
+14:08:51.208200 IP 172.16.22.141.59823 > 142.250.182.1.443: UDP, length 33
+14:08:51.208744 IP 172.16.16.45.45088 > 255.255.255.255.7437: UDP, length 173
+14:08:51.236708 IP 142.250.182.1.443 > 172.16.22.141.59823: UDP, length 28
+14:08:51.259762 ARP, Request who-has 172.16.18.208 tell 172.16.16.61, length 46
+14:08:51.302793 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [P.], seq 85015:85691, ack 16338, win 527, options [nop,nop,TS val 1053064905 ecr 3782093853], length 676
+14:08:51.309879 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [P.], seq 85691:85722, ack 16338, win 527, options [nop,nop,TS val 1053064913 ecr 3782093853], length 31
+14:08:51.309916 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [P.], seq 85722:85761, ack 16338, win 527, options [nop,nop,TS val 1053064913 ecr 3782093853], length 39
+14:08:51.309979 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [.], ack 85761, win 1341, options [nop,nop,TS val 3782094067 ecr 1053064905], length 0
+14:08:51.310655 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [P.], seq 16338:16377, ack 85761, win 1341, options [nop,nop,TS val 3782094068 ecr 1053064905], length 39
+14:08:51.331488 IP 172.16.20.128.64972 > 239.255.255.250.1900: UDP, length 175
+14:08:51.341903 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [.], ack 16377, win 527, options [nop,nop,TS val 1053064945 ecr 3782094068], length 0
+14:08:51.361912 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [P.], seq 16377:17065, ack 85761, win 1341, options [nop,nop,TS val 3782094119 ecr 1053064945], length 688
+14:08:51.369678 IP6 fe80::2efd:abff:fe32:5d23 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+14:08:51.369811 IP6 fe80::2efd:abff:fe32:5d23 > ff02::2: ICMP6, router solicitation, length 16
+14:08:51.382011 IP 52.35.17.16.443 > 172.16.22.141.57810: Flags [.], ack 862, win 123, options [nop,nop,TS val 1248098132 ecr 1836503554], length 0
+14:08:51.382031 IP 52.35.17.16.443 > 172.16.22.141.57810: Flags [.], ack 1697, win 129, options [nop,nop,TS val 1248098132 ecr 1836503554], length 0
+14:08:51.392981 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [.], ack 17065, win 538, options [nop,nop,TS val 1053064993 ecr 3782094119], length 0
+14:08:51.406693 IP 172.16.16.42.138 > 172.16.19.255.138: UDP, length 214
+14:08:51.407612 IP 172.16.16.42.138 > 172.16.19.255.138: UDP, length 210
+14:08:51.407775 IP 107.167.110.224.443 > 172.16.22.141.58860: Flags [.], ack 1612, win 83, options [nop,nop,TS val 1032924001 ecr 422841925], length 0
+14:08:51.409557 IP 52.35.17.16.443 > 172.16.22.141.57810: Flags [P.], seq 3496:4078, ack 1697, win 129, options [nop,nop,TS val 1248098161 ecr 1836503554], length 582
+14:08:51.409582 IP 172.16.22.141.57810 > 52.35.17.16.443: Flags [.], ack 4078, win 501, options [nop,nop,TS val 1836503872 ecr 1248098161], length 0
+14:08:51.411913 IP 107.167.110.224.443 > 172.16.22.141.58860: Flags [P.], seq 3419:3697, ack 1612, win 83, options [nop,nop,TS val 1032924004 ecr 422841925], length 278
+14:08:51.411938 IP 172.16.22.141.58860 > 107.167.110.224.443: Flags [.], ack 3697, win 501, options [nop,nop,TS val 422842202 ecr 1032924004], length 0
+14:08:51.421406 ARP, Request who-has 192.168.1.217 tell 192.168.1.1, length 46
+14:08:51.429867 IP 172.16.16.61.39730 > 239.255.255.250.1900: UDP, length 137
+14:08:51.435825 IP 172.16.23.52.62979 > 239.255.255.250.1900: UDP, length 175
+14:08:51.474099 ARP, Request who-has 172.16.19.3 tell 172.16.16.62, length 46
+14:08:51.474100 ARP, Request who-has 172.16.19.2 tell 172.16.16.62, length 46
+14:08:51.474101 ARP, Request who-has 172.16.19.1 tell 172.16.16.62, length 46
+14:08:51.474130 ARP, Request who-has 172.16.19.13 tell 172.16.16.62, length 46
+14:08:51.474131 ARP, Request who-has 172.16.19.14 tell 172.16.16.62, length 46
+14:08:51.474131 ARP, Request who-has 172.16.19.15 tell 172.16.16.62, length 46
+14:08:51.474165 ARP, Request who-has 172.16.19.27 tell 172.16.16.62, length 46
+14:08:51.474166 ARP, Request who-has 172.16.19.26 tell 172.16.16.62, length 46
+14:08:51.474166 ARP, Request who-has 172.16.19.29 tell 172.16.16.62, length 46
+14:08:51.474184 ARP, Request who-has 172.16.19.28 tell 172.16.16.62, length 46
+14:08:51.474184 ARP, Request who-has 172.16.19.30 tell 172.16.16.62, length 46
+14:08:51.474185 ARP, Request who-has 172.16.19.31 tell 172.16.16.62, length 46
+14:08:51.479702 ARP, Request who-has 172.16.19.39 (18:db:b3:b4:18:8e) tell 172.16.16.62, length 46
+14:08:51.481527 ARP, Request who-has 172.16.19.12 (28:42:b8:b4:18:8e) tell 172.16.16.62, length 46
+14:08:51.515953 ARP, Request who-has 172.16.23.204 tell 172.16.20.201, length 46
+14:08:51.539929 ARP, Request who-has 172.16.17.4 tell 172.16.16.60, length 46
+14:08:51.539931 ARP, Request who-has 172.16.17.22 tell 172.16.16.60, length 46
+14:08:51.539931 ARP, Request who-has 172.16.17.9 tell 172.16.16.60, length 46
+14:08:51.539932 ARP, Request who-has 172.16.17.12 tell 172.16.16.60, length 46
+14:08:51.539932 ARP, Request who-has 172.16.17.11 tell 172.16.16.60, length 46
+14:08:51.539933 ARP, Request who-has 172.16.17.1 tell 172.16.16.60, length 46
+14:08:51.540046 ARP, Request who-has 172.16.17.2 tell 172.16.16.60, length 46
+14:08:51.540047 ARP, Request who-has 172.16.17.21 tell 172.16.16.60, length 46
+14:08:51.548912 ARP, Request who-has 172.16.17.13 tell 172.16.16.60, length 46
+14:08:51.549139 ARP, Request who-has 172.16.17.10 tell 172.16.16.60, length 46
+14:08:51.569478 ARP, Request who-has 172.16.16.35 tell 172.16.21.31, length 46
+14:08:51.620395 ARP, Request who-has 172.16.18.42 tell 172.16.16.3, length 46
+14:08:51.648155 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [P.], seq 85761:85979, ack 17065, win 538, options [nop,nop,TS val 1053065249 ecr 3782094119], length 218
+14:08:51.648185 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [P.], seq 85979:86277, ack 17065, win 538, options [nop,nop,TS val 1053065249 ecr 3782094119], length 298
+14:08:51.648187 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [P.], seq 86277:86383, ack 17065, win 538, options [nop,nop,TS val 1053065249 ecr 3782094119], length 106
+14:08:51.648209 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [P.], seq 86383:86422, ack 17065, win 538, options [nop,nop,TS val 1053065249 ecr 3782094119], length 39
+14:08:51.648324 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [.], ack 86422, win 1341, options [nop,nop,TS val 3782094405 ecr 1053065249], length 0
+14:08:51.649057 IP 172.16.22.141.59692 > 142.250.193.101.443: Flags [P.], seq 17065:17104, ack 86422, win 1341, options [nop,nop,TS val 3782094406 ecr 1053065249], length 39
+14:08:51.679477 IP 142.250.193.101.443 > 172.16.22.141.59692: Flags [.], ack 17104, win 538, options [nop,nop,TS val 1053065281 ecr 3782094406], length 0
+14:08:51.735887 ARP, Request who-has 169.254.1.89 tell 0.0.0.0, length 46
+14:08:51.768851 ARP, Request who-has 172.16.16.36 tell 172.16.21.31, length 46
+14:08:51.769813 IP 172.16.21.197.65528 > 255.255.255.255.5353: 48384 PTR (QM)? _airplay._tcp.local. (37)
+14:08:51.775129 ARP, Request who-has 172.16.16.42 tell 172.16.21.120, length 46
+14:08:51.793203 IP 172.16.22.205.54300 > 239.255.255.250.1900: UDP, length 175
+14:08:51.810548 IP 172.16.19.196.50532 > 239.255.255.250.1900: UDP, length 175
+14:08:51.875045 ARP, Request who-has 172.16.19.1 tell 0.0.0.0, length 46
+14:08:51.887038 ARP, Request who-has 172.16.19.4 tell 0.0.0.0, length 46
+14:08:51.974262 ARP, Request who-has 172.16.16.37 tell 172.16.21.31, length 46
+14:08:51.992907 IP 172.16.20.14.51354 > 255.255.255.255.3956: UDP, length 8
+14:08:52.002698 ARP, Request who-has 172.16.16.1 tell 169.254.125.93, length 46
+14:08:52.033011 ARP, Request who-has 172.16.21.124 tell 172.16.16.1, length 46
+14:08:52.045436 IP6 fe80::2efd:abff:fe32:5d23 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+14:08:52.050811 IP 172.16.21.95.51263 > 239.255.255.250.1900: UDP, length 175
+14:08:52.050821 IP 172.16.21.95.51262 > 239.255.255.250.1900: UDP, length 175
+14:08:52.068576 ARP, Request who-has 172.16.21.124 tell 172.16.16.1, length 46
+14:08:52.075766 IP 172.16.21.201.62529 > 239.255.255.250.1900: UDP, length 175
+14:08:52.086531 ARP, Request who-has 172.16.19.58 tell 172.16.22.145, length 46
+14:08:52.093617 ARP, Reverse Request who-is 00:18:ae:ca:2c:3b tell e4:f1:4c:10:09:93, length 46
+14:08:52.093620 ARP, Reverse Request who-is 00:18:ae:cf:87:76 tell e4:f1:4c:10:09:93, length 46
+14:08:52.093620 ARP, Reverse Request who-is 00:18:ae:ca:2b:f2 tell e4:f1:4c:10:09:93, length 46
+14:08:52.093621 ARP, Reverse Request who-is 00:18:ae:ca:2c:69 tell e4:f1:4c:10:09:93, length 46
+14:08:52.093621 ARP, Reverse Request who-is 00:18:ae:ca:2b:fb tell e4:f1:4c:10:09:93, length 46
+14:08:52.093622 ARP, Reverse Request who-is 00:18:ae:cf:87:ae tell e4:f1:4c:10:09:93, length 46
+14:08:52.093622 ARP, Reverse Request who-is 00:18:ae:ca:2c:34 tell e4:f1:4c:10:09:93, length 46
+14:08:52.093623 ARP, Reverse Request who-is 00:18:ae:ca:2b:f0 tell e4:f1:4c:10:09:93, length 46
+14:08:52.093627 ARP, Reverse Request who-is 00:18:ae:ca:2b:e5 tell e4:f1:4c:10:09:93, length 46
+14:08:52.093627 ARP, Reverse Request who-is 00:18:ae:cf:87:8b tell e4:f1:4c:10:09:93, length 46
+14:08:52.093628 ARP, Reverse Request who-is 00:18:ae:ca:2c:05 tell e4:f1:4c:10:09:93, length 46
+14:08:52.093628 ARP, Reverse Request who-is 00:18:ae:cf:88:7b tell e4:f1:4c:10:09:93, length 46
+14:08:52.116720 ARP, Request who-has 172.16.21.124 tell 172.16.16.1, length 46
+14:08:52.175065 ARP, Request who-has 172.16.16.38 tell 172.16.21.31, length 46
+14:08:52.205482 IP 192.168.1.1.39589 > 192.168.1.255.20002: UDP, length 326
+14:08:52.233080 IP6 fe80::2efd:abff:fe32:5d23.546 > ff02::1:2.547: dhcp6 solicit
+14:08:52.243822 ARP, Request who-has 172.16.16.249 tell 172.16.16.202, length 46
+14:08:52.282514 ARP, Request who-has 169.254.29.70 tell 0.0.0.0, length 46
+14:08:52.332122 IP 172.16.20.128.64972 > 239.255.255.250.1900: UDP, length 175
+14:08:52.352215 IP 172.16.20.128.53604 > 239.255.255.250.3702: UDP, length 656
+14:08:52.367172 IP6 fe80::988:549e:97e4:bda2.53605 > ff02::c.3702: UDP, length 656
+14:08:52.368168 IP6 fe80::1909:155d:2cd4:9687.546 > ff02::1:2.547: dhcp6 solicit
+14:08:52.425144 ARP, Request who-has 192.168.1.217 tell 192.168.1.1, length 46
+14:08:52.429967 ARP, Request who-has 172.16.19.14 tell 0.0.0.0, length 46
+14:08:52.449561 IP 172.16.23.52.62979 > 239.255.255.250.1900: UDP, length 175
+14:08:52.463442 ARP, Request who-has 169.254.163.55 tell 0.0.0.0, length 46
+14:08:52.478985 ARP, Request who-has 172.16.19.3 tell 172.16.16.62, length 46
+14:08:52.478987 ARP, Request who-has 172.16.19.1 tell 172.16.16.62, length 46
+14:08:52.478987 ARP, Request who-has 172.16.19.2 tell 172.16.16.62, length 46
+14:08:52.478987 ARP, Request who-has 172.16.19.14 tell 172.16.16.62, length 46
+14:08:52.478988 ARP, Request who-has 172.16.19.13 tell 172.16.16.62, length 46
+14:08:52.478988 ARP, Request who-has 172.16.19.15 tell 172.16.16.62, length 46
+14:08:52.478988 ARP, Request who-has 172.16.19.26 tell 172.16.16.62, length 46
+14:08:52.478989 ARP, Request who-has 172.16.19.27 tell 172.16.16.62, length 46
+14:08:52.479005 ARP, Request who-has 172.16.19.28 tell 172.16.16.62, length 46
+14:08:52.479006 ARP, Request who-has 172.16.19.29 tell 172.16.16.62, length 46
+14:08:52.479006 ARP, Request who-has 172.16.19.31 tell 172.16.16.62, length 46
+14:08:52.479006 ARP, Request who-has 172.16.19.30 tell 172.16.16.62, length 46
+14:08:52.490492 ARP, Request who-has 172.16.18.42 tell 172.16.16.3, length 46
+14:08:52.504245 ARP, Request who-has 172.16.16.35 tell 172.16.21.31, length 46
+14:08:52.504246 ARP, Request who-has 172.16.16.36 tell 172.16.21.31, length 46
+14:08:52.504247 ARP, Request who-has 172.16.16.37 tell 172.16.21.31, length 46
+14:08:52.524075 ARP, Request who-has 172.16.23.204 tell 172.16.20.201, length 46
+14:08:52.540228 ARP, Request who-has 172.16.18.206 tell 172.16.16.61, length 46
+14:08:52.544492 ARP, Request who-has 172.16.17.4 tell 172.16.16.60, length 46
+14:08:52.544493 ARP, Request who-has 172.16.17.13 tell 172.16.16.60, length 46
+14:08:52.544493 ARP, Request who-has 172.16.17.4 tell 172.16.16.60, length 46
+14:08:52.544520 ARP, Request who-has 172.16.17.11 tell 172.16.16.60, length 46
+14:08:52.544521 ARP, Request who-has 172.16.17.12 tell 172.16.16.60, length 46
+14:08:52.544521 ARP, Request who-has 172.16.17.10 tell 172.16.16.60, length 46
+14:08:52.576031 ARP, Request who-has 172.16.16.42 tell 172.16.21.120, length 46
+14:08:52.582041 ARP, Request who-has 172.16.16.1 tell 169.254.125.93, length 46
+14:08:52.582043 ARP, Request who-has 172.16.16.40 tell 172.16.21.31, length 46
