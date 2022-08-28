@@ -9,7 +9,6 @@ public class Main{
         listOfProcesses = new ArrayList<>();
         numberOfProcesses = Integer.parseInt(br.readLine().trim());
         
-        System.out.println(numberOfProcesses);
         getInput();
 
         sortProcessesBasedOnAT();
@@ -78,7 +77,6 @@ public class Main{
     }
     static void getInput(){
         try{
-
             for(int i = 0; i < numberOfProcesses; i++){
                 String s[] = br.readLine().trim().split(" ");
 
