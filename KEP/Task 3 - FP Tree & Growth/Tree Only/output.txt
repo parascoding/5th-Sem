@@ -1,0 +1,11 @@
+The level order traversal of FP Tree is
+Level 0
+{ Item: 0, freq: 0 }, 
+Level 1
+{ Item: 1, freq: 1 }, { Item: 4, freq: 4 }, 
+Level 2
+{ Item: 2, freq: 1 }, { Item: 1, freq: 2 }, { Item: 2, freq: 1 }, { Item: 3, freq: 1 }, 
+Level 3
+{ Item: 2, freq: 1 }, { Item: 3, freq: 1 }, 
+Level 4
+{ Item: 3, freq: 1 }, 

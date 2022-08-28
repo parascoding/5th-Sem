@@ -1,0 +1,1203 @@
+18:29:01.719928 IP 172.16.20.179.5353 > 224.0.0.251.5353: 0*- [0q] 1/0/0 PTR 3.21.0.36-MSI.4d60bb13-e55b-41d0-be3d-059b67380cda._nvstream_dbd._tcp.local. (101)
+18:29:01.778809 IP 172.16.20.51.54915 > 172.16.23.255.54915: UDP, length 263
+18:29:01.799605 ARP, Request who-has 172.16.19.3 tell 172.16.16.62, length 46
+18:29:01.799606 ARP, Request who-has 172.16.19.2 tell 172.16.16.62, length 46
+18:29:01.799606 ARP, Request who-has 172.16.19.14 tell 172.16.16.62, length 46
+18:29:01.799606 ARP, Request who-has 172.16.19.15 tell 172.16.16.62, length 46
+18:29:01.800035 ARP, Request who-has 172.16.19.27 tell 172.16.16.62, length 46
+18:29:01.800164 ARP, Request who-has 172.16.19.30 tell 172.16.16.62, length 46
+18:29:01.801295 ARP, Request who-has 172.16.19.39 (50:22:dd:9f:18:8e) tell 172.16.16.62, length 46
+18:29:01.809273 ARP, Request who-has 172.16.19.1 tell 172.16.16.62, length 46
+18:29:01.809274 ARP, Request who-has 172.16.19.13 tell 172.16.16.62, length 46
+18:29:01.809274 ARP, Request who-has 172.16.19.31 tell 172.16.16.62, length 46
+18:29:01.809303 ARP, Request who-has 172.16.19.26 tell 172.16.16.62, length 46
+18:29:01.809303 ARP, Request who-has 172.16.19.29 tell 172.16.16.62, length 46
+18:29:01.809303 ARP, Request who-has 172.16.19.28 tell 172.16.16.62, length 46
+18:29:01.966665 ARP, Request who-has 172.16.19.8 tell 0.0.0.0, length 46
+18:29:01.981667 IP 172.16.21.82.64369 > 239.255.255.250.1900: UDP, length 175
+18:29:02.085214 ARP, Request who-has 172.16.19.42 tell 0.0.0.0, length 46
+18:29:02.088600 IP 192.168.1.194.51816 > 239.255.255.250.1900: UDP, length 137
+18:29:02.093166 IP 172.16.19.66.36072 > 239.255.255.250.1900: UDP, length 125
+18:29:02.102111 ARP, Request who-has 172.16.19.7 tell 0.0.0.0, length 46
+18:29:02.118480 ARP, Request who-has 172.16.16.61 tell 172.16.16.61, length 46
+18:29:02.118481 ARP, Unknown (5) 
+	0x0000:  0001 0800 0604 0005 fef6 0c30 8eed ac10  ...........0....
+	0x0010:  103d 0000 0000 0000 ac10 103d 6154 7a51  .=.........=aTzQ
+	0x0020:  0000 0000 0000 0000 0000 0000 0000 0000  ................
+	0x0030:  0000 0000 0000 0000 0000 0000 0000 0000  ................
+	0x0040:  0000 0000 0000 0000 0000 0000 0000 0000  ................
+	0x0050:  0000 0000 0000 0000 0000 0000            ............
+18:29:02.132929 ARP, Request who-has 169.254.164.10 tell 0.0.0.0, length 46
+18:29:02.142452 IP6 fe80::4f6:d0b9:b469:6b44.51820 > ff02::c.3702: UDP, length 624
+18:29:02.192920 ARP, Request who-has 169.254.204.62 tell 0.0.0.0, length 46
+18:29:02.212915 IP 172.16.16.43.33897 > 255.255.255.255.7437: UDP, length 173
+18:29:02.231519 IP6 fe80::4f6:d0b9:b469:6b44.51814 > ff02::c.1900: UDP, length 95
+18:29:02.232348 IP 192.168.1.194.51816 > 239.255.255.250.1900: UDP, length 101
+18:29:02.247800 IP 172.16.21.190.51382 > 239.255.255.250.1900: UDP, length 137
+18:29:02.250558 ARP, Request who-has 172.16.19.15 tell 0.0.0.0, length 46
+18:29:02.262604 ARP, Request who-has 172.16.19.39 tell 0.0.0.0, length 46
+18:29:02.268701 IP6 fe80::4f6:d0b9:b469:6b44.51814 > ff02::c.1900: UDP, length 121
+18:29:02.268702 IP 192.168.1.194.51816 > 239.255.255.250.1900: UDP, length 127
+18:29:02.285750 ARP, Request who-has 172.16.16.42 tell 172.16.22.173, length 46
+18:29:02.298309 IP6 fe80::4f6:d0b9:b469:6b44.51814 > ff02::c.1900: UDP, length 121
+18:29:02.299043 IP 192.168.1.194.51816 > 239.255.255.250.1900: UDP, length 127
+18:29:02.329430 ARP, Request who-has 172.16.19.5 tell 0.0.0.0, length 46
+18:29:02.338743 IP6 fe80::4f6:d0b9:b469:6b44.51814 > ff02::c.1900: UDP, length 121
+18:29:02.340152 IP 192.168.1.194.51816 > 239.255.255.250.1900: UDP, length 127
+18:29:02.369365 IP 192.168.1.194.137 > 192.168.1.255.137: UDP, length 50
+18:29:02.370430 IP6 fe80::4f6:d0b9:b469:6b44.51814 > ff02::c.1900: UDP, length 121
+18:29:02.370431 IP 192.168.1.194.51816 > 239.255.255.250.1900: UDP, length 127
+18:29:02.385240 ARP, Request who-has 172.16.19.43 tell 0.0.0.0, length 46
+18:29:02.392038 IP 172.16.19.66.36072 > 239.255.255.250.1900: UDP, length 125
+18:29:02.399241 IP6 fe80::4f6:d0b9:b469:6b44.51814 > ff02::c.1900: UDP, length 121
+18:29:02.399948 IP 192.168.1.194.51816 > 239.255.255.250.1900: UDP, length 127
+18:29:02.433784 IP6 fe80::4f6:d0b9:b469:6b44.51814 > ff02::c.1900: UDP, length 121
+18:29:02.434417 IP 192.168.1.194.51816 > 239.255.255.250.1900: UDP, length 127
+18:29:02.459624 IP 172.16.20.51.55065 > 224.2.2.2.8995: UDP, length 30
+18:29:02.471457 ARP, Request who-has 172.16.18.225 tell 172.16.16.61, length 46
+18:29:02.472604 IP 192.168.1.194.51816 > 239.255.255.250.1900: UDP, length 137
+18:29:02.487139 ARP, Request who-has 172.16.17.6 tell 172.16.17.6, length 46
+18:29:02.519017 ARP, Request who-has 172.16.17.1 tell 172.16.16.60, length 46
+18:29:02.519018 ARP, Request who-has 172.16.17.22 tell 172.16.16.60, length 46
+18:29:02.519018 ARP, Request who-has 172.16.17.21 tell 172.16.16.60, length 46
+18:29:02.519018 ARP, Request who-has 172.16.17.2 tell 172.16.16.60, length 46
+18:29:02.519018 ARP, Request who-has 172.16.17.11 tell 172.16.16.60, length 46
+18:29:02.519018 ARP, Request who-has 172.16.17.9 tell 172.16.16.60, length 46
+18:29:02.524078 IP 172.16.23.6.137 > 172.16.23.255.137: UDP, length 50
+18:29:02.672207 IP 172.16.16.45.45088 > 255.255.255.255.7437: UDP, length 173
+18:29:02.693268 IP 172.16.19.66.36072 > 239.255.255.250.1900: UDP, length 125
+18:29:02.784269 IP 172.16.20.51.54915 > 172.16.23.255.54915: UDP, length 263
+18:29:02.790978 IP 142.251.12.188.5228 > 172.16.22.63.61676: Flags [P.], seq 2863094184:2863094208, ack 1676567721, win 265, options [nop,nop,TS val 3244730431 ecr 110792304], length 24
+18:29:02.796129 ARP, Request who-has 172.16.19.3 tell 172.16.16.62, length 46
+18:29:02.796129 ARP, Request who-has 172.16.19.2 tell 172.16.16.62, length 46
+18:29:02.796129 ARP, Request who-has 172.16.19.14 tell 172.16.16.62, length 46
+18:29:02.796129 ARP, Request who-has 172.16.19.15 tell 172.16.16.62, length 46
+18:29:02.796129 ARP, Request who-has 172.16.19.27 tell 172.16.16.62, length 46
+18:29:02.796129 ARP, Request who-has 172.16.19.30 tell 172.16.16.62, length 46
+18:29:02.803752 ARP, Request who-has 172.16.16.1 tell 172.16.20.32, length 46
+18:29:02.851551 IP 172.16.16.61.34002 > 239.255.255.250.1900: UDP, length 137
+18:29:02.873525 IP6 fe80::9ada:c4ff:fed5:9bb4 > ff02::1: HBH ICMP6, multicast listener query v2 [gaddr ::], length 28
+18:29:02.891526 IP6 fe80::c107:a66f:46f2:a17 > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+18:29:02.905402 IP 192.168.1.194.5353 > 224.0.0.251.5353: 0 PTR (QM)? _googlecast._tcp.local. (40)
+18:29:02.905521 IP6 fe80::4f6:d0b9:b469:6b44.5353 > ff02::fb.5353: 0 PTR (QM)? _googlecast._tcp.local. (40)
+18:29:02.905548 IP 192.168.1.194.5353 > 224.0.0.251.5353: 0 PTR (QM)? _googlecast._tcp.local. (40)
+18:29:02.905667 IP6 fe80::4f6:d0b9:b469:6b44.5353 > ff02::fb.5353: 0 PTR (QM)? _googlecast._tcp.local. (40)
+18:29:02.918100 IP6 fe80::d91b:8e47:3eed:8a7e > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:02.932052 IP6 fe80::895a:635e:4ef6:329 > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+18:29:02.935958 IP6 fe80::78d5:dfd:a51f:c96b > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:02.936232 IP6 fe80::7038:40c7:b3bb:12c4 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:02.962674 IP6 fe80::fc77:43c8:34a0:c142 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:02.981928 IP 172.16.21.82.64369 > 239.255.255.250.1900: UDP, length 175
+18:29:02.986789 IP6 fe80::8c1c:a239:a32b:5f03 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:03.003251 IP 192.168.1.194.5353 > 224.0.0.251.5353: 0*- [0q] 8/0/5 (Cache flush) TXT "", PTR _ni-logos._tcp.local., PTR DESKTOP-P8N54AU._ni-logos._tcp.local., (Cache flush) SRV DESKTOP-P8N54AU.local.:2343 0 0, (Cache flush) PTR DESKTOP-P8N54AU.local., (Cache flush) PTR DESKTOP-P8N54AU.local., (Cache flush) A 192.168.1.194, (Cache flush) AAAA fe80::4f6:d0b9:b469:6b44 (414)
+18:29:03.012377 IP6 fe80::1570:a194:cbcd:832a > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:03.018379 IP 192.168.1.194.51819 > 239.255.255.250.3702: UDP, length 624
+18:29:03.027663 IP6 fe80::3185:8d64:ffcc:f7a6 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:03.028915 IP 172.16.16.60.55505 > 255.255.255.255.51819: UDP, bad length 2085 > 1472
+18:29:03.028916 IP 172.16.16.60 > 255.255.255.255: ip-proto-17
+18:29:03.032693 IP 172.16.16.62.59302 > 255.255.255.255.51819: UDP, bad length 2071 > 1472
+18:29:03.032693 IP 172.16.16.62 > 255.255.255.255: ip-proto-17
+18:29:03.039309 IP6 fe80::254d:6a48:d986:d9b1 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:03.047920 IP6 fe80::5588:c224:7cb4:fe04 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:03.054054 IP 172.16.16.44.50767 > 255.255.255.255.7437: UDP, length 173
+18:29:03.060118 IP6 fe80::7443:84ff:fefc:685c > ff02::2: ICMP6, router solicitation, length 16
+18:29:03.060118 IP6 fe80::b978:1225:6766:942 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:03.064952 IP6 fe80::f4c2:fa8a:2e3a:a9be > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:03.068216 IP 172.16.20.14.58094 > 255.255.255.255.3956: UDP, length 8
+18:29:03.082660 IP6 fe80::d408:dba5:4cbb:5033 > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+18:29:03.089003 IP6 fe80::c581:8ff4:db26:d27a > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:03.089645 IP6 fe80::600f:5303:a718:3633 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:03.095970 IP6 fe80::44c6:d30:dd06:6092 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:03.106425 ARP, Unknown (5) 
+	0x0000:  0001 0800 0604 0005 fef6 0c30 8eed ac10  ...........0....
+	0x0010:  103d 0000 0000 0000 ac10 103d 6154 7a51  .=.........=aTzQ
+	0x0020:  0000 0000 0000 0000 0000 0000 0000 0000  ................
+	0x0030:  0000 0000 0000 0000 0000 0000 0000 0000  ................
+	0x0040:  0000 0000 0000 0000 0000 0000 0000 0000  ................
+	0x0050:  0000 0000 0000 0000 0000 0000            ............
+18:29:03.115468 IP6 fe80::d408:dba5:4cbb:5033.546 > ff02::1:2.547: dhcp6 solicit
+18:29:03.116693 IP6 fe80::b481:2991:28e3:909d > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:03.133826 IP6 fe80::e85e:a271:a5a9:2d09 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:03.173558 ARP, Request who-has 172.16.19.4 tell 0.0.0.0, length 46
+18:29:03.176244 IP 172.16.21.187.58278 > 239.255.255.250.1900: UDP, length 175
+18:29:03.205418 IP6 fe80::5452:422f:214d:6a20 > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+18:29:03.214609 IP6 fe80::2c0a:4b3a:180e:d317 > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+18:29:03.239900 IP6 fe80::3db4:de3c:3d48:6c23 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:03.241388 ARP, Request who-has 172.16.19.13 tell 0.0.0.0, length 46
+18:29:03.242720 IP6 fe80::e8b4:ba40:af25:41b8 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:03.250646 IP6 fe80::78a9:c2b9:8a3c:9afa > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+18:29:03.251935 IP6 fe80::9559:a30b:c814:7c2d > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+18:29:03.253266 IP6 fe80::4f6:d0b9:b469:6b44 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:03.259974 IP6 fe80::4c8a:ce3d:1fe4:940d > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:03.260687 IP 172.16.23.6.137 > 172.16.23.255.137: UDP, length 50
+18:29:03.281655 IP6 fe80::81fe:2c28:4e99:a038 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:03.284759 ARP, Request who-has 172.16.16.42 tell 172.16.22.173, length 46
+18:29:03.292112 IP6 fe80::9c8:6b5c:c14d:66b9 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:03.292112 IP6 :: > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+18:29:03.299417 IP6 fe80::24ca:623e:4422:b36a > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+18:29:03.345657 IP6 fe80::45ea:448b:1d60:5a6c > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:03.357518 IP6 fe80::58d6:1ec3:432d:37cb > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:03.362559 IP 172.16.20.14.55341 > 255.255.255.255.3956: UDP, length 8
+18:29:03.362868 IP 172.16.20.14.58855 > 255.255.255.255.3956: UDP, length 8
+18:29:03.375825 IP6 fe80::88a2:5451:b35:8b9c > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:03.388619 IP6 fe80::4996:6b00:d798:9eb9 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:03.417353 IP6 fe80::d84d:4aba:3bb9:d64b > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:03.437398 IP6 fe80::f0b2:69ff:fe78:9c38 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:03.452454 IP6 fe80::7038:40c7:b3bb:12c4 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:03.466449 IP6 fe80::20ec:cdcf:5acc:2262 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:03.471579 ARP, Request who-has 172.16.18.225 tell 172.16.16.61, length 46
+18:29:03.482196 IP6 fe80::8dc1:3c6f:68fc:6c7a > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+18:29:03.485933 IP 172.16.20.51.55065 > 224.2.2.2.8995: UDP, length 30
+18:29:03.518054 ARP, Request who-has 172.16.17.1 tell 172.16.16.60, length 46
+18:29:03.518055 ARP, Request who-has 172.16.17.22 tell 172.16.16.60, length 46
+18:29:03.518055 ARP, Request who-has 172.16.17.2 tell 172.16.16.60, length 46
+18:29:03.518077 ARP, Request who-has 172.16.17.21 tell 172.16.16.60, length 46
+18:29:03.518077 ARP, Request who-has 172.16.17.9 tell 172.16.16.60, length 46
+18:29:03.518077 ARP, Request who-has 172.16.17.11 tell 172.16.16.60, length 46
+18:29:03.524540 ARP, Request who-has 172.16.17.12 tell 172.16.16.60, length 46
+18:29:03.524540 ARP, Request who-has 172.16.17.10 tell 172.16.16.60, length 46
+18:29:03.524540 ARP, Request who-has 172.16.17.13 tell 172.16.16.60, length 46
+18:29:03.524540 ARP, Request who-has 172.16.17.4 tell 172.16.16.60, length 46
+18:29:03.524540 ARP, Request who-has 172.16.17.15 tell 172.16.16.60, length 46
+18:29:03.524648 ARP, Request who-has 172.16.17.19 tell 172.16.16.60, length 46
+18:29:03.539095 IP6 fe80::254d:6a48:d986:d9b1 > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+18:29:03.560111 IP6 fe80::d084:7c1a:10d8:e0c1 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:03.565142 IP6 fe80::e870:4250:e2e0:2a41 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:03.576103 ARP, Request who-has 169.254.144.71 tell 0.0.0.0, length 46
+18:29:03.604174 IP6 fe80::600f:5303:a718:3633 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:03.629558 IP6 fe80::8ce6:682f:b377:a86a > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+18:29:03.653657 ARP, Request who-has 172.16.17.20 tell 172.16.17.20, length 46
+18:29:03.654628 IP 192.168.1.1.45690 > 255.255.255.255.7437: UDP, length 173
+18:29:03.674675 ARP, Request who-has 172.16.16.1 tell 172.16.20.32, length 46
+18:29:03.687186 IP6 fe80::d588:dd0:6de5:b3 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:03.694599 IP6 fe80::9c0b:c45f:8f49:a27b > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:03.721647 IP6 fe80::da32:e3ff:fe50:f162 > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+18:29:03.729269 ARP, Request who-has 172.16.19.1 tell 0.0.0.0, length 46
+18:29:03.748403 IP6 fe80::4c8a:ce3d:1fe4:940d > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:03.751889 IP6 fe80::ec24:311e:f47:4736 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:03.751890 IP6 fe80::3db4:de3c:3d48:6c23 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:03.766982 IP6 fe80::e450:6605:4185:292c > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:03.776117 IP 172.16.20.51.54915 > 172.16.23.255.54915: UDP, length 263
+18:29:03.781400 IP6 fe80::51c5:152a:66af:872c > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:03.798349 ARP, Request who-has 172.16.19.3 tell 172.16.16.62, length 46
+18:29:03.798350 ARP, Request who-has 172.16.19.2 tell 172.16.16.62, length 46
+18:29:03.798350 ARP, Request who-has 172.16.19.15 tell 172.16.16.62, length 46
+18:29:03.798350 ARP, Request who-has 172.16.19.14 tell 172.16.16.62, length 46
+18:29:03.798350 ARP, Request who-has 172.16.19.27 tell 172.16.16.62, length 46
+18:29:03.798350 ARP, Request who-has 172.16.19.30 tell 172.16.16.62, length 46
+18:29:03.851369 IP6 fe80::1496:ef6c:4640:935a > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:03.878424 IP6 fe80::6448:49fc:25b:fc78 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:03.891304 IP6 fe80::8c40:3f90:e784:6aa7 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:03.979117 IP6 fe80::2d67:e177:bb12:a84d > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:03.982396 IP6 fe80::25f9:cdc3:1476:de40 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:03.997655 IP 172.16.21.82.64369 > 239.255.255.250.1900: UDP, length 175
+18:29:04.027649 IP 172.16.23.6.137 > 172.16.23.255.137: UDP, length 50
+18:29:04.039731 ARP, Request who-has 172.16.17.3 tell 172.16.17.3, length 46
+18:29:04.046623 IP6 fe80::500b:74ff:fe0f:8687 > ff02::16: HBH ICMP6, multicast listener report v2, 4 group record(s), length 88
+18:29:04.049445 IP6 fe80::a9bf:d90b:b15e:cef4 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:04.071533 IP6 fe80::793b:26fb:3e6c:f7d0 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:04.085754 IP6 fe80::3dd0:2628:8b28:d13a > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:04.115528 IP6 fe80::6a6d:bcff:fee8:f57f > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:04.116509 ARP, Request who-has 172.16.19.40 tell 0.0.0.0, length 46
+18:29:04.121200 ARP, Unknown (5) 
+	0x0000:  0001 0800 0604 0005 fef6 0c30 8eed ac10  ...........0....
+	0x0010:  103d 0000 0000 0000 ac10 103d 6154 7a51  .=.........=aTzQ
+	0x0020:  0000 0000 0000 0000 0000 0000 0000 0000  ................
+	0x0030:  0000 0000 0000 0000 0000 0000 0000 0000  ................
+	0x0040:  0000 0000 0000 0000 0000 0000 0000 0000  ................
+	0x0050:  0000 0000 0000 0000 0000 0000            ............
+18:29:04.134415 IP 172.16.22.141.33346 > 142.250.67.46.443: Flags [P.], seq 3573602176:3573602200, ack 236355515, win 364, options [nop,nop,TS val 3106154845 ecr 3443321389], length 24
+18:29:04.135028 IP 172.16.22.141.33346 > 142.250.67.46.443: Flags [F.], seq 24, ack 1, win 364, options [nop,nop,TS val 3106154846 ecr 3443321389], length 0
+18:29:04.146690 IP6 fe80::916a:caee:b374:38e7 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:04.151907 IP6 fe80::385b:ee1f:1e75:240e > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:04.165903 IP 142.251.12.188.5228 > 172.16.22.63.61676: Flags [P.], seq 0:24, ack 1, win 265, options [nop,nop,TS val 3244731802 ecr 110792304], length 24
+18:29:04.171202 IP 142.250.67.46.443 > 172.16.22.141.33346: Flags [R], seq 236355515, win 0, length 0
+18:29:04.174623 ARP, Request who-has 172.16.19.179 tell 172.16.19.70, length 46
+18:29:04.193744 IP 172.16.21.187.58278 > 239.255.255.250.1900: UDP, length 175
+18:29:04.203328 IP 172.16.22.34.57298 > 239.255.255.250.1900: UDP, length 175
+18:29:04.243655 IP6 fe80::e8b4:ba40:af25:41b8 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:04.264524 IP6 fe80::9c8:6b5c:c14d:66b9.546 > ff02::1:2.547: dhcp6 solicit
+18:29:04.288138 IP6 fe80::fdb3:9545:64fc:e722 > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+18:29:04.308646 IP6 fe80::e6f1:4cff:fe10:981 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:04.319976 IP6 :: > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+18:29:04.399371 IP6 fe80::55a9:9e56:21c9:c537 > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+18:29:04.417245 IP6 fe80::d84d:4aba:3bb9:d64b > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:04.424532 IP6 fe80::f417:f692:21ae:e91d > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:04.448439 IP6 fe80::895a:635e:4ef6:329 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:04.458674 IP 172.16.20.51.55065 > 224.2.2.2.8995: UDP, length 30
+18:29:04.466096 ARP, Request who-has 169.254.215.12 tell 0.0.0.0, length 46
+18:29:04.471199 IP6 fe80::8dc1:3c6f:68fc:6c7a > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:04.475300 IP6 fe80::2d67:e177:bb12:a84d > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:04.519519 ARP, Request who-has 172.16.17.13 tell 172.16.16.60, length 46
+18:29:04.519519 ARP, Request who-has 172.16.17.10 tell 172.16.16.60, length 46
+18:29:04.519519 ARP, Request who-has 172.16.17.15 tell 172.16.16.60, length 46
+18:29:04.519519 ARP, Request who-has 172.16.17.12 tell 172.16.16.60, length 46
+18:29:04.519520 ARP, Request who-has 172.16.17.19 tell 172.16.16.60, length 46
+18:29:04.519520 ARP, Request who-has 172.16.17.11 tell 172.16.16.60, length 46
+18:29:04.519520 ARP, Request who-has 172.16.17.4 tell 172.16.16.60, length 46
+18:29:04.527096 IP6 fe80::28ba:859:a471:449f > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:04.534185 IP6 fe80::5170:c21c:636c:2bda > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:04.538572 IP6 fe80::3185:8d64:ffcc:f7a6 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:04.549443 IP6 fe80::5588:c224:7cb4:fe04 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:04.573415 IP6 fe80::c9d6:e1ba:c24d:fdaf > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:04.591648 ARP, Request who-has 172.16.18.209 tell 172.16.16.61, length 46
+18:29:04.616320 ARP, Request who-has 172.16.19.37 tell 0.0.0.0, length 46
+18:29:04.624365 64:db:8b:a4:60:e1 > ff:ff:ff:ff:ff:ff, ethertype Unknown (0x8033), length 416: 
+	0x0000:  2101 01f6 0000 0000 0604 0400 527c 64db  !...........R|d.
+	0x0010:  8ba4 60e1 ac10 103f ffff ffff ffff 0000  ..`....?........
+	0x0020:  0000 ffff f800 4453 2d37 4130 3848 4748  ......DS-7A08HGH
+	0x0030:  492d 4631 5c45 434f 3038 3230 3138 3034  I-F1\ECO08201804
+	0x0040:  3132 4343 5752 4331 3538 3337 3336 3157  12CCWRC15837361W
+	0x0050:  4356 5500 0000 0000 a807 0000 1f40 0000  CVU..........@..
+	0x0060:  0008 0000 0000 5633 2e34 2e38 3862 7569  ......V3.4.88bui
+	0x0070:  6c64 2031 3830 3133 3100 0000 0000 0000  ld.180131.......
+	0x0080:  0000 0000 0000 0000 0000 0000 0000 0000  ................
+	0x0090:  0000 0000 0000 5635 2e30 2c20 6275 696c  ......V5.0,.buil
+	0x00a0:  6420 3138 3031 3236 0000 0000 0000 0000  d.180126........
+	0x00b0:  0000 0000 0000 0000 0000 0000 0000 0000  ................
+	0x00c0:  0000 0000 0000 3230 3232 2d30 382d 3033  ......2022-08-03
+	0x00d0:  2031 353a 3234 3a32 3900 0000 0000 0000  .15:24:29.......
+	0x00e0:  0000 0000 0000 0000 0000 0000 0000 0000  ................
+	0x00f0:  0000 0000 0000 029c ddbe ac10 1001 fe80  ................
+	0x0100:  0000 0000 0000 66db 8bff fea4 60e1 0000  ......f.....`...
+	0x0110:  0000 0000 0000 0000 0000 0000 0000 40c5  ..............@.
+	0x0120:  000f 0000 0000 0000 0000 0000 0000 0000  ................
+	0x0130:  0000 0000 0000 0000 0000 0000 0000 0050  ...............P
+	0x0140:  0000 0000 0000 0000 0000 0000 0000 0000  ................
+	0x0150:  0000 0000 0000 0000 0000 0000 0000 0000  ................
+	0x0160:  0000 4453 2d37 4130 3848 4748 492d 4631  ..DS-7A08HGHI-F1
+	0x0170:  5c45 434f 0000 0000 0000 4e2f 4100 0000  \ECO......N/A...
+	0x0180:  0000 0000 0000 0000 0000 0000 0000 0000  ................
+	0x0190:  0000                                     ..
+18:29:04.629319 68:6d:bc:e8:f5:7f > ff:ff:ff:ff:ff:ff, ethertype Unknown (0x8033), length 416: 
+	0x0000:  2101 01f6 0000 0000 0604 0400 c88e 686d  !.............hm
+	0x0010:  bce8 f57f ac10 100c ffff ffff ffff 0000  ................
+	0x0020:  0000 ffff f800 4453 2d37 4130 3448 4748  ......DS-7A04HGH
+	0x0030:  492d 4631 5c45 434f 3034 3230 3139 3038  I-F1\ECO04201908
+	0x0040:  3130 4141 5752 4434 3937 3936 3734 3657  10AAWRD49796746W
+	0x0050:  4356 5500 0000 0000 a443 0000 1f40 0000  CVU......C...@..
+	0x0060:  0004 0000 0000 5633 2e34 2e38 3931 6275  ......V3.4.891bu
+	0x0070:  696c 6420 3139 3031 3231 0000 0000 0000  ild.190121......
+	0x0080:  0000 0000 0000 0000 0000 0000 0000 0000  ................
+	0x0090:  0000 0000 0000 5635 2e30 2c20 6275 696c  ......V5.0,.buil
+	0x00a0:  6420 3139 3031 3139 0000 0000 0000 0000  d.190119........
+	0x00b0:  0000 0000 0000 0000 0000 0000 0000 0000  ................
+	0x00c0:  0000 0000 0000 3139 3730 2d30 312d 3031  ......1970-01-01
+	0x00d0:  2030 333a 3034 3a34 3300 0000 0000 0000  .03:04:43.......
+	0x00e0:  0000 0000 0000 0000 0000 0000 0000 0000  ................
+	0x00f0:  0000 0000 0000 029c 63f9 ac10 1001 fe80  ........c.......
+	0x0100:  0000 0000 0000 6a6d bcff fee8 f57f 0000  ......jm........
+	0x0110:  0000 0000 0000 0000 0000 0000 0000 40c5  ..............@.
+	0x0120:  000f 0000 0000 0000 0000 0000 0000 0000  ................
+	0x0130:  0000 0000 0000 0000 0000 0000 0000 0050  ...............P
+	0x0140:  0005 0000 0000 0000 0000 0000 0000 0000  ................
+	0x0150:  0000 0000 0000 0000 0000 0000 0000 0000  ................
+	0x0160:  0000 4453 2d37 4130 3448 4748 492d 4631  ..DS-7A04HGHI-F1
+	0x0170:  5c45 434f 0000 0000 0000 4e2f 4100 0000  \ECO......N/A...
+	0x0180:  0000 0000 0000 0000 0000 0000 0000 0000  ................
+	0x0190:  0000                                     ..
+18:29:04.630004 IP 172.16.16.60 > 239.255.255.251: igmp v2 report 239.255.255.251
+18:29:04.630309 00:12:41:50:ae:cc > ff:ff:ff:ff:ff:ff, ethertype Unknown (0x8033), length 416: 
+	0x0000:  2101 01f6 0000 0000 0604 0400 8d81 0012  !...............
+	0x0010:  4150 aecc c0a8 010a ffff ffff ffff 0000  AP..............
+	0x0020:  0000 ffff ff00 4453 2d32 4344 3354 3230  ......DS-2CD3T20
+	0x0030:  442d 4933 3132 3463 6464 6633 3061 3864  D-I3124cddf30a8d
+	0x0040:  3836 3738 0000 0000 0000 0000 0000 0000  8678............
+	0x0050:  0000 0000 0000 0002 200f 0000 1f40 0000  .............@..
+	0x0060:  0000 0000 0000 5635 2e34 2e30 6275 696c  ......V5.4.0buil
+	0x0070:  6420 3136 3036 3031 0000 0000 0000 0000  d.160601........
+	0x0080:  0000 0000 0000 0000 0000 0000 0000 0000  ................
+	0x0090:  0000 0000 0000 5637 2e33 2062 7569 6c64  ......V7.3.build
+	0x00a0:  2031 3630 3731 3300 0000 0000 0000 0000  .160713.........
+	0x00b0:  0000 0000 0000 0000 0000 0000 0000 0000  ................
+	0x00c0:  0000 0000 0000 3230 3232 2d30 382d 3237  ......2022-08-27
+	0x00d0:  2031 323a 3537 3a33 3800 0000 0000 0000  .12:57:38.......
+	0x00e0:  0000 0000 0000 0000 0000 0000 0000 0000  ................
+	0x00f0:  0000 0000 0000 029c 89db c0a8 0101 0000  ................
+	0x0100:  0000 0000 0000 0000 0000 0000 0000 0000  ................
+	0x0110:  0000 0000 0000 0000 0000 0000 0000 004f  ...............O
+	0x0120:  0000 0000 0000 0000 0000 0000 0000 0000  ................
+	0x0130:  0000 0000 0000 0000 0000 0000 0000 0050  ...............P
+	0x0140:  0000 0000 0000 0000 0000 4453 2d32 4344  ..........DS-2CD
+	0x0150:  5654 2d43 4d4d 2d53 0000 0000 0000 0000  VT-CMM-S........
+	0x0160:  0000 4453 2d32 4344 3354 3230 442d 4933  ..DS-2CD3T20D-I3
+	0x0170:  0000 0000 0000 0000 0000 0000 0000 0000  ................
+	0x0180:  0000 0000 0000 0000 0000 0000 0000 0000  ................
+	0x0190:  0000                                     ..
+18:29:04.633358 00:12:41:50:ad:ad > ff:ff:ff:ff:ff:ff, ethertype Unknown (0x8033), length 416: 
+	0x0000:  2101 01f6 0000 0000 0604 0400 cd91 0012  !...............
+	0x0010:  4150 adad ac10 1105 ffff ffff ffff 0000  AP..............
+	0x0020:  0000 ffff fc00 4453 2d32 4344 3354 3230  ......DS-2CD3T20
+	0x0030:  442d 4933 6439 3636 3434 3638 3339 3130  D-I3d96644683910
+	0x0040:  6462 3237 0000 0000 0000 0000 0000 0000  db27............
+	0x0050:  0000 0000 0000 0002 200f 0000 1f40 0000  .............@..
+	0x0060:  0000 0000 0000 5635 2e34 2e30 6275 696c  ......V5.4.0buil
+	0x0070:  6420 3136 3036 3031 0000 0000 0000 0000  d.160601........
+	0x0080:  0000 0000 0000 0000 0000 0000 0000 0000  ................
+	0x0090:  0000 0000 0000 5637 2e33 2062 7569 6c64  ......V7.3.build
+	0x00a0:  2031 3630 3731 3300 0000 0000 0000 0000  .160713.........
+	0x00b0:  0000 0000 0000 0000 0000 0000 0000 0000  ................
+	0x00c0:  0000 0000 0000 3230 3232 2d30 382d 3234  ......2022-08-24
+	0x00d0:  2030 393a 3439 3a33 3300 0000 0000 0000  .09:49:33.......
+	0x00e0:  0000 0000 0000 0000 0000 0000 0000 0000  ................
+	0x00f0:  0000 0000 0000 029c 89db ac10 1001 0000  ................
+	0x0100:  0000 0000 0000 0000 0000 0000 0000 0000  ................
+	0x0110:  0000 0000 0000 0000 0000 0000 0000 004f  ...............O
+	0x0120:  0000 0000 0000 0000 0000 0000 0000 0000  ................
+	0x0130:  0000 0000 0000 0000 0000 0000 0000 0050  ...............P
+	0x0140:  0000 0000 0000 0000 0000 4453 2d32 4344  ..........DS-2CD
+	0x0150:  5654 2d43 4d4d 2d53 0000 0000 0000 0000  VT-CMM-S........
+	0x0160:  0000 4453 2d32 4344 3354 3230 442d 4933  ..DS-2CD3T20D-I3
+	0x0170:  0000 0000 0000 0000 0000 0000 0000 0000  ................
+	0x0180:  0000 0000 0000 0000 0000 0000 0000 0000  ................
+	0x0190:  0000                                     ..
+18:29:04.641902 IP 172.16.22.141.54358 > 34.120.52.64.443: Flags [P.], seq 1544652208:1544652299, ack 138515979, win 501, options [nop,nop,TS val 1593426430 ecr 340155071], length 91
+18:29:04.641931 IP 172.16.22.141.54358 > 34.120.52.64.443: Flags [P.], seq 91:198, ack 1, win 501, options [nop,nop,TS val 1593426430 ecr 340155071], length 107
+18:29:04.646135 00:12:41:50:b1:11 > ff:ff:ff:ff:ff:ff, ethertype Unknown (0x8033), length 416: 
+	0x0000:  2101 01f6 0000 0000 0604 0400 f160 0012  !............`..
+	0x0010:  4150 b111 ac10 1103 ffff ffff ffff 0000  AP..............
+	0x0020:  0000 ffff fc00 4453 2d32 4344 3354 3230  ......DS-2CD3T20
+	0x0030:  442d 4933 3166 6634 6664 6235 3462 3331  D-I31ff4fdb54b31
+	0x0040:  3535 3964 0000 0000 0000 0000 0000 0000  559d............
+	0x0050:  0000 0000 0000 0002 200f 0000 1f40 0000  .............@..
+	0x0060:  0000 0000 0000 5635 2e34 2e30 6275 696c  ......V5.4.0buil
+	0x0070:  6420 3136 3036 3031 0000 0000 0000 0000  d.160601........
+	0x0080:  0000 0000 0000 0000 0000 0000 0000 0000  ................
+	0x0090:  0000 0000 0000 5637 2e33 2062 7569 6c64  ......V7.3.build
+	0x00a0:  2031 3630 3731 3300 0000 0000 0000 0000  .160713.........
+	0x00b0:  0000 0000 0000 0000 0000 0000 0000 0000  ................
+	0x00c0:  0000 0000 0000 3230 3232 2d30 382d 3234  ......2022-08-24
+	0x00d0:  2031 333a 3331 3a32 3100 0000 0000 0000  .13:31:21.......
+	0x00e0:  0000 0000 0000 0000 0000 0000 0000 0000  ................
+	0x00f0:  0000 0000 0000 029c 89db ac10 1001 0000  ................
+	0x0100:  0000 0000 0000 0000 0000 0000 0000 0000  ................
+	0x0110:  0000 0000 0000 0000 0000 0000 0000 004f  ...............O
+	0x0120:  0000 0000 0000 0000 0000 0000 0000 0000  ................
+	0x0130:  0000 0000 0000 0000 0000 0000 0000 0050  ...............P
+	0x0140:  0000 0000 0000 0000 0000 4453 2d32 4344  ..........DS-2CD
+	0x0150:  5654 2d43 4d4d 2d53 0000 0000 0000 0000  VT-CMM-S........
+	0x0160:  0000 4453 2d32 4344 3354 3230 442d 4933  ..DS-2CD3T20D-I3
+	0x0170:  0000 0000 0000 0000 0000 0000 0000 0000  ................
+	0x0180:  0000 0000 0000 0000 0000 0000 0000 0000  ................
+	0x0190:  0000                                     ..
+18:29:04.658916 IP 172.16.23.3.58439 > 239.255.255.250.1900: UDP, length 125
+18:29:04.671516 IP6 fe80::88:60ff:fe97:3203 > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+18:29:04.672327 IP 34.120.52.64.443 > 172.16.22.141.54358: Flags [.], ack 91, win 754, options [nop,nop,TS val 340174654 ecr 1593426430], length 0
+18:29:04.672328 IP 34.120.52.64.443 > 172.16.22.141.54358: Flags [.], ack 198, win 754, options [nop,nop,TS val 340174654 ecr 1593426430], length 0
+18:29:04.673634 IP 34.120.52.64.443 > 172.16.22.141.54358: Flags [P.], seq 1:40, ack 198, win 754, options [nop,nop,TS val 340174654 ecr 1593426430], length 39
+18:29:04.675075 ARP, Request who-has 172.16.16.1 tell 172.16.20.32, length 46
+18:29:04.675273 IP6 fe80::a026:fc0:d0bc:96d4 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:04.694449 00:12:41:50:b7:45 > ff:ff:ff:ff:ff:ff, ethertype Unknown (0x8033), length 416: 
+	0x0000:  2101 01f6 0000 0000 0604 0400 f7bc 0012  !...............
+	0x0010:  4150 b745 ac10 1114 ffff ffff ffff 0000  AP.E............
+	0x0020:  0000 ffff fc00 4453 2d32 4344 3354 3230  ......DS-2CD3T20
+	0x0030:  442d 4933 6332 3764 3337 3539 3432 3266  D-I3c27d3759422f
+	0x0040:  3138 3635 0000 0000 0000 0000 0000 0000  1865............
+	0x0050:  0000 0000 0000 0002 200f 0000 1f40 0000  .............@..
+	0x0060:  0000 0000 0000 5635 2e34 2e30 6275 696c  ......V5.4.0buil
+	0x0070:  6420 3136 3036 3031 0000 0000 0000 0000  d.160601........
+	0x0080:  0000 0000 0000 0000 0000 0000 0000 0000  ................
+	0x0090:  0000 0000 0000 5637 2e33 2062 7569 6c64  ......V7.3.build
+	0x00a0:  2031 3630 3731 3300 0000 0000 0000 0000  .160713.........
+	0x00b0:  0000 0000 0000 0000 0000 0000 0000 0000  ................
+	0x00c0:  0000 0000 0000 3230 3232 2d30 382d 3238  ......2022-08-28
+	0x00d0:  2030 373a 3134 3a35 3200 0000 0000 0000  .07:14:52.......
+	0x00e0:  0000 0000 0000 0000 0000 0000 0000 0000  ................
+	0x00f0:  0000 0000 0000 029c 89db ac10 1001 0000  ................
+	0x0100:  0000 0000 0000 0000 0000 0000 0000 0000  ................
+	0x0110:  0000 0000 0000 0000 0000 0000 0000 004f  ...............O
+	0x0120:  0000 0000 0000 0000 0000 0000 0000 0000  ................
+	0x0130:  0000 0000 0000 0000 0000 0000 0000 0050  ...............P
+	0x0140:  0000 0000 0000 0000 0000 4453 2d32 4344  ..........DS-2CD
+	0x0150:  5654 2d43 4d4d 2d53 0000 0000 0000 0000  VT-CMM-S........
+	0x0160:  0000 4453 2d32 4344 3354 3230 442d 4933  ..DS-2CD3T20D-I3
+	0x0170:  0000 0000 0000 0000 0000 0000 0000 0000  ................
+	0x0180:  0000 0000 0000 0000 0000 0000 0000 0000  ................
+	0x0190:  0000                                     ..
+18:29:04.715954 IP 172.16.22.141.54358 > 34.120.52.64.443: Flags [.], ack 40, win 501, options [nop,nop,TS val 1593426504 ecr 340174654], length 0
+18:29:04.736805 IP 172.16.21.197.52611 > 255.255.255.255.5353: 512 PTR (QM)? _nvstream_dbd._tcp.local. (42)
+18:29:04.749555 IP 172.16.16.60.3707 > 255.255.255.255.3702: UDP, length 1033
+18:29:04.749555 IP 172.16.16.60.3707 > 255.255.255.255.3702: UDP, length 1033
+18:29:04.749555 IP 172.16.16.60.3707 > 255.255.255.255.3702: UDP, length 1030
+18:29:04.749905 IP 172.16.16.60.3707 > 255.255.255.255.3702: UDP, length 1030
+18:29:04.749905 IP 172.16.16.60.37020 > 239.255.255.250.37020: UDP, length 142
+18:29:04.749905 IP 172.16.16.60.37810 > 239.255.255.251.37810: UDP, length 94
+18:29:04.749905 IP 172.16.16.60.5050 > 255.255.255.255.5050: UDP, length 32
+18:29:04.749906 IP 172.16.16.60.34569 > 255.255.255.255.34569: UDP, length 20
+18:29:04.749906 IP 172.16.16.60.18153 > 255.255.255.255.18152: UDP, length 12
+18:29:04.750685 IP 172.16.16.60.3705 > 239.255.255.250.3702: UDP, length 1012
+18:29:04.750891 IP 172.16.16.60.3705 > 239.255.255.250.3702: UDP, length 1012
+18:29:04.751443 IP 172.16.16.63.37020 > 239.255.255.250.37020: UDP, length 1439
+18:29:04.752260 IP 172.16.16.12.37020 > 239.255.255.250.37020: UDP, bad length 1523 > 1472
+18:29:04.752261 IP 172.16.16.12 > 239.255.255.250: ip-proto-17
+18:29:04.760161 IP 172.16.16.62.54382 > 255.255.255.255.3707: UDP, bad length 2101 > 1472
+18:29:04.760162 IP 172.16.16.62 > 255.255.255.255: ip-proto-17
+18:29:04.760338 IP 172.16.18.231.3702 > 239.255.255.250.3702: UDP, bad length 1754 > 1472
+18:29:04.760338 IP 172.16.18.231 > 239.255.255.250: ip-proto-17
+18:29:04.761927 IP 172.16.18.235.3702 > 239.255.255.250.3702: UDP, bad length 1754 > 1472
+18:29:04.761957 IP 172.16.18.235 > 239.255.255.250: ip-proto-17
+18:29:04.763058 IP 172.16.18.221.3702 > 239.255.255.250.3702: UDP, bad length 1754 > 1472
+18:29:04.763058 IP 172.16.18.221 > 239.255.255.250: ip-proto-17
+18:29:04.763173 IP 172.16.18.224.3702 > 239.255.255.250.3702: UDP, bad length 1754 > 1472
+18:29:04.763190 IP 172.16.18.224 > 239.255.255.250: ip-proto-17
+18:29:04.763572 IP 172.16.18.226.3702 > 239.255.255.250.3702: UDP, bad length 1754 > 1472
+18:29:04.763616 IP 172.16.18.226 > 239.255.255.250: ip-proto-17
+18:29:04.765318 IP 172.16.22.141.33348 > 142.250.67.46.443: Flags [P.], seq 2079838621:2079838645, ack 4192823869, win 364, options [nop,nop,TS val 3106155476 ecr 2255468980], length 24
+18:29:04.765504 IP 172.16.18.228.3702 > 239.255.255.250.3702: UDP, bad length 1754 > 1472
+18:29:04.765625 IP 172.16.18.232.3702 > 239.255.255.250.3702: UDP, bad length 1754 > 1472
+18:29:04.765643 IP 172.16.18.228 > 239.255.255.250: ip-proto-17
+18:29:04.765676 IP 172.16.18.232 > 239.255.255.250: ip-proto-17
+18:29:04.765803 IP 172.16.18.212.3702 > 239.255.255.250.3702: UDP, bad length 1754 > 1472
+18:29:04.765820 IP 172.16.18.212 > 239.255.255.250: ip-proto-17
+18:29:04.765880 IP 172.16.22.141.33348 > 142.250.67.46.443: Flags [F.], seq 24, ack 1, win 364, options [nop,nop,TS val 3106155477 ecr 2255468980], length 0
+18:29:04.766568 IP 172.16.18.239.3702 > 239.255.255.250.3702: UDP, bad length 1754 > 1472
+18:29:04.766616 IP 172.16.18.239 > 239.255.255.250: ip-proto-17
+18:29:04.766939 IP 172.16.18.230.3702 > 239.255.255.250.3702: UDP, bad length 1754 > 1472
+18:29:04.766995 IP 172.16.18.230 > 239.255.255.250: ip-proto-17
+18:29:04.767436 IP 172.16.18.222.3702 > 239.255.255.250.3702: UDP, bad length 1754 > 1472
+18:29:04.767664 IP 172.16.18.222 > 239.255.255.250: ip-proto-17
+18:29:04.768305 IP 172.16.18.219.3702 > 239.255.255.250.3702: UDP, bad length 1754 > 1472
+18:29:04.768305 IP 172.16.18.219 > 239.255.255.250: ip-proto-17
+18:29:04.770026 IP 172.16.18.210.3702 > 239.255.255.250.3702: UDP, bad length 1754 > 1472
+18:29:04.770070 IP 172.16.18.210 > 239.255.255.250: ip-proto-17
+18:29:04.770172 IP 172.16.18.204.3702 > 239.255.255.250.3702: UDP, bad length 1754 > 1472
+18:29:04.770189 IP 172.16.18.204 > 239.255.255.250: ip-proto-17
+18:29:04.770573 IP 172.16.18.241.3702 > 239.255.255.250.3702: UDP, bad length 1754 > 1472
+18:29:04.770621 IP 172.16.18.241 > 239.255.255.250: ip-proto-17
+18:29:04.770725 IP 172.16.18.218.3702 > 239.255.255.250.3702: UDP, bad length 1754 > 1472
+18:29:04.770743 IP 172.16.18.218 > 239.255.255.250: ip-proto-17
+18:29:04.770994 IP 172.16.18.237.3702 > 239.255.255.250.3702: UDP, bad length 1754 > 1472
+18:29:04.771011 IP 172.16.18.237 > 239.255.255.250: ip-proto-17
+18:29:04.771249 IP 172.16.16.62.38034 > 255.255.255.255.3707: UDP, bad length 2101 > 1472
+18:29:04.771299 IP 172.16.16.62 > 255.255.255.255: ip-proto-17
+18:29:04.772612 IP 172.16.18.223.3702 > 239.255.255.250.3702: UDP, bad length 1754 > 1472
+18:29:04.772647 IP 172.16.18.223 > 239.255.255.250: ip-proto-17
+18:29:04.773612 IP 172.16.18.205.3702 > 239.255.255.250.3702: UDP, bad length 1754 > 1472
+18:29:04.773631 IP 172.16.18.205 > 239.255.255.250: ip-proto-17
+18:29:04.776118 IP 172.16.18.236.3702 > 239.255.255.250.3702: UDP, bad length 1754 > 1472
+18:29:04.776118 IP 172.16.18.236 > 239.255.255.250: ip-proto-17
+18:29:04.776349 IP 172.16.18.221.3702 > 239.255.255.250.3702: UDP, bad length 1754 > 1472
+18:29:04.776366 IP 172.16.18.221 > 239.255.255.250: ip-proto-17
+18:29:04.777625 IP 172.16.20.51.54915 > 172.16.23.255.54915: UDP, length 263
+18:29:04.778535 IP 172.16.18.214.3702 > 239.255.255.250.3702: UDP, bad length 1754 > 1472
+18:29:04.778564 IP 172.16.18.214 > 239.255.255.250: ip-proto-17
+18:29:04.779352 IP 172.16.18.239.3702 > 239.255.255.250.3702: UDP, bad length 1754 > 1472
+18:29:04.779386 IP 172.16.18.239 > 239.255.255.250: ip-proto-17
+18:29:04.779499 IP 172.16.18.224.3702 > 239.255.255.250.3702: UDP, bad length 1754 > 1472
+18:29:04.779515 IP 172.16.18.224 > 239.255.255.250: ip-proto-17
+18:29:04.781489 IP 172.16.16.62.45331 > 255.255.255.255.3707: UDP, bad length 2098 > 1472
+18:29:04.781535 IP 172.16.16.62 > 255.255.255.255: ip-proto-17
+18:29:04.783286 IP 172.16.18.233.3702 > 239.255.255.250.3702: UDP, bad length 1754 > 1472
+18:29:04.783286 IP 172.16.18.233 > 239.255.255.250: ip-proto-17
+18:29:04.783316 IP6 fe80::c1c4:a11d:a524:51db > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:04.784107 IP 172.16.18.223.3702 > 239.255.255.250.3702: UDP, bad length 1754 > 1472
+18:29:04.784108 IP 172.16.18.223 > 239.255.255.250: ip-proto-17
+18:29:04.784839 IP 172.16.18.230.3702 > 239.255.255.250.3702: UDP, bad length 1754 > 1472
+18:29:04.784839 IP 172.16.18.230 > 239.255.255.250: ip-proto-17
+18:29:04.786084 IP 172.16.18.238.3702 > 239.255.255.250.3702: UDP, bad length 1754 > 1472
+18:29:04.786132 IP 172.16.18.238 > 239.255.255.250: ip-proto-17
+18:29:04.787047 IP 172.16.18.203.3702 > 239.255.255.250.3702: UDP, bad length 1754 > 1472
+18:29:04.787096 IP 172.16.18.203 > 239.255.255.250: ip-proto-17
+18:29:04.787596 IP 172.16.18.245.3702 > 239.255.255.250.3702: UDP, bad length 1754 > 1472
+18:29:04.787813 IP 172.16.18.227.3702 > 239.255.255.250.3702: UDP, bad length 1754 > 1472
+18:29:04.787835 IP 172.16.18.227 > 239.255.255.250: ip-proto-17
+18:29:04.787859 IP 172.16.18.245 > 239.255.255.250: ip-proto-17
+18:29:04.789045 IP 172.16.18.205.3702 > 239.255.255.250.3702: UDP, bad length 1754 > 1472
+18:29:04.789113 IP 172.16.18.219.3702 > 239.255.255.250.3702: UDP, bad length 1754 > 1472
+18:29:04.789134 IP 172.16.18.219 > 239.255.255.250: ip-proto-17
+18:29:04.789165 IP 172.16.18.205 > 239.255.255.250: ip-proto-17
+18:29:04.789415 00:12:41:50:ad:a0 > ff:ff:ff:ff:ff:ff, ethertype Unknown (0x8033), length 416: 
+	0x0000:  2101 01f6 0000 0000 0604 0400 e693 0012  !...............
+	0x0010:  4150 ada0 ac10 1106 ffff ffff ffff 0000  AP..............
+	0x0020:  0000 ffff fc00 4453 2d32 4344 3354 3230  ......DS-2CD3T20
+	0x0030:  442d 4933 3035 3238 6130 3439 6463 3930  D-I30528a049dc90
+	0x0040:  3932 3234 0000 0000 0000 0000 0000 0000  9224............
+	0x0050:  0000 0000 0000 0002 200f 0000 1f40 0000  .............@..
+	0x0060:  0000 0000 0000 5635 2e34 2e30 6275 696c  ......V5.4.0buil
+	0x0070:  6420 3136 3036 3031 0000 0000 0000 0000  d.160601........
+	0x0080:  0000 0000 0000 0000 0000 0000 0000 0000  ................
+	0x0090:  0000 0000 0000 5637 2e33 2062 7569 6c64  ......V7.3.build
+	0x00a0:  2031 3630 3731 3300 0000 0000 0000 0000  .160713.........
+	0x00b0:  0000 0000 0000 0000 0000 0000 0000 0000  ................
+	0x00c0:  0000 0000 0000 3230 3232 2d30 382d 3233  ......2022-08-23
+	0x00d0:  2031 343a 3438 3a35 3500 0000 0000 0000  .14:48:55.......
+	0x00e0:  0000 0000 0000 0000 0000 0000 0000 0000  ................
+	0x00f0:  0000 0000 0000 029c 89db ac10 1001 0000  ................
+	0x0100:  0000 0000 0000 0000 0000 0000 0000 0000  ................
+	0x0110:  0000 0000 0000 0000 0000 0000 0000 004f  ...............O
+	0x0120:  0000 0000 0000 0000 0000 0000 0000 0000  ................
+	0x0130:  0000 0000 0000 0000 0000 0000 0000 0050  ...............P
+	0x0140:  0000 0000 0000 0000 0000 4453 2d32 4344  ..........DS-2CD
+	0x0150:  5654 2d43 4d4d 2d53 0000 0000 0000 0000  VT-CMM-S........
+	0x0160:  0000 4453 2d32 4344 3354 3230 442d 4933  ..DS-2CD3T20D-I3
+	0x0170:  0000 0000 0000 0000 0000 0000 0000 0000  ................
+	0x0180:  0000 0000 0000 0000 0000 0000 0000 0000  ................
+	0x0190:  0000                                     ..
+18:29:04.790054 IP 172.16.18.222.3702 > 239.255.255.250.3702: UDP, bad length 1754 > 1472
+18:29:04.790054 IP 172.16.18.222 > 239.255.255.250: ip-proto-17
+18:29:04.792045 IP 172.16.18.229.3702 > 239.255.255.250.3702: UDP, bad length 1754 > 1472
+18:29:04.792046 IP 172.16.18.229 > 239.255.255.250: ip-proto-17
+18:29:04.792196 IP 172.16.18.210.3702 > 239.255.255.250.3702: UDP, bad length 1754 > 1472
+18:29:04.792196 IP 172.16.18.210 > 239.255.255.250: ip-proto-17
+18:29:04.792635 IP 172.16.16.62.60693 > 255.255.255.255.3707: UDP, bad length 2098 > 1472
+18:29:04.792635 IP 172.16.16.62 > 255.255.255.255: ip-proto-17
+18:29:04.792854 IP 172.16.18.211.3702 > 239.255.255.250.3702: UDP, bad length 1754 > 1472
+18:29:04.792889 IP 172.16.18.211 > 239.255.255.250: ip-proto-17
+18:29:04.795049 IP 142.250.67.46.443 > 172.16.22.141.33348: Flags [R], seq 4192823869, win 0, length 0
+18:29:04.795272 IP 172.16.18.243.3702 > 239.255.255.250.3702: UDP, bad length 1754 > 1472
+18:29:04.795289 IP 172.16.18.243 > 239.255.255.250: ip-proto-17
+18:29:04.798025 IP 172.16.18.234.3702 > 239.255.255.250.3702: UDP, bad length 1754 > 1472
+18:29:04.798025 IP 172.16.18.234 > 239.255.255.250: ip-proto-17
+18:29:04.800904 IP 172.16.18.218.3702 > 239.255.255.250.3702: UDP, bad length 1754 > 1472
+18:29:04.800904 IP 172.16.18.218 > 239.255.255.250: ip-proto-17
+18:29:04.803191 IP 172.16.16.62.40625 > 255.255.255.255.3705: UDP, bad length 2080 > 1472
+18:29:04.803191 IP 172.16.16.62 > 255.255.255.255: ip-proto-17
+18:29:04.803191 IP 172.16.18.228.3702 > 239.255.255.250.3702: UDP, bad length 1754 > 1472
+18:29:04.803192 IP 172.16.18.228 > 239.255.255.250: ip-proto-17
+18:29:04.803517 IP 172.16.18.204.3702 > 239.255.255.250.3702: UDP, bad length 1754 > 1472
+18:29:04.803534 IP 172.16.18.204 > 239.255.255.250: ip-proto-17
+18:29:04.806231 IP 172.16.18.245.3702 > 239.255.255.250.3702: UDP, bad length 1754 > 1472
+18:29:04.806232 IP 172.16.18.245 > 239.255.255.250: ip-proto-17
+18:29:04.806828 IP 172.16.18.238.3702 > 239.255.255.250.3702: UDP, bad length 1754 > 1472
+18:29:04.806852 IP 172.16.18.238 > 239.255.255.250: ip-proto-17
+18:29:04.807462 IP 172.16.18.215.3702 > 239.255.255.250.3702: UDP, bad length 1754 > 1472
+18:29:04.807484 IP 172.16.18.215 > 239.255.255.250: ip-proto-17
+18:29:04.808250 IP 172.16.18.242.3702 > 239.255.255.250.3702: UDP, bad length 1754 > 1472
+18:29:04.809083 IP 172.16.18.237.3702 > 239.255.255.250.3702: UDP, bad length 1754 > 1472
+18:29:04.809084 IP 172.16.18.237 > 239.255.255.250: ip-proto-17
+18:29:04.809737 IP 172.16.18.216.3702 > 239.255.255.250.3702: UDP, bad length 1754 > 1472
+18:29:04.809737 IP 172.16.18.216 > 239.255.255.250: ip-proto-17
+18:29:04.810468 IP 172.16.18.244.3702 > 239.255.255.250.3702: UDP, bad length 1754 > 1472
+18:29:04.810517 IP 172.16.18.244 > 239.255.255.250: ip-proto-17
+18:29:04.813526 IP 172.16.16.62.58352 > 255.255.255.255.3705: UDP, bad length 2080 > 1472
+18:29:04.813527 IP 172.16.16.62 > 255.255.255.255: ip-proto-17
+18:29:04.813527 IP 172.16.18.220.3702 > 239.255.255.250.3702: UDP, bad length 1754 > 1472
+18:29:04.813527 IP 172.16.18.220 > 239.255.255.250: ip-proto-17
+18:29:04.813914 IP 172.16.18.231.3702 > 239.255.255.250.3702: UDP, bad length 1754 > 1472
+18:29:04.813914 IP 172.16.18.231 > 239.255.255.250: ip-proto-17
+18:29:04.814387 IP 172.16.18.229.3702 > 239.255.255.250.3702: UDP, bad length 1754 > 1472
+18:29:04.814387 IP 172.16.18.229 > 239.255.255.250: ip-proto-17
+18:29:04.815483 IP 172.16.18.214.3702 > 239.255.255.250.3702: UDP, bad length 1754 > 1472
+18:29:04.815534 IP 172.16.18.214 > 239.255.255.250: ip-proto-17
+18:29:04.820900 IP6 fe80::4da5:8b8a:86b1:fedb > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+18:29:04.828748 IP 172.16.18.240.3702 > 239.255.255.250.3702: UDP, bad length 1754 > 1472
+18:29:04.828748 IP 172.16.18.240 > 239.255.255.250: ip-proto-17
+18:29:04.828748 IP 172.16.18.241.3702 > 239.255.255.250.3702: UDP, bad length 1754 > 1472
+18:29:04.828748 IP 172.16.18.241 > 239.255.255.250: ip-proto-17
+18:29:04.838683 IP 172.16.18.217.3702 > 239.255.255.250.3702: UDP, bad length 1754 > 1472
+18:29:04.838683 IP 172.16.18.217 > 239.255.255.250: ip-proto-17
+18:29:04.840834 IP 172.16.18.234.3702 > 239.255.255.250.3702: UDP, bad length 1754 > 1472
+18:29:04.840835 IP 172.16.18.234 > 239.255.255.250: ip-proto-17
+18:29:04.841102 IP6 fe80::1496:ef6c:4640:935a > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:04.852669 IP 172.16.18.216.3702 > 239.255.255.250.3702: UDP, bad length 1754 > 1472
+18:29:04.852670 IP 172.16.18.216 > 239.255.255.250: ip-proto-17
+18:29:04.874802 IP 172.16.18.203.3702 > 239.255.255.250.3702: UDP, bad length 1754 > 1472
+18:29:04.874803 IP 172.16.18.203 > 239.255.255.250: ip-proto-17
+18:29:04.874803 IP6 fe80::88a2:5451:b35:8b9c > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:04.879251 IP6 fe80::8c40:3f90:e784:6aa7 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:04.897693 IP6 fe80::53e:b5a5:4c04:f118 > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+18:29:04.907511 IP6 fe80::d84d:4aba:3bb9:d64b > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:04.912768 IP 172.16.17.17.37020 > 239.255.255.250.37020: UDP, length 997
+18:29:04.920838 IP6 fe80::f417:f692:21ae:e91d > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:04.935455 IP 172.16.17.6.59812 > 255.255.255.255.34569: UDP, length 599
+18:29:04.963344 IP 172.16.23.3.58439 > 239.255.255.250.1900: UDP, length 125
+18:29:04.964964 IP6 fe80::a15b:ba71:8d8b:ca0e > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:04.991582 IP6 fe80::25f9:cdc3:1476:de40 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:05.002203 IP 172.16.21.82.64369 > 239.255.255.250.1900: UDP, length 175
+18:29:05.008521 IP 172.16.16.61.60113 > 239.255.255.250.1900: UDP, length 137
+18:29:05.010612 IP 172.16.17.16.37020 > 239.255.255.250.37020: UDP, length 997
+18:29:05.013493 IP 172.16.17.5.37020 > 239.255.255.250.37020: UDP, length 996
+18:29:05.034793 IP6 fe80::5588:c224:7cb4:fe04 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:05.035941 IP 34.120.52.64.443 > 172.16.22.141.54358: Flags [P.], seq 345:384, ack 198, win 754, options [nop,nop,TS val 340175025 ecr 1593426504], length 39
+18:29:05.035988 IP 172.16.22.141.54358 > 34.120.52.64.443: Flags [.], ack 40, win 501, options [nop,nop,TS val 1593426824 ecr 340174654,nop,nop,sack 1 {345:384}], length 0
+18:29:05.043842 ARP, Request who-has 172.16.18.201 tell 172.16.16.61, length 46
+18:29:05.047459 IP 172.16.17.3.37020 > 239.255.255.250.37020: UDP, length 996
+18:29:05.051931 IP 192.168.1.10.37020 > 239.255.255.250.37020: UDP, length 997
+18:29:05.055386 IP6 fe80::dc70:5b02:94ba:4d35 > ff02::16: HBH ICMP6, multicast listener report v2, 3 group record(s), length 68
+18:29:05.056035 IP 172.16.17.20.37020 > 239.255.255.250.37020: UDP, length 997
+18:29:05.058359 IP 34.120.52.64.443 > 172.16.22.141.54358: Flags [P.], seq 40:345, ack 198, win 754, options [nop,nop,TS val 340175048 ecr 1593426824], length 305
+18:29:05.058422 IP 172.16.22.141.54358 > 34.120.52.64.443: Flags [.], ack 384, win 501, options [nop,nop,TS val 1593426846 ecr 340175048], length 0
+18:29:05.061603 IP 172.16.22.141.54358 > 34.120.52.64.443: Flags [P.], seq 198:233, ack 384, win 501, options [nop,nop,TS val 1593426849 ecr 340175048], length 35
+18:29:05.061637 IP 172.16.22.141.54358 > 34.120.52.64.443: Flags [P.], seq 233:272, ack 384, win 501, options [nop,nop,TS val 1593426849 ecr 340175048], length 39
+18:29:05.067306 IP6 fe80::c9d6:e1ba:c24d:fdaf > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:05.069270 IP6 fe80::793b:26fb:3e6c:f7d0 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:05.082658 IP 34.120.52.64.443 > 172.16.22.141.54358: Flags [.], ack 272, win 754, options [nop,nop,TS val 340175073 ecr 1593426849], length 0
+18:29:05.085306 IP 172.16.22.141.14500 > 106.200.65.8.4500: isakmp-nat-keep-alive
+18:29:05.088824 IP 172.16.17.16.51885 > 255.255.255.255.34569: UDP, length 599
+18:29:05.089266 IP 172.16.17.6.37020 > 239.255.255.250.37020: UDP, length 996
+18:29:05.091331 IP 192.168.1.194.51816 > 239.255.255.250.1900: UDP, length 137
+18:29:05.095981 IP 172.16.17.14.37020 > 239.255.255.250.37020: UDP, length 997
+18:29:05.128993 IP6 fe80::8ce6:682f:b377:a86a > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:05.131964 IP6 fe80::acd7:777a:a50e:6510 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:05.176675 IP6 fe80::3899:7169:a619:b029 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:05.192950 IP 172.16.21.187.58278 > 239.255.255.250.1900: UDP, length 175
+18:29:05.203966 IP 172.16.20.14.58094 > 255.255.255.255.3956: UDP, length 8
+18:29:05.207314 IP6 fe80::dd68:5bf4:1a72:9eb3 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:05.207729 IP 172.16.22.34.57298 > 239.255.255.250.1900: UDP, length 175
+18:29:05.217594 IP6 fe80::bdbd:b22c:8fb4:f260 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:05.231107 IP 172.16.21.190.51382 > 239.255.255.250.1900: UDP, length 137
+18:29:05.240437 IP 172.16.17.17.39851 > 255.255.255.255.34569: UDP, length 599
+18:29:05.245937 IP6 fe80::9559:a30b:c814:7c2d > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:05.252494 IP6 fe80::4c8a:ce3d:1fe4:940d > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:05.265940 IP6 fe80::98cc:b2af:ecf2:91de > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+18:29:05.269541 IP6 fe80::a582:c89e:c4f2:d09b > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+18:29:05.270175 IP 172.16.23.3.58439 > 239.255.255.250.1900: UDP, length 125
+18:29:05.275112 IP6 fe80::59ef:870a:f5db:6c2b > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:05.282586 IP6 fe80::81fe:2c28:4e99:a038 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:05.294233 IP 172.16.16.43.33897 > 255.255.255.255.7437: UDP, length 173
+18:29:05.313172 IP 172.16.17.20.54968 > 255.255.255.255.34569: UDP, length 599
+18:29:05.347893 IP6 fe80::58d6:1ec3:432d:37cb > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:05.380110 IP 192.168.1.10.34403 > 255.255.255.255.34569: UDP, length 599
+18:29:05.421323 IP 172.16.17.5.60569 > 255.255.255.255.34569: UDP, length 599
+18:29:05.460348 IP 172.16.20.51.55065 > 224.2.2.2.8995: UDP, length 30
+18:29:05.467480 ARP, Request who-has 172.16.16.42 tell 172.16.22.173, length 46
+18:29:05.484766 IP6 fe80::2d67:e177:bb12:a84d > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:05.494304 IP6 fe80::d102:b0a7:4da1:28d4 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:05.502475 IP 172.16.20.14.55341 > 255.255.255.255.3956: UDP, length 8
+18:29:05.502693 IP 172.16.20.14.58855 > 255.255.255.255.3956: UDP, length 8
+18:29:05.503486 IP6 fe80::49ce:5074:503b:bdd > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:05.519309 ARP, Request who-has 172.16.17.13 tell 172.16.16.60, length 46
+18:29:05.519310 ARP, Request who-has 172.16.17.10 tell 172.16.16.60, length 46
+18:29:05.519310 ARP, Request who-has 172.16.17.15 tell 172.16.16.60, length 46
+18:29:05.519310 ARP, Request who-has 172.16.17.12 tell 172.16.16.60, length 46
+18:29:05.519310 ARP, Request who-has 172.16.17.11 tell 172.16.16.60, length 46
+18:29:05.519310 ARP, Request who-has 172.16.17.4 tell 172.16.16.60, length 46
+18:29:05.519310 ARP, Request who-has 172.16.17.19 tell 172.16.16.60, length 46
+18:29:05.532046 IP6 fe80::5170:c21c:636c:2bda > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:05.534388 IP 172.16.17.14.41332 > 255.255.255.255.34569: UDP, length 599
+18:29:05.591423 ARP, Request who-has 172.16.18.209 tell 172.16.16.61, length 46
+18:29:05.605042 IP 172.16.17.3.60065 > 255.255.255.255.34569: UDP, length 599
+18:29:05.630910 ARP, Request who-has 172.16.18.225 tell 172.16.16.61, length 46
+18:29:05.632515 IP6 fe80::acd7:777a:a50e:6510 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:05.645433 IP6 fe80::842f:c9ff:fe7a:da00 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:05.704924 IP6 fe80::6006:278d:e565:7d5d > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:05.708260 IP6 fe80::bdbd:b22c:8fb4:f260 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:05.720138 IP6 fe80::7984:7d8f:92cc:9100 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:05.743829 IP6 fe80::9559:a30b:c814:7c2d > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:05.744574 IP6 fe80::3db4:de3c:3d48:6c23 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:05.744894 IP 172.16.16.45.45088 > 255.255.255.255.7437: UDP, length 173
+18:29:05.749228 IP6 fe80::ec24:311e:f47:4736 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:05.774842 IP 172.16.17.5.54870 > 255.255.255.255.34569: UDP, length 599
+18:29:05.779906 IP 172.16.17.3.43741 > 255.255.255.255.34569: UDP, length 599
+18:29:05.781128 IP 172.16.20.51.54915 > 172.16.23.255.54915: UDP, length 263
+18:29:05.782699 IP 172.16.17.6.41158 > 255.255.255.255.34569: UDP, length 599
+18:29:05.792110 IP 172.16.17.17.53551 > 255.255.255.255.34569: UDP, length 599
+18:29:05.792454 IP6 fe80::51c5:152a:66af:872c > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+18:29:05.798007 ARP, Request who-has 172.16.19.3 tell 172.16.16.62, length 46
+18:29:05.798007 ARP, Request who-has 172.16.19.2 tell 172.16.16.62, length 46
+18:29:05.798007 ARP, Request who-has 172.16.19.15 tell 172.16.16.62, length 46
+18:29:05.798007 ARP, Request who-has 172.16.19.14 tell 172.16.16.62, length 46
+18:29:05.798007 ARP, Request who-has 172.16.19.27 tell 172.16.16.62, length 46
+18:29:05.798007 ARP, Request who-has 172.16.19.30 tell 172.16.16.62, length 46
+18:29:05.798745 IP 172.16.17.20.44980 > 255.255.255.255.34569: UDP, length 599
+18:29:05.809030 IP 172.16.17.16.60221 > 255.255.255.255.34569: UDP, length 599
+18:29:05.816283 IP6 :: > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+18:29:05.824483 IP 172.16.17.14.56546 > 255.255.255.255.34569: UDP, length 599
+18:29:05.826523 IP6 fe80::50ac:138b:1dad:5a14 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:05.838455 IP 192.168.1.10.56564 > 255.255.255.255.34569: UDP, length 599
+18:29:05.846126 ARP, Request who-has 172.16.16.1 tell 172.16.20.32, length 46
+18:29:05.853202 IP6 fe80::1496:ef6c:4640:935a > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:05.874105 IP6 fe80::6448:49fc:25b:fc78 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:05.874645 IP6 :: > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+18:29:05.907920 IP6 fe80::4996:6b00:d798:9eb9 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:05.918428 IP6 fe80::d91b:8e47:3eed:8a7e > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:05.918471 IP6 fe80::f417:f692:21ae:e91d > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:05.938378 IP 172.16.23.3.5353 > 224.0.0.251.5353: 5 [2q] PTR (QM)? _233637DE._sub._googlecast._tcp.local. PTR (QM)? _googlecast._tcp.local. (61)
+18:29:05.971195 IP6 fe80::fcf6:cff:fe30:8eed > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:06.051779 ARP, Request who-has 172.16.18.201 tell 172.16.16.61, length 46
+18:29:06.070467 IP6 fe80::e870:4250:e2e0:2a41 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:06.093961 IP6 fe80::2efd:abff:fe32:5d23 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:06.104111 IP 172.16.23.210.5353 > 224.0.0.251.5353: 33 [2q] PTR (QM)? _233637DE._sub._googlecast._tcp.local. PTR (QM)? _googlecast._tcp.local. (61)
+18:29:06.120986 ARP, Request who-has 172.16.16.61 tell 172.16.16.61, length 46
+18:29:06.138249 IP 172.16.16.44.50767 > 255.255.255.255.7437: UDP, length 173
+18:29:06.160029 ARP, Request who-has 172.16.19.27 tell 0.0.0.0, length 46
+18:29:06.187370 IP6 fe80::9c0b:c45f:8f49:a27b > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:06.202149 IP 172.16.21.187.58278 > 239.255.255.250.1900: UDP, length 175
+18:29:06.212602 IP 172.16.22.34.57298 > 239.255.255.250.1900: UDP, length 175
+18:29:06.217728 IP6 fe80::988:549e:97e4:bda2 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:06.227124 IP 172.16.21.212.6771 > 239.192.152.143.6771: UDP, length 136
+18:29:06.227415 IP6 fe80::20ec:cdcf:5acc:2262.54910 > ff15::efc0:988f.6771: UDP, length 138
+18:29:06.227718 IP6 fe80::20ec:cdcf:5acc:2262.6771 > ff15::efc0:988f.6771: UDP, length 138
+18:29:06.227879 IP6 fe80::20ec:cdcf:5acc:2262.6771 > ff15::efc0:988f.6771: UDP, length 138
+18:29:06.234949 IP6 fe80::f267:28ff:fea4:4829 > ff02::16: HBH ICMP6, multicast listener report v2, 4 group record(s), length 88
+18:29:06.243872 ARP, Request who-has 172.16.16.1 tell 172.16.20.67, length 46
+18:29:06.251967 IP6 fe80::5b58:6f6e:b167:21f1 > ff02::16: HBH ICMP6, multicast listener report v2, 5 group record(s), length 108
+18:29:06.255843 IP6 fe80::9559:a30b:c814:7c2d > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:06.262201 IP6 fe80::e450:6605:4185:292c > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:06.270343 IP6 fe80::59ef:870a:f5db:6c2b > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:06.282415 IP6 fe80::81fe:2c28:4e99:a038 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:06.283440 IP 172.16.21.101.55766 > 239.255.255.250.1900: UDP, length 125
+18:29:06.285712 ARP, Request who-has 172.16.16.42 tell 172.16.22.173, length 46
+18:29:06.363898 IP6 fe80::98d3:f19e:363b:bb0e > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+18:29:06.431279 IP6 fe80::8011:34ca:a970:61d9 > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+18:29:06.433153 IP6 fe80::944:abbf:5e52:4c5 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:06.459155 IP 172.16.20.51.55065 > 224.2.2.2.8995: UDP, length 30
+18:29:06.507600 IP6 :: > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+18:29:06.513346 IP6 fe80::1570:a194:cbcd:832a > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:06.520135 ARP, Request who-has 172.16.17.11 tell 172.16.16.60, length 46
+18:29:06.520135 ARP, Request who-has 172.16.17.15 tell 172.16.16.60, length 46
+18:29:06.520135 ARP, Request who-has 172.16.17.13 tell 172.16.16.60, length 46
+18:29:06.520135 ARP, Request who-has 172.16.17.10 tell 172.16.16.60, length 46
+18:29:06.520136 ARP, Request who-has 172.16.17.12 tell 172.16.16.60, length 46
+18:29:06.520136 ARP, Request who-has 172.16.17.19 tell 172.16.16.60, length 46
+18:29:06.520136 ARP, Request who-has 172.16.17.4 tell 172.16.16.60, length 46
+18:29:06.533160 IP6 fe80::5170:c21c:636c:2bda > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:06.533161 IP6 fe80::3185:8d64:ffcc:f7a6 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:06.558247 IP6 fe80::d084:7c1a:10d8:e0c1 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:06.558411 IP6 fe80::f4c2:fa8a:2e3a:a9be > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:06.568395 IP6 fe80::e870:4250:e2e0:2a41 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:06.573973 IP6 fe80::793b:26fb:3e6c:f7d0 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:06.581467 IP6 fe80::d408:dba5:4cbb:5033 > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+18:29:06.584633 IP6 fe80::3dd0:2628:8b28:d13a > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:06.587115 IP 172.16.21.101.55766 > 239.255.255.250.1900: UDP, length 125
+18:29:06.631333 ARP, Request who-has 172.16.18.225 tell 172.16.16.61, length 46
+18:29:06.640137 IP6 fe80::f710:8716:8962:46bc > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+18:29:06.645754 IP6 fe80::66db:8bff:fea4:60e1 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:06.650954 IP6 fe80::916a:caee:b374:38e7 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:06.677517 ARP, Request who-has 172.16.16.1 tell 172.16.20.32, length 46
+18:29:06.679914 IP6 fe80::9cdc:62f:ae47:ae2c > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:06.694717 IP 172.16.19.169.5353 > 224.0.0.251.5353: 6 [2q] PTR (QM)? _8DA7527D._sub._googlecast._tcp.local. PTR (QM)? _googlecast._tcp.local. (61)
+18:29:06.715301 IP 192.168.1.1.45690 > 255.255.255.255.7437: UDP, length 173
+18:29:06.717722 IP6 fe80::988:549e:97e4:bda2 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:06.748023 IP6 fe80::4f6:d0b9:b469:6b44 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:06.772912 IP 172.16.20.51.54915 > 172.16.23.255.54915: UDP, length 263
+18:29:06.775950 IP6 fe80::c1c4:a11d:a524:51db > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:06.779146 ARP, Request who-has 172.16.19.1 tell 172.16.16.62, length 46
+18:29:06.779309 ARP, Request who-has 172.16.19.13 tell 172.16.16.62, length 46
+18:29:06.779309 ARP, Request who-has 172.16.19.26 tell 172.16.16.62, length 46
+18:29:06.779309 ARP, Request who-has 172.16.19.29 tell 172.16.16.62, length 46
+18:29:06.779310 ARP, Request who-has 172.16.19.28 tell 172.16.16.62, length 46
+18:29:06.779310 ARP, Request who-has 172.16.19.31 tell 172.16.16.62, length 46
+18:29:06.780753 IP6 fe80::81fe:2c28:4e99:a038 > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+18:29:06.781146 ARP, Request who-has 172.16.19.39 (50:22:dd:9f:18:8e) tell 172.16.16.62, length 46
+18:29:06.786566 IP6 fe80::51c5:152a:66af:872c > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:06.792100 IP6 fe80::5b58:6f6e:b167:21f1 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:06.794166 ARP, Request who-has 172.16.19.12 (28:3c:f8:ab:18:8e) tell 172.16.16.62, length 46
+18:29:06.797826 ARP, Request who-has 172.16.19.2 tell 172.16.16.62, length 46
+18:29:06.797827 ARP, Request who-has 172.16.19.3 tell 172.16.16.62, length 46
+18:29:06.797827 ARP, Request who-has 172.16.19.15 tell 172.16.16.62, length 46
+18:29:06.797827 ARP, Request who-has 172.16.19.27 tell 172.16.16.62, length 46
+18:29:06.797827 ARP, Request who-has 172.16.19.14 tell 172.16.16.62, length 46
+18:29:06.797827 ARP, Request who-has 172.16.19.30 tell 172.16.16.62, length 46
+18:29:06.827506 IP6 fe80::8411:a8b:ff1:491c > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:06.850974 IP 142.251.12.188.5228 > 172.16.22.63.61676: Flags [P.], seq 0:24, ack 1, win 265, options [nop,nop,TS val 3244734490 ecr 110792304], length 24
+18:29:06.859539 IP6 fe80::98d3:f19e:363b:bb0e > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:06.883748 IP 172.16.21.101.55766 > 239.255.255.250.1900: UDP, length 125
+18:29:06.906946 IP6 fe80::d84d:4aba:3bb9:d64b > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:06.925138 IP6 fe80::d91b:8e47:3eed:8a7e > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:06.933806 IP6 fe80::944:abbf:5e52:4c5 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:06.934653 IP6 fe80::5b3c:92ff:ff27:a6f0 > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+18:29:06.943289 ARP, Request who-has 172.16.19.179 tell 172.16.19.70, length 46
+18:29:06.948314 IP6 fe80::7038:40c7:b3bb:12c4 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:06.951287 IP6 fe80::78d5:dfd:a51f:c96b > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:06.977528 IP6 fe80::20ec:cdcf:5acc:2262 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:06.979344 IP6 fe80::25f9:cdc3:1476:de40 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:06.986712 IP6 fe80::8c1c:a239:a32b:5f03 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:07.027886 IP6 fe80::28ba:859:a471:449f > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:07.028092 IP6 fe80::d934:8f72:fad6:13de > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+18:29:07.034276 ARP, Request who-has 172.16.16.249 tell 172.16.16.202, length 46
+18:29:07.034496 IP6 fe80::5588:c224:7cb4:fe04 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:07.094256 IP 172.16.16.61.47018 > 239.255.255.250.1900: UDP, length 137
+18:29:07.137701 IP6 fe80::acd7:777a:a50e:6510 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:07.213063 IP 172.16.22.34.57298 > 239.255.255.250.1900: UDP, length 175
+18:29:07.251279 IP6 fe80::e8b4:ba40:af25:41b8 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:07.253377 IP6 fe80::5b58:6f6e:b167:21f1 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:07.267056 IP6 fe80::59ef:870a:f5db:6c2b > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+18:29:07.275703 ARP, Request who-has 172.16.16.42 tell 172.16.22.173, length 46
+18:29:07.276559 IP6 fe80::a026:fc0:d0bc:96d4 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:07.276799 IP 172.16.23.171.5353 > 224.0.0.251.5353: 0 [3q] [3n] ANY (QM)? {"nm":"Redmi Note 9 Pro Max","as":"[8194]","ip":"171"}._mi-connect._udp.local. ANY (QM)? Android-2.local. ANY (QM)? Android-2.local. (181)
+18:29:07.277778 IP6 fe80::5b58:6f6e:b167:21f1.5353 > ff02::fb.5353: 0 [3q] [3n] ANY (QM)? {"nm":"Redmi Note 9 Pro Max","as":"[8194]","ip":"171"}._mi-connect._udp.local. ANY (QM)? Android-2.local. ANY (QM)? Android-2.local. (181)
+18:29:07.290694 IP6 fe80::fdb3:9545:64fc:e722 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:07.330762 IP 172.16.20.14.58094 > 255.255.255.255.3956: UDP, length 8
+18:29:07.330817 ARP, Request who-has 172.16.20.169 tell 172.16.16.20, length 46
+18:29:07.330817 IP6 fe80::8411:a8b:ff1:491c > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:07.350486 IP6 fe80::58d6:1ec3:432d:37cb > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:07.385684 IP6 fe80::4996:6b00:d798:9eb9 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:07.423074 IP6 fe80::d91b:8e47:3eed:8a7e > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:07.430847 ARP, Request who-has 172.16.21.196 tell 172.16.16.1, length 46
+18:29:07.433191 IP6 fe80::944:abbf:5e52:4c5 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:07.458712 IP 172.16.20.51.55065 > 224.2.2.2.8995: UDP, length 30
+18:29:07.465082 IP6 fe80::7caf:cea2:c66c:57ba > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:07.472464 IP6 fe80::8dc1:3c6f:68fc:6c7a > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:07.472998 IP6 fe80::20ec:cdcf:5acc:2262 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:07.475036 ARP, Request who-has 172.16.21.196 tell 172.16.16.1, length 46
+18:29:07.478448 IP 172.16.22.6.64305 > 255.255.255.255.161:  C="canon_admin" GetRequest(104)  .1.3.6.1.4.1.1602.1.3.1.13.0 .1.3.6.1.4.1.1602.1.2.1.8.1.3.1.1 .1.3.6.1.4.1.1602.1.1.1.1.0 .1.3.6.1.4.1.1602.1.1.1.10.0 .1.3.6.1.4.1.1602.1.3.1.12.0
+18:29:07.478747 IP 172.16.22.6.64308 > 255.255.255.255.161:  C="canon_admin" GetRequest(104)  .1.3.6.1.4.1.1602.1.3.1.13.0 .1.3.6.1.4.1.1602.1.2.1.8.1.3.1.1 .1.3.6.1.4.1.1602.1.1.1.1.0 .1.3.6.1.4.1.1602.1.1.1.10.0 .1.3.6.1.4.1.1602.1.3.1.12.0
+18:29:07.486948 IP6 fe80::d102:b0a7:4da1:28d4 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:07.500119 IP6 fe80::20c:29ff:fe37:3729 > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+18:29:07.506197 IP6 :: > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+18:29:07.506538 ARP, Request who-has 169.254.30.80 tell 0.0.0.0, length 46
+18:29:07.515190 ARP, Request who-has 172.16.17.13 tell 172.16.16.60, length 46
+18:29:07.515192 ARP, Request who-has 172.16.17.4 tell 172.16.16.60, length 46
+18:29:07.515192 ARP, Request who-has 172.16.17.15 tell 172.16.16.60, length 46
+18:29:07.515192 ARP, Request who-has 172.16.17.10 tell 172.16.16.60, length 46
+18:29:07.515192 ARP, Request who-has 172.16.17.12 tell 172.16.16.60, length 46
+18:29:07.515192 ARP, Request who-has 172.16.17.19 tell 172.16.16.60, length 46
+18:29:07.527291 ARP, Request who-has 172.16.21.196 tell 172.16.16.1, length 46
+18:29:07.528294 IP 172.16.23.171.5353 > 224.0.0.251.5353: 0 [3q] [3n] ANY (QM)? {"nm":"Redmi Note 9 Pro Max","as":"[8194]","ip":"171"}._mi-connect._udp.local. ANY (QM)? Android-2.local. ANY (QM)? Android-2.local. (181)
+18:29:07.528295 IP6 fe80::d934:8f72:fad6:13de > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:07.528917 IP6 fe80::5b58:6f6e:b167:21f1.5353 > ff02::fb.5353: 0 [3q] [3n] ANY (QM)? {"nm":"Redmi Note 9 Pro Max","as":"[8194]","ip":"171"}._mi-connect._udp.local. ANY (QM)? Android-2.local. ANY (QM)? Android-2.local. (181)
+18:29:07.535291 IP6 fe80::5588:c224:7cb4:fe04 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:07.569962 ARP, Request who-has 192.168.1.10 tell 192.168.1.10, length 46
+18:29:07.602684 IP6 fe80::c581:8ff4:db26:d27a > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:07.614347 IP6 fe80::600f:5303:a718:3633 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:07.628302 IP 172.16.20.14.55341 > 255.255.255.255.3956: UDP, length 8
+18:29:07.628303 IP 172.16.20.14.58855 > 255.255.255.255.3956: UDP, length 8
+18:29:07.630789 ARP, Request who-has 172.16.18.225 tell 172.16.16.61, length 46
+18:29:07.676251 ARP, Request who-has 172.16.16.1 tell 172.16.20.32, length 46
+18:29:07.688234 IP6 fe80::d588:dd0:6de5:b3 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:07.688235 ARP, Request who-has 172.16.19.179 tell 172.16.19.70, length 46
+18:29:07.689238 ARP, Request who-has 172.16.19.38 tell 0.0.0.0, length 46
+18:29:07.717832 IP6 fe80::988:549e:97e4:bda2 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:07.719903 IP6 fe80::7984:7d8f:92cc:9100 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:07.729149 IP 172.16.16.60 > 239.255.255.251: igmp v2 report 239.255.255.251
+18:29:07.732627 ARP, Request who-has 172.16.19.11 tell 0.0.0.0, length 46
+18:29:07.761087 IP6 fe80::4c8a:ce3d:1fe4:940d > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:07.772158 IP 172.16.20.51.54915 > 172.16.23.255.54915: UDP, length 263
+18:29:07.777307 IP 172.16.23.171.5353 > 224.0.0.251.5353: 0 [3q] [3n] ANY (QM)? {"nm":"Redmi Note 9 Pro Max","as":"[8194]","ip":"171"}._mi-connect._udp.local. ANY (QM)? Android-2.local. ANY (QM)? Android-2.local. (181)
+18:29:07.778221 ARP, Request who-has 172.16.19.1 tell 172.16.16.62, length 46
+18:29:07.778222 ARP, Request who-has 172.16.19.13 tell 172.16.16.62, length 46
+18:29:07.778222 ARP, Request who-has 172.16.19.28 tell 172.16.16.62, length 46
+18:29:07.778222 ARP, Request who-has 172.16.19.26 tell 172.16.16.62, length 46
+18:29:07.778257 ARP, Request who-has 172.16.19.31 tell 172.16.16.62, length 46
+18:29:07.778257 ARP, Request who-has 172.16.19.29 tell 172.16.16.62, length 46
+18:29:07.783132 IP6 fe80::5b58:6f6e:b167:21f1.5353 > ff02::fb.5353: 0 [3q] [3n] ANY (QM)? {"nm":"Redmi Note 9 Pro Max","as":"[8194]","ip":"171"}._mi-connect._udp.local. ANY (QM)? Android-2.local. ANY (QM)? Android-2.local. (181)
+18:29:07.784774 IP6 fe80::91fa:68cb:75e1:b3f8 > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+18:29:07.826253 IP 192.168.1.1.34689 > 224.0.0.251.5353: 10993 PTR (QM)? 192.168.1.10.in-addr.arpa. (43)
+18:29:07.836520 IP 192.168.1.1.45916 > 224.0.0.251.5353: 10994 PTR (QM)? 192.168.1.10.in-addr.arpa. (43)
+18:29:07.882658 IP6 fe80::f2:4bc9:313e:81b1 > ff02::16: HBH ICMP6, multicast listener report v2, 3 group record(s), length 68
+18:29:07.885241 IP6 fe80::8c40:3f90:e784:6aa7 > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+18:29:07.918555 IP 172.16.16.60 > 239.255.255.251: igmp v2 report 239.255.255.251
+18:29:07.950464 ARP, Request who-has 172.16.16.249 tell 172.16.16.202, length 46
+18:29:07.966010 IP6 fe80::a15b:ba71:8d8b:ca0e > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:07.971331 IP 172.16.21.197.52612 > 255.255.255.255.5353: 3072 PTR (QM)? _nvstream_dbd._tcp.local. (42)
+18:29:07.976356 IP6 fe80::fc77:43c8:34a0:c142 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:07.981564 IP6 fe80::91e:212d:a1e4:8370 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:07.995056 ARP, Request who-has 172.16.19.9 tell 0.0.0.0, length 46
+18:29:08.003835 IP 172.16.16.20.65318 > 239.255.255.250.1900: UDP, length 175
+18:29:08.042119 IP6 fe80::5170:c21c:636c:2bda > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:08.063912 IP6 fe80::d084:7c1a:10d8:e0c1 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:08.068099 IP6 fe80::b978:1225:6766:942 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:08.075538 IP6 fe80::e870:4250:e2e0:2a41 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:08.076756 IP6 fe80::43fa:15cf:9af3:e717 > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+18:29:08.083293 IP 172.16.23.171.5353 > 224.0.0.251.5353: 0*- [0q] 8/0/4 (Cache flush) TXT "idHash=YzIz^J" "dev=1" "sec=2" "apps=[8194]" "name=Redmi Note 9 Pro Max" "flags=Ag==^J" "version=65543" "commonData=0" "appsData=AQIEgw==^J", PTR _mi-connect._udp.local., PTR {"nm":"Redmi Note 9 Pro Max","as":"[8194]","ip":"171"}._mi-connect._udp.local., (Cache flush) SRV Android-2.local.:56666 0 0, (Cache flush) PTR Android-2.local., (Cache flush) PTR Android-2.local., (Cache flush) A 172.16.23.171, (Cache flush) AAAA fe80::5b58:6f6e:b167:21f1 (541)
+18:29:08.083294 IP6 fe80::5b58:6f6e:b167:21f1.5353 > ff02::fb.5353: 0*- [0q] 8/0/4 (Cache flush) TXT "idHash=YzIz^J" "dev=1" "sec=2" "apps=[8194]" "name=Redmi Note 9 Pro Max" "flags=Ag==^J" "version=65543" "commonData=0" "appsData=AQIEgw==^J", PTR _mi-connect._udp.local., PTR {"nm":"Redmi Note 9 Pro Max","as":"[8194]","ip":"171"}._mi-connect._udp.local., (Cache flush) SRV Android-2.local.:56666 0 0, (Cache flush) PTR Android-2.local., (Cache flush) PTR Android-2.local., (Cache flush) A 172.16.23.171, (Cache flush) AAAA fe80::5b58:6f6e:b167:21f1 (541)
+18:29:08.085457 IP6 fe80::d84d:4aba:3bb9:d64b > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:08.086076 IP 172.16.22.34 > 224.0.0.22: igmp v3 report, 1 group record(s)
+18:29:08.087426 IP6 fe80::44c6:d30:dd06:6092 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:08.091191 ARP, Request who-has 172.16.19.41 tell 0.0.0.0, length 46
+18:29:08.099968 IP6 fe80::4f4d:162b:b433:76e4 > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+18:29:08.103289 IP 192.168.1.194.51816 > 239.255.255.250.1900: UDP, length 137
+18:29:08.127182 IP 192.168.1.194.5353 > 224.0.0.251.5353: 0 [1a] [3q] [1au] PTR (QM)? _ni-sysapi._tcp.local. PTR (QM)? _ni._tcp.local. PTR (QM)? _http._tcp.local. (107)
+18:29:08.127183 IP6 fe80::acd7:777a:a50e:6510 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:08.127183 IP6 fe80::8ce6:682f:b377:a86a > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:08.131607 IP6 fe80::d84d:4aba:3bb9:d64b > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:08.133373 IP 172.16.22.34 > 224.0.0.22: igmp v3 report, 1 group record(s)
+18:29:08.141063 IP 172.16.22.34.5353 > 224.0.0.251.5353: 0 ANY (QM)? Kenny.local. (29)
+18:29:08.143745 IP6 fe80::d84d:4aba:3bb9:d64b.5353 > ff02::fb.5353: 0 ANY (QM)? Kenny.local. (29)
+18:29:08.145839 IP 172.16.22.34.5353 > 224.0.0.251.5353: 0*- [0q] 2/0/0 AAAA fe80::d84d:4aba:3bb9:d64b, A 172.16.22.34 (67)
+18:29:08.146951 IP6 fe80::d84d:4aba:3bb9:d64b.5353 > ff02::fb.5353: 0*- [0q] 2/0/0 AAAA fe80::d84d:4aba:3bb9:d64b, A 172.16.22.34 (67)
+18:29:08.147163 IP6 fe80::d84d:4aba:3bb9:d64b.55260 > ff02::1:3.5355: UDP, length 23
+18:29:08.148782 IP 172.16.22.34.55260 > 224.0.0.252.5355: UDP, length 23
+18:29:08.162063 IP 172.16.22.34.5353 > 224.0.0.251.5353: 0 ANY (QM)? Kenny.local. (29)
+18:29:08.169273 IP 172.16.22.34.5353 > 224.0.0.251.5353: 0*- [0q] 2/0/0 AAAA fe80::d84d:4aba:3bb9:d64b, A 172.16.22.34 (67)
+18:29:08.171718 IP6 fe80::d84d:4aba:3bb9:d64b.5353 > ff02::fb.5353: 0 ANY (QM)? Kenny.local. (29)
+18:29:08.174106 IP6 fe80::d84d:4aba:3bb9:d64b.5353 > ff02::fb.5353: 0*- [0q] 2/0/0 AAAA fe80::d84d:4aba:3bb9:d64b, A 172.16.22.34 (67)
+18:29:08.176235 IP6 fe80::d84d:4aba:3bb9:d64b.546 > ff02::1:2.547: dhcp6 solicit
+18:29:08.179983 IP6 fe80::9cdc:62f:ae47:ae2c > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:08.181293 ARP, Request who-has 169.254.184.32 tell 0.0.0.0, length 46
+18:29:08.195957 IP6 fe80::6006:278d:e565:7d5d > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:08.206058 IP6 fe80::7984:7d8f:92cc:9100 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:08.217356 IP6 fe80::988:549e:97e4:bda2 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:08.217357 IP6 fe80::8cc0:f8ff:feb4:a5ba > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:08.223741 IP6 fe80::4f6:d0b9:b469:6b44.546 > ff02::1:2.547: dhcp6 solicit
+18:29:08.238963 IP 172.16.21.212.6771 > 239.192.152.143.6771: UDP, length 136
+18:29:08.239049 IP6 fe80::20ec:cdcf:5acc:2262.54910 > ff15::efc0:988f.6771: UDP, length 138
+18:29:08.239230 IP6 fe80::20ec:cdcf:5acc:2262.6771 > ff15::efc0:988f.6771: UDP, length 138
+18:29:08.239357 IP6 fe80::20ec:cdcf:5acc:2262.6771 > ff15::efc0:988f.6771: UDP, length 138
+18:29:08.244523 IP 172.16.16.28.57844 > 239.255.255.250.1900: UDP, length 175
+18:29:08.260095 IP6 fe80::231:92ff:fed7:5355 > ff02::16: HBH ICMP6, multicast listener report v2, 3 group record(s), length 68
+18:29:08.260318 IP 172.16.19.82.5353 > 224.0.0.251.5353: 101 [2q] PTR (QM)? _233637DE._sub._googlecast._tcp.local. PTR (QM)? _googlecast._tcp.local. (61)
+18:29:08.283921 IP6 fe80::81fe:2c28:4e99:a038 > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+18:29:08.322988 IP6 fe80::45ea:448b:1d60:5a6c > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:08.350298 IP 172.16.16.43.33897 > 255.255.255.255.7437: UDP, length 173
+18:29:08.357280 ARP, Request who-has 172.16.19.26 tell 0.0.0.0, length 46
+18:29:08.361896 IP6 fe80::5b58:6f6e:b167:21f1 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:08.385399 IP6 fe80::8c40:3f90:e784:6aa7 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:08.389353 IP6 fe80::c107:a66f:46f2:a17 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:08.390233 IP6 fe80::20c:29ff:fe37:3729 > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+18:29:08.391560 IP 172.16.21.41.57621 > 255.255.255.255.57621: UDP, length 40
+18:29:08.412945 IP 172.16.22.34 > 224.0.0.22: igmp v3 report, 1 group record(s)
+18:29:08.413204 IP6 fe80::d84d:4aba:3bb9:d64b > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:08.459080 IP 172.16.20.51.55065 > 224.2.2.2.8995: UDP, length 30
+18:29:08.478674 IP6 fe80::20ec:cdcf:5acc:2262 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:08.504651 ARP, Request who-has 172.16.17.13 tell 172.16.16.60, length 46
+18:29:08.504651 ARP, Request who-has 172.16.17.15 tell 172.16.16.60, length 46
+18:29:08.504652 ARP, Request who-has 172.16.17.4 tell 172.16.16.60, length 46
+18:29:08.504652 ARP, Request who-has 172.16.17.10 tell 172.16.16.60, length 46
+18:29:08.504652 ARP, Request who-has 172.16.17.12 tell 172.16.16.60, length 46
+18:29:08.504652 ARP, Request who-has 172.16.17.19 tell 172.16.16.60, length 46
+18:29:08.517769 ARP, Request who-has 172.16.17.1 tell 172.16.16.60, length 46
+18:29:08.517769 ARP, Request who-has 172.16.17.11 tell 172.16.16.60, length 46
+18:29:08.517770 ARP, Request who-has 172.16.17.2 tell 172.16.16.60, length 46
+18:29:08.517770 ARP, Request who-has 172.16.17.9 tell 172.16.16.60, length 46
+18:29:08.517770 ARP, Request who-has 172.16.17.21 tell 172.16.16.60, length 46
+18:29:08.517939 ARP, Request who-has 172.16.17.22 tell 172.16.16.60, length 46
+18:29:08.535658 IP6 fe80::5588:c224:7cb4:fe04 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:08.537066 ARP, Request who-has 169.254.144.61 tell 0.0.0.0, length 46
+18:29:08.566445 IP6 fe80::d084:7c1a:10d8:e0c1 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:08.590583 IP6 fe80::c581:8ff4:db26:d27a > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:08.606698 IP6 fe80::b481:2991:28e3:909d > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:08.611766 IP6 fe80::517e:d24e:9846:4a90 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:08.627273 IP6 fe80::e85e:a271:a5a9:2d09 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:08.637670 IP 172.16.23.129.60681 > 239.255.255.250.1900: UDP, length 175
+18:29:08.670537 ARP, Request who-has 172.16.19.179 tell 172.16.19.70, length 46
+18:29:08.679884 IP6 fe80::9cdc:62f:ae47:ae2c > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:08.701289 ARP, Request who-has 172.16.19.12 tell 0.0.0.0, length 46
+18:29:08.704066 IP6 fe80::6006:278d:e565:7d5d > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+18:29:08.704914 IP6 fe80::7984:7d8f:92cc:9100 > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+18:29:08.710101 IP6 fe80::bdbd:b22c:8fb4:f260 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:08.750294 IP6 fe80::ec24:311e:f47:4736 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:08.760735 IP6 fe80::e450:6605:4185:292c > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:08.772628 ARP, Request who-has 172.16.19.1 tell 172.16.16.62, length 46
+18:29:08.772628 ARP, Request who-has 172.16.19.13 tell 172.16.16.62, length 46
+18:29:08.772628 ARP, Request who-has 172.16.19.28 tell 172.16.16.62, length 46
+18:29:08.772629 ARP, Request who-has 172.16.19.26 tell 172.16.16.62, length 46
+18:29:08.772629 ARP, Request who-has 172.16.19.29 tell 172.16.16.62, length 46
+18:29:08.772629 ARP, Request who-has 172.16.19.31 tell 172.16.16.62, length 46
+18:29:08.784863 IP 172.16.20.51.54915 > 172.16.23.255.54915: UDP, length 263
+18:29:08.786563 IP6 fe80::c1c4:a11d:a524:51db > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:08.803928 IP 172.16.16.45.45088 > 255.255.255.255.7437: UDP, length 173
+18:29:08.853326 IP6 fe80::1496:ef6c:4640:935a > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:08.860345 IP 172.16.23.171.5353 > 224.0.0.251.5353: 0 [3q] [3n] ANY (QM)? {"nm":"Redmi Note 9 Pro Max","as":"[8194]","ip":"171"}._mi-connect._udp.local. ANY (QM)? Android-2.local. ANY (QM)? Android-2.local. (181)
+18:29:08.860480 IP6 fe80::5b58:6f6e:b167:21f1.5353 > ff02::fb.5353: 0 [3q] [3n] ANY (QM)? {"nm":"Redmi Note 9 Pro Max","as":"[8194]","ip":"171"}._mi-connect._udp.local. ANY (QM)? Android-2.local. ANY (QM)? Android-2.local. (181)
+18:29:08.874447 IP6 fe80::6448:49fc:25b:fc78 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:08.879526 IP6 fe80::82d:c0a8:4d78:edbc > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+18:29:08.939160 IP6 fe80::895a:635e:4ef6:329 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:08.944567 ARP, Request who-has 172.16.16.249 tell 172.16.16.202, length 46
+18:29:08.967916 IP6 :: > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+18:29:08.973491 IP6 fe80::20ec:cdcf:5acc:2262 > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+18:29:08.975540 IP6 fe80::91e:212d:a1e4:8370 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:09.000054 ARP, Request who-has 172.16.17.16 tell 172.16.17.16, length 46
+18:29:09.017561 IP6 fe80::28ba:859:a471:449f > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:09.018767 IP 172.16.16.20.65318 > 239.255.255.250.1900: UDP, length 175
+18:29:09.028930 IP6 fe80::e402:45ff:fef2:eccc > ff02::16: HBH ICMP6, multicast listener report v2, 4 group record(s), length 88
+18:29:09.034361 IP6 fe80::d934:8f72:fad6:13de > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:09.036232 IP6 fe80::3185:8d64:ffcc:f7a6 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:09.037791 IP6 fe80::5588:c224:7cb4:fe04 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:09.047064 ARP, Request who-has 172.16.16.1 tell 172.16.20.32, length 46
+18:29:09.057488 IP 172.16.21.212.59895 > 239.255.255.250.1900: UDP, length 175
+18:29:09.073346 IP 172.16.21.212.59896 > 239.255.255.250.1900: UDP, length 175
+18:29:09.075591 IP6 fe80::b978:1225:6766:942 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:09.100328 IP 172.16.23.171.5353 > 224.0.0.251.5353: 0 [3q] [3n] ANY (QM)? {"nm":"Redmi Note 9 Pro Max","as":"[8194]","ip":"171"}._mi-connect._udp.local. ANY (QM)? Android-2.local. ANY (QM)? Android-2.local. (181)
+18:29:09.100329 IP6 fe80::5b58:6f6e:b167:21f1.5353 > ff02::fb.5353: 0 [3q] [3n] ANY (QM)? {"nm":"Redmi Note 9 Pro Max","as":"[8194]","ip":"171"}._mi-connect._udp.local. ANY (QM)? Android-2.local. ANY (QM)? Android-2.local. (181)
+18:29:09.150898 IP6 fe80::916a:caee:b374:38e7 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:09.173506 IP6 fe80::3899:7169:a619:b029 > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+18:29:09.178466 IP6 fe80::a026:fc0:d0bc:96d4 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:09.182578 IP6 fe80::d84d:4aba:3bb9:d64b.546 > ff02::1:2.547: dhcp6 solicit
+18:29:09.187477 IP6 fe80::9c0b:c45f:8f49:a27b > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:09.208287 IP 172.16.16.44.50767 > 255.255.255.255.7437: UDP, length 173
+18:29:09.212098 IP6 fe80::dd68:5bf4:1a72:9eb3 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:09.219601 IP6 fe80::7984:7d8f:92cc:9100 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:09.246512 IP6 fe80::4f6:d0b9:b469:6b44 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:09.247937 IP6 fe80::f142:bedc:af15:1519.546 > ff02::1:2.547: dhcp6 solicit
+18:29:09.264262 IP6 :: > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+18:29:09.269914 IP 172.16.16.28.57844 > 239.255.255.250.1900: UDP, length 175
+18:29:09.292339 IP6 fe80::5b58:6f6e:b167:21f1 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:09.319024 IP6 fe80::808d:96ef:9273:7996 > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+18:29:09.349159 IP 172.16.23.171.5353 > 224.0.0.251.5353: 0 [3q] [3n] ANY (QM)? {"nm":"Redmi Note 9 Pro Max","as":"[8194]","ip":"171"}._mi-connect._udp.local. ANY (QM)? Android-2.local. ANY (QM)? Android-2.local. (181)
+18:29:09.349160 IP6 fe80::5b58:6f6e:b167:21f1.5353 > ff02::fb.5353: 0 [3q] [3n] ANY (QM)? {"nm":"Redmi Note 9 Pro Max","as":"[8194]","ip":"171"}._mi-connect._udp.local. ANY (QM)? Android-2.local. ANY (QM)? Android-2.local. (181)
+18:29:09.383299 IP6 fe80::88a2:5451:b35:8b9c > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:09.407934 IP6 fe80::53e:b5a5:4c04:f118 > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+18:29:09.458652 IP 172.16.20.51.55065 > 224.2.2.2.8995: UDP, length 30
+18:29:09.468414 IP 172.16.20.14.58094 > 255.255.255.255.3956: UDP, length 8
+18:29:09.570999 IP6 fe80::c9d6:e1ba:c24d:fdaf > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+18:29:09.613784 IP 172.16.23.171.5353 > 224.0.0.251.5353: 0*- [0q] 8/0/4 (Cache flush) TXT "idHash=YzIz^J" "dev=1" "sec=2" "apps=[8194]" "name=Redmi Note 9 Pro Max" "flags=Ag==^J" "version=65543" "commonData=0" "appsData=AQIEgw==^J", PTR _mi-connect._udp.local., PTR {"nm":"Redmi Note 9 Pro Max","as":"[8194]","ip":"171"}._mi-connect._udp.local., (Cache flush) SRV Android-2.local.:56666 0 0, (Cache flush) PTR Android-2.local., (Cache flush) PTR Android-2.local., (Cache flush) A 172.16.23.171, (Cache flush) AAAA fe80::5b58:6f6e:b167:21f1 (541)
+18:29:09.613784 IP6 fe80::5b58:6f6e:b167:21f1.5353 > ff02::fb.5353: 0*- [0q] 8/0/4 (Cache flush) TXT "idHash=YzIz^J" "dev=1" "sec=2" "apps=[8194]" "name=Redmi Note 9 Pro Max" "flags=Ag==^J" "version=65543" "commonData=0" "appsData=AQIEgw==^J", PTR _mi-connect._udp.local., PTR {"nm":"Redmi Note 9 Pro Max","as":"[8194]","ip":"171"}._mi-connect._udp.local., (Cache flush) SRV Android-2.local.:56666 0 0, (Cache flush) PTR Android-2.local., (Cache flush) PTR Android-2.local., (Cache flush) A 172.16.23.171, (Cache flush) AAAA fe80::5b58:6f6e:b167:21f1 (541)
+18:29:09.642323 IP 172.16.23.119.55239 > 239.255.255.250.1900: UDP, length 175
+18:29:09.644703 IP 172.16.23.129.60681 > 239.255.255.250.1900: UDP, length 175
+18:29:09.655003 IP6 fe80::5aef:68ff:fe50:460 > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+18:29:09.667457 ARP, Request who-has 172.16.16.1 tell 172.16.20.32, length 46
+18:29:09.745253 IP6 fe80::1e39:47ff:fe36:90bb > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:09.748928 IP6 fe80::4f6:d0b9:b469:6b44 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:09.762694 IP 192.168.1.1.45690 > 255.255.255.255.7437: UDP, length 173
+18:29:09.765604 IP 172.16.20.14.55341 > 255.255.255.255.3956: UDP, length 8
+18:29:09.765605 IP 172.16.20.14.58855 > 255.255.255.255.3956: UDP, length 8
+18:29:09.766446 ARP, Request who-has 172.16.19.13 tell 172.16.16.62, length 46
+18:29:09.766447 ARP, Request who-has 172.16.19.1 tell 172.16.16.62, length 46
+18:29:09.766447 ARP, Request who-has 172.16.19.26 tell 172.16.16.62, length 46
+18:29:09.766447 ARP, Request who-has 172.16.19.28 tell 172.16.16.62, length 46
+18:29:09.766494 ARP, Request who-has 172.16.19.29 tell 172.16.16.62, length 46
+18:29:09.766494 ARP, Request who-has 172.16.19.31 tell 172.16.16.62, length 46
+18:29:09.772549 IP 172.16.20.51.54915 > 172.16.23.255.54915: UDP, length 263
+18:29:09.775968 IP6 fe80::9c8:6b5c:c14d:66b9 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:09.785054 IP6 fe80::c1c4:a11d:a524:51db > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:09.805287 IP6 fe80::50ac:138b:1dad:5a14 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:09.807300 IP6 fe80::4da5:8b8a:86b1:fedb > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:09.851790 IP6 fe80::58d6:1ec3:432d:37cb > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:09.863653 IP6 fe80::98d3:f19e:363b:bb0e > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:09.902333 IP6 fe80::c107:a66f:46f2:a17 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:09.904628 IP 172.16.20.157.17500 > 172.16.23.255.17500: UDP, length 135
+18:29:09.924538 IP6 fe80::f417:f692:21ae:e91d > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:09.944781 IP6 fe80::7038:40c7:b3bb:12c4 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:09.951494 IP6 fe80::7caf:cea2:c66c:57ba > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+18:29:09.974576 ARP, Request who-has 172.16.19.10 tell 0.0.0.0, length 46
+18:29:09.984752 IP6 fe80::49ce:5074:503b:bdd > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:10.024940 IP6 :: > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+18:29:10.031936 IP 172.16.16.20.65318 > 239.255.255.250.1900: UDP, length 175
+18:29:10.044390 ARP, Request who-has 172.16.16.1 tell 172.16.19.169, length 46
+18:29:10.060807 IP 172.16.21.212.59895 > 239.255.255.250.1900: UDP, length 175
+18:29:10.062476 IP6 fe80::d084:7c1a:10d8:e0c1 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:10.076781 IP 172.16.21.212.59896 > 239.255.255.250.1900: UDP, length 175
+18:29:10.095147 IP6 fe80::44c6:d30:dd06:6092 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:10.106405 ARP, Request who-has 172.16.16.61 tell 172.16.16.61, length 46
+18:29:10.106828 IP6 fe80::517e:d24e:9846:4a90 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:10.123271 IP6 fe80::e85e:a271:a5a9:2d09 > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+18:29:10.163469 ARP, Request who-has 172.16.20.169 tell 172.16.16.20, length 46
+18:29:10.172511 IP6 fe80::d588:dd0:6de5:b3 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:10.217377 IP6 fe80::dd68:5bf4:1a72:9eb3 > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+18:29:10.245750 IP6 fe80::354e:af4c:d347:2f1b > ff02::16: HBH ICMP6, multicast listener report v2, 5 group record(s), length 108
+18:29:10.250676 IP6 fe80::ec24:311e:f47:4736 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:10.259345 IP 172.16.16.28.57844 > 239.255.255.250.1900: UDP, length 175
+18:29:10.289743 IP6 fe80::fdb3:9545:64fc:e722 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:10.307554 IP6 fe80::e80:63ff:fef7:23f8 > ff02::16: HBH ICMP6, multicast listener report v2, 4 group record(s), length 88
+18:29:10.309521 IP6 fe80::4da5:8b8a:86b1:fedb > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:10.357934 IP6 fe80::135d:a593:8e9e:993f > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+18:29:10.382341 IP6 fe80::4996:6b00:d798:9eb9 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:10.384546 IP6 fe80::6448:49fc:25b:fc78 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:10.417269 IP6 fe80::d84d:4aba:3bb9:d64b > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:10.433280 IP6 fe80::944:abbf:5e52:4c5 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:10.435414 ARP, Request who-has 172.16.19.14 tell 0.0.0.0, length 46
+18:29:10.458904 IP 172.16.20.51.55065 > 224.2.2.2.8995: UDP, length 30
+18:29:10.506951 ARP, Request who-has 172.16.19.44 tell 0.0.0.0, length 46
+18:29:10.510186 IP6 fe80::1570:a194:cbcd:832a > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:10.528802 ARP, Request who-has 172.16.17.1 tell 172.16.16.60, length 46
+18:29:10.528803 ARP, Request who-has 172.16.17.2 tell 172.16.16.60, length 46
+18:29:10.528803 ARP, Request who-has 172.16.17.11 tell 172.16.16.60, length 46
+18:29:10.528803 ARP, Request who-has 172.16.17.21 tell 172.16.16.60, length 46
+18:29:10.528803 ARP, Request who-has 172.16.17.9 tell 172.16.16.60, length 46
+18:29:10.528803 ARP, Request who-has 172.16.17.22 tell 172.16.16.60, length 46
+18:29:10.544513 IP6 fe80::a9bf:d90b:b15e:cef4 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:10.563525 IP6 fe80::f4c2:fa8a:2e3a:a9be > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:10.592296 IP6 fe80::44c6:d30:dd06:6092 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:10.595912 ARP, Request who-has 172.16.17.14 tell 172.16.17.14, length 46
+18:29:10.600197 IP 172.16.23.171.5353 > 224.0.0.251.5353: 0*- [0q] 8/0/4 (Cache flush) TXT "idHash=YzIz^J" "dev=1" "sec=2" "apps=[8194]" "name=Redmi Note 9 Pro Max" "flags=Ag==^J" "version=65543" "commonData=0" "appsData=AQIEgw==^J", PTR _mi-connect._udp.local., PTR {"nm":"Redmi Note 9 Pro Max","as":"[8194]","ip":"171"}._mi-connect._udp.local., (Cache flush) SRV Android-2.local.:56666 0 0, (Cache flush) PTR Android-2.local., (Cache flush) PTR Android-2.local., (Cache flush) A 172.16.23.171, (Cache flush) AAAA fe80::5b58:6f6e:b167:21f1 (541)
+18:29:10.601470 IP6 fe80::5b58:6f6e:b167:21f1.5353 > ff02::fb.5353: 0*- [0q] 8/0/4 (Cache flush) TXT "idHash=YzIz^J" "dev=1" "sec=2" "apps=[8194]" "name=Redmi Note 9 Pro Max" "flags=Ag==^J" "version=65543" "commonData=0" "appsData=AQIEgw==^J", PTR _mi-connect._udp.local., PTR {"nm":"Redmi Note 9 Pro Max","as":"[8194]","ip":"171"}._mi-connect._udp.local., (Cache flush) SRV Android-2.local.:56666 0 0, (Cache flush) PTR Android-2.local., (Cache flush) PTR Android-2.local., (Cache flush) A 172.16.23.171, (Cache flush) AAAA fe80::5b58:6f6e:b167:21f1 (541)
+18:29:10.608342 IP6 fe80::b481:2991:28e3:909d > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:10.619665 IP6 fe80::50ac:138b:1dad:5a14.63518 > ff02::c.3702: UDP, length 656
+18:29:10.620006 IP 172.16.21.95.63517 > 239.255.255.250.3702: UDP, length 656
+18:29:10.637171 ARP, Request who-has 169.254.114.82 tell 0.0.0.0, length 46
+18:29:10.656056 IP6 fe80::385b:ee1f:1e75:240e > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:10.656103 IP 172.16.23.129.60681 > 239.255.255.250.1900: UDP, length 175
+18:29:10.657821 IP 172.16.23.119.55239 > 239.255.255.250.1900: UDP, length 175
+18:29:10.657872 ARP, Request who-has 172.16.16.1 tell 172.16.20.32, length 46
+18:29:10.712166 ARP, Request who-has 172.16.19.6 tell 0.0.0.0, length 46
+18:29:10.715063 IP6 fe80::7984:7d8f:92cc:9100 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:10.763003 IP6 fe80::a582:c89e:c4f2:d09b > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:10.778134 IP 172.16.20.51.54915 > 172.16.23.255.54915: UDP, length 263
+18:29:10.779166 ARP, Request who-has 172.16.19.28 tell 172.16.16.62, length 46
+18:29:10.779167 ARP, Request who-has 172.16.19.1 tell 172.16.16.62, length 46
+18:29:10.779167 ARP, Request who-has 172.16.19.13 tell 172.16.16.62, length 46
+18:29:10.779167 ARP, Request who-has 172.16.19.26 tell 172.16.16.62, length 46
+18:29:10.779167 ARP, Request who-has 172.16.19.31 tell 172.16.16.62, length 46
+18:29:10.779167 ARP, Request who-has 172.16.19.29 tell 172.16.16.62, length 46
+18:29:10.796517 IP6 fe80::50ac:138b:1dad:5a14.63518 > ff02::c.3702: UDP, length 656
+18:29:10.813620 IP 172.16.21.95.63517 > 239.255.255.250.3702: UDP, length 656
+18:29:10.837448 IP6 :: > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+18:29:10.868300 IP6 fe80::98d3:f19e:363b:bb0e > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:10.880750 IP6 fe80::14d7:919d:f26:d5a4 > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+18:29:10.939319 d3:5f:ac:34:83:6e > 00:00:28:ec:10:a7, ethertype Unknown (0xd7cc), length 60: 
+	0x0000:  94f7 360b 55d6 8540 4f0b 8c61 57a1 bf9e  ..6.U..@O..aW...
+	0x0010:  a11f f2c7 f88e de11 a069 6927 faf9 2f37  .........ii'../7
+	0x0020:  15b2 7f6e 6bb4 7b53 1d36 0000 0000       ...nk.{S.6....
+18:29:10.940153 IP6 fe80::895a:635e:4ef6:329 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:10.943765 ARP, Request who-has 172.16.19.179 tell 172.16.19.70, length 46
+18:29:10.971689 IP 192.168.1.194.5353 > 224.0.0.251.5353: 0*- [0q] 8/0/5 (Cache flush) TXT "", PTR _ni-logos._tcp.local., PTR DESKTOP-P8N54AU._ni-logos._tcp.local., (Cache flush) SRV DESKTOP-P8N54AU.local.:2343 0 0, (Cache flush) PTR DESKTOP-P8N54AU.local., (Cache flush) PTR DESKTOP-P8N54AU.local., (Cache flush) A 192.168.1.194, (Cache flush) AAAA fe80::4f6:d0b9:b469:6b44 (414)
+18:29:10.983875 IP6 fe80::25f9:cdc3:1476:de40 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:10.990124 IP6 fe80::8c1c:a239:a32b:5f03 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:11.010065 IP6 fe80::1570:a194:cbcd:832a > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:11.040144 IP6 :: > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+18:29:11.047667 IP6 fe80::a9bf:d90b:b15e:cef4 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:11.057750 IP6 fe80::d084:7c1a:10d8:e0c1 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:11.068412 IP 172.16.21.212.59895 > 239.255.255.250.1900: UDP, length 175
+18:29:11.084454 IP 172.16.21.212.59896 > 239.255.255.250.1900: UDP, length 175
+18:29:11.103298 IP6 fe80::c581:8ff4:db26:d27a > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:11.116713 IP6 fe80::b481:2991:28e3:909d > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:11.117522 IP6 fe80::d408:dba5:4cbb:5033.546 > ff02::1:2.547: dhcp6 solicit
+18:29:11.131399 IP6 fe80::50ac:138b:1dad:5a14.63518 > ff02::c.3702: UDP, length 656
+18:29:11.154038 IP6 fe80::385b:ee1f:1e75:240e > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:11.166061 IP6 fe80::a026:fc0:d0bc:96d4 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:11.178682 IP 172.16.21.95.63517 > 239.255.255.250.3702: UDP, length 656
+18:29:11.187208 IP6 fe80::d84d:4aba:3bb9:d64b.546 > ff02::1:2.547: dhcp6 solicit
+18:29:11.215504 IP6 fe80::7984:7d8f:92cc:9100 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:11.224308 IP6 fe80::c8bd:b6ff:fe36:8050 > ff02::16: HBH ICMP6, multicast listener report v2, 4 group record(s), length 88
+18:29:11.224693 IP6 fe80::bdbd:b22c:8fb4:f260 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:11.238551 IP 34.120.52.64.443 > 172.16.22.141.54364: Flags [P.], seq 2383071314:2383071341, ack 2497194473, win 1050, options [nop,nop,TS val 1012774454 ecr 1593407486], length 27
+18:29:11.238621 IP 172.16.22.141.54364 > 34.120.52.64.443: Flags [.], ack 27, win 501, options [nop,nop,TS val 1593433026 ecr 1012774454], length 0
+18:29:11.239503 IP 172.16.22.141.54364 > 34.120.52.64.443: Flags [P.], seq 1:32, ack 27, win 501, options [nop,nop,TS val 1593433027 ecr 1012774454], length 31
+18:29:11.244062 IP 172.16.21.197.52614 > 255.255.255.255.5353: 6400 PTR (QM)? _nvstream_dbd._tcp.local. (42)
+18:29:11.264140 IP6 fe80::a582:c89e:c4f2:d09b > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:11.275664 ARP, Request who-has 172.16.19.3 tell 0.0.0.0, length 46
+18:29:11.319556 IP6 fe80::bcf0:ae2f:f12d:a646 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:11.358436 IP 172.16.22.207.50273 > 239.255.255.250.1900: UDP, length 175
+18:29:11.375194 IP6 fe80::88a2:5451:b35:8b9c > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:11.400589 IP6 :: > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+18:29:11.426419 IP6 :: > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+18:29:11.433906 ARP, Request who-has 172.16.19.2 tell 0.0.0.0, length 46
+18:29:11.458908 IP 172.16.20.51.55065 > 224.2.2.2.8995: UDP, length 30
+18:29:11.470760 IP6 fe80::a15b:ba71:8d8b:ca0e > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:11.471878 IP 172.16.22.141.54364 > 34.120.52.64.443: Flags [P.], seq 1:32, ack 27, win 501, options [nop,nop,TS val 1593433260 ecr 1012774454], length 31
+18:29:11.481619 IP6 fe80::2d67:e177:bb12:a84d > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:11.493025 IP6 fe80::d102:b0a7:4da1:28d4 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:11.503408 IP 34.120.52.64.443 > 172.16.22.141.54364: Flags [.], ack 32, win 1050, options [nop,nop,TS val 1012774721 ecr 1593433260,nop,nop,sack 1 {1:32}], length 0
+18:29:11.528338 ARP, Request who-has 172.16.17.1 tell 172.16.16.60, length 46
+18:29:11.528339 ARP, Request who-has 172.16.17.2 tell 172.16.16.60, length 46
+18:29:11.528339 ARP, Request who-has 172.16.17.11 tell 172.16.16.60, length 46
+18:29:11.528339 ARP, Request who-has 172.16.17.21 tell 172.16.16.60, length 46
+18:29:11.528339 ARP, Request who-has 172.16.17.9 tell 172.16.16.60, length 46
+18:29:11.528339 ARP, Request who-has 172.16.17.22 tell 172.16.16.60, length 46
+18:29:11.537326 IP6 fe80::254d:6a48:d986:d9b1 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:11.547824 IP6 fe80::a9bf:d90b:b15e:cef4 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:11.554541 IP6 fe80::dc70:5b02:94ba:4d35 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:11.555591 IP6 fe80::d084:7c1a:10d8:e0c1 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:11.560042 IP6 fe80::f4c2:fa8a:2e3a:a9be > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:11.569556 IP6 fe80::b978:1225:6766:942 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:11.572853 IP6 fe80::793b:26fb:3e6c:f7d0 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:11.583372 IP6 fe80::3dd0:2628:8b28:d13a > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:11.605288 IP 172.16.20.14.58094 > 255.255.255.255.3956: UDP, length 8
+18:29:11.619910 IP6 fe80::517e:d24e:9846:4a90 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:11.652319 IP6 fe80::916a:caee:b374:38e7 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:11.662292 IP 172.16.23.129.60681 > 239.255.255.250.1900: UDP, length 175
+18:29:11.666447 IP 172.16.23.119.55239 > 239.255.255.250.1900: UDP, length 175
+18:29:11.673372 IP 172.16.22.110.51245 > 239.255.255.250.1900: UDP, length 175
+18:29:11.683748 ARP, Request who-has 172.16.19.179 tell 172.16.19.70, length 46
+18:29:11.683749 IP6 fe80::3899:7169:a619:b029 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:11.694347 IP6 fe80::4fb7:5770:4e:a97d > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+18:29:11.751887 ARP, Request who-has 172.16.18.208 tell 172.16.16.61, length 46
+18:29:11.763272 ARP, Request who-has 172.16.19.3 tell 172.16.16.62, length 46
+18:29:11.763273 ARP, Request who-has 172.16.19.2 tell 172.16.16.62, length 46
+18:29:11.763273 ARP, Request who-has 172.16.19.15 tell 172.16.16.62, length 46
+18:29:11.763273 ARP, Request who-has 172.16.19.14 tell 172.16.16.62, length 46
+18:29:11.763273 ARP, Request who-has 172.16.19.27 tell 172.16.16.62, length 46
+18:29:11.763273 ARP, Request who-has 172.16.19.30 tell 172.16.16.62, length 46
+18:29:11.764756 ARP, Request who-has 172.16.19.39 (28:e2:b2:b4:18:8e) tell 172.16.16.62, length 46
+18:29:11.765992 IP6 fe80::e450:6605:4185:292c > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:11.775108 ARP, Request who-has 172.16.19.1 tell 172.16.16.62, length 46
+18:29:11.775108 ARP, Request who-has 172.16.19.28 tell 172.16.16.62, length 46
+18:29:11.775108 ARP, Request who-has 172.16.19.13 tell 172.16.16.62, length 46
+18:29:11.775108 ARP, Request who-has 172.16.19.31 tell 172.16.16.62, length 46
+18:29:11.775108 ARP, Request who-has 172.16.19.26 tell 172.16.16.62, length 46
+18:29:11.775108 ARP, Request who-has 172.16.19.29 tell 172.16.16.62, length 46
+18:29:11.779539 IP6 fe80::50ac:138b:1dad:5a14.63518 > ff02::c.3702: UDP, length 656
+18:29:11.779540 ARP, Request who-has 172.16.19.12 (28:3c:f8:ab:18:8e) tell 172.16.16.62, length 46
+18:29:11.783335 IP 172.16.20.51.54915 > 172.16.23.255.54915: UDP, length 263
+18:29:11.794389 IP6 fe80::9c8:6b5c:c14d:66b9 > ff02::16: HBH ICMP6, multicast listener report v2, 2 group record(s), length 48
+18:29:11.808059 IP6 fe80::1056:31ff:feb0:4bd3 > ff02::16: HBH ICMP6, multicast listener report v2, 4 group record(s), length 88
+18:29:11.828146 IP 172.16.21.41.5353 > 224.0.0.251.5353: 42 [3q] PTR (QM)? _233637DE._sub._googlecast._tcp.local. PTR (QM)? _CC32E753._sub._googlecast._tcp.local. PTR (QM)? _googlecast._tcp.local. (77)
+18:29:11.828277 ARP, Request who-has 172.16.20.169 tell 172.16.16.20, length 46
+18:29:11.828307 IP6 fe80::8411:a8b:ff1:491c > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+18:29:11.840892 IP6 fe80::38b2:43ff:fe9d:9dd8 > ff02::16: HBH ICMP6, multicast listener report v2, 4 group record(s), length 88
+18:29:11.870921 ARP, Request who-has 172.16.18.209 tell 172.16.16.61, length 46
+18:29:11.875740 IP 172.16.16.45.45088 > 255.255.255.255.7437: UDP, length 173
+18:29:11.880313 IP 172.16.21.95.63517 > 239.255.255.250.3702: UDP, length 656
+18:29:11.885876 IP6 fe80::4996:6b00:d798:9eb9 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
