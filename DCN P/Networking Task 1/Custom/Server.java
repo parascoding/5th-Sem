@@ -4,10 +4,10 @@ import java.net.*;
 public class Server{
     public static void main(String args[]){
         try{
-            Server server = new Server(Integer.parseInt("12000"));
+            Server server = new Server(Integer.parseInt(args[0]));
             br = new BufferedReader(new InputStreamReader(socket.getInputStream()));
             ot = new PrintWriter(socket.getOutputStream());
-            
+
             while(true){
                 String s = server.read();
                 if(s==null||s.equals("stop"))

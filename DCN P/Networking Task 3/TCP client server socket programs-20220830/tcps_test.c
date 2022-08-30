@@ -92,7 +92,6 @@ int main()
 
 		HandleRequest(connfd); 
 	}
-
 	close(sockfd); 
 } 
 
