@@ -17,32 +17,45 @@ public class Main{
                 }
                 list.add(new ArrayList<>(temp));
             }
+
+            int partitionSize = 300;
             List<List<Integer>> finalRes = new ArrayList<>();
-            for(int i=0;i<list.size();i+=3){
-                List<List<Integer>> tempAns = generateSets(list.subList(i, Math.min(list.size(), i+3)));
+
+            int partitionNumber=1;
+            for(int i=0;i<list.size();i+=partitionSize){
+                List<List<Integer>> tempAns = NormalApriori(list.subList(i, Math.min(list.size(), i+partitionSize)), partitionNumber);
+
                 for(List<Integer> x:tempAns)
                     finalRes.add(x);
+
+                partitionNumber++;
             }
+
             finalRes = removeDuplicates(finalRes);
+
             List<List<Integer>> finalResReal = new ArrayList<>();
+
             for(List<Integer> x:finalRes){
                 if(support(x, list)>=0.22)
                     finalResReal.add(new ArrayList<>(x));
             }
-            ot.println(finalResReal);
+
+            printList(finalResReal);
+
             ot.close();
         } catch(Exception e){
             e.printStackTrace();
             return;
         }
     }
-    static List<List<Integer>> generateSets(List<List<Integer>> list){
+    static List<List<Integer>> NormalApriori(List<List<Integer>> list, int partitionNumber){
         Set<Integer> set = new HashSet<>();
         for(List<Integer> x:list){
             for(int y:x){
                 set.add(y);
             }
         }
+
         List<List<Integer>> C = new ArrayList<>();
         for(Integer x:set){
             C.add(new ArrayList<>(List.of(x)));
@@ -50,7 +63,9 @@ public class Main{
         
         List<List<Integer>> L = new ArrayList<>();
         List<List<Integer>> result = new ArrayList<>();
+
         int k = 1;
+
         Map<Integer, Double> mapCtoSup = new HashMap<>();
       
         while(C.size()!=0 ){
@@ -64,7 +79,7 @@ public class Main{
                 }
             }
             counter=0;
-            ot.println("C"+k+" is - ");
+            ot.println("C"+k+" is - (For Partition : "+partitionNumber+")");
             for(List<Integer> x : C){
                 for(int y : x){
                     ot.print(y + " ");
@@ -72,35 +87,43 @@ public class Main{
                 ot.print(" with support "+mapCtoSup.get(counter++));
                 ot.println();
             }
-            ot.println("L"+k+" is - ");
+            ot.println("L"+k+" is -(For Partition : "+partitionNumber+")");
             for(List<Integer> x : L){
                 for(int y : x){
                     ot.print(y + " ");
                 }
                 ot.println();
             }
+
             for(List<Integer> x:L)
                 result.add(x);
+
             List<List<Integer>> C_Kplus1 = new ArrayList<>();
             for(int i=0;i<L.size()-1;i++){
                 for(int j=i+1;j<L.size();j++){
                     if(checkPrefix(L.get(i),L.get(j), k-1) && checkPruning(L.get(i),L.get(j), L)){
+
                         List<Integer> temp = new ArrayList<>(L.get(i));
+
                         temp.add(L.get(j).get(L.get(j).size()-1));
+
                         C_Kplus1.add(new ArrayList<>(temp));
+
                     }
                 }
             }
+
             for(List<Integer> x:C_Kplus1){
                 result.add(x);
             }
+
             L.clear();
+
             C=C_Kplus1;
-            System.out.println();
-            // ot.println();
+
             k++;
         }
-        // ot.println();
+        
         return result;
     }   
 
@@ -111,11 +134,12 @@ public class Main{
         }
         return true;
     }
+
     static boolean checkPruning(List<Integer> l1, List<Integer> l2, List<List<Integer>> L){
         List<Integer> temp = new ArrayList<>(l1);
         temp.add(l2.get(l2.size()-1));
         subsets=new ArrayList<>();
-        generateSubsets(temp, 0, new ArrayList<>());
+        findSubsets(temp, temp.size() - 1);
         for(List<Integer> subset:subsets){
             
             boolean flag = false;
@@ -130,6 +154,7 @@ public class Main{
         }
         return true;
     }
+
     static double support(List<Integer> itemSet, List<List<Integer>> list){
         double count = 0;
         for(List<Integer> tempList : list){
@@ -139,6 +164,7 @@ public class Main{
         }
         return count/list.size();
     }
+
     static boolean checkIfExists(List<Integer> l1, List<Integer> l2){
         int i = 0, j = 0;
         while(i<l1.size() && j<l2.size()){
@@ -149,17 +175,24 @@ public class Main{
         return i == l1.size();
 
     }
-    static void generateSubsets(List<Integer> l, int ind, List<Integer> tempL){
-        if(ind>=l.size()){
-            if(tempL.size()<l.size())
-                subsets.add(new ArrayList<>(tempL));
+
+    static void findSubsets(List<Integer> list, int k){
+        findSubsetsUtil(list, 0, k, new ArrayList<>());
+    }
+
+    static void findSubsetsUtil(List<Integer> list, int ind, int k, List<Integer> temp){
+        if(temp.size() > k) return;
+        if(ind==list.size()){
+            if(temp.size() != k) return;
+            subsets.add(new ArrayList<>(temp));
             return;
         }
-        generateSubsets(l, ind+1, tempL);
-        tempL.add(l.get(ind));
-        generateSubsets(l, ind+1, tempL);
-        tempL.remove(tempL.size()-1);
+        findSubsetsUtil(list, ind+1, k, temp);
+        temp.add(list.get(ind));
+        findSubsetsUtil(list, ind+1, k, temp);
+        temp.remove(temp.size()-1);
     }
+
     static void printDatasetToFile(){
         ot.println("Dataset -");
         for(List<Integer> x : list){
@@ -169,6 +202,7 @@ public class Main{
             ot.println();
         }
     }
+
     static List<List<Integer>> removeDuplicates(List<List<Integer>> res){
         List<List<Integer>> ans = new ArrayList<>();
         Collections.sort(res,
@@ -195,6 +229,7 @@ public class Main{
         }
         return ans;
     }
+
     static boolean check(List<Integer> l1, List<Integer> l2){
         if(l1.size()!=l2.size()) return true;
         for(int i=0;i<l1.size();i++)
@@ -202,6 +237,16 @@ public class Main{
                 return true;
         return false;
     }
+
+    static void printList(List<List<Integer>> list){
+        ot.println("The Frequent Itemsets (Global) are -");
+        for(List<Integer> x : list){
+            for(int y : x)
+                ot.print(y+" ");
+            ot.println();
+        }
+    }
+
     static List<List<Integer>> subsets;
     static List<List<Integer>> list;
 }
