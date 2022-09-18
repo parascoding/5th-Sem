@@ -250,3 +250,15 @@ public class Main{
     static List<List<Integer>> subsets;
     static List<List<Integer>> list;
 }
+
+
+// Sample Input - 
+// 1 2 5
+// 2 4
+// 2 3
+// 1 2 4
+// 1 3
+// 2 3
+// 1 3
+// 1 2 3 5
+// 1 2 3
