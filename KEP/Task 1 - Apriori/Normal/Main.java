@@ -47,7 +47,7 @@ public class Main{
             for(List<Integer> x:C){
                 double sup = support(x);
                 mapCtoSup.put(counter++, sup);
-                if(sup >= 0.22){
+                if(sup >= 0.5){
                     L.add(x);
                 }
             }
