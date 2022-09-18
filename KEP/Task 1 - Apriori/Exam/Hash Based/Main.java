@@ -5,7 +5,7 @@ public class Main{
     static PrintWriter ot;
     public static void main(String args[]) throws IOException{
         try{
-            br = new BufferedReader(new FileReader("input_rand5.txt"));
+            br = new BufferedReader(new FileReader("input.txt"));
             ot = new PrintWriter(new FileWriter("output.txt"));
             list = new ArrayList<>();
             String S;
@@ -17,14 +17,14 @@ public class Main{
                 }
                 list.add(new ArrayList<>(temp));
             }
-            generateSets();
+            HashBasedApriori();
             ot.close();
         } catch(Exception e){
             e.printStackTrace();
             return;
         }
     }
-    static void generateSets(){
+    static void HashBasedApriori(){
         Set<Integer> set = new HashSet<>();
         for(List<Integer> x:list){
             for(int y:x){
@@ -47,12 +47,14 @@ public class Main{
             for(List<Integer> x:C){
                 double sup = support(x);
                 mapCtoSup.put(counter++, sup);
-                if(sup >= 0.10){
+                if(sup >= (minimumSupport*1.0)/9.0){
                     L.add(x);
                 }
             }
+
             counter=0;
             ot.println("C"+k+" is - ");
+            
             for(List<Integer> x : C){
                 for(int y : x){
                     ot.print(y + " ");
@@ -60,6 +62,7 @@ public class Main{
                 ot.print(" with support "+mapCtoSup.get(counter++));
                 ot.println();
             }
+
             ot.println("L"+k+" is - ");
             for(List<Integer> x : L){
                 for(int y : x){
@@ -67,11 +70,12 @@ public class Main{
                 }
                 ot.println();
             }
+
             List<List<Integer>> C_Kplus1 = new ArrayList<>();
-            // If we are generating C2 hashing is needed.
-            if(k>=1){
+            
+            if(k<=2){
                 List<List<List<Integer>>> hashTable = new ArrayList<>();
-                int tableSize = 32768;
+                int tableSize = 7;
                 int sizeOfBuckets[] = new int[tableSize];
                 for(int i=0;i<tableSize;i++)
                     hashTable.add(new ArrayList<>());
@@ -79,9 +83,9 @@ public class Main{
                     for(int j=i+1;j<L.size();j++){
                         if(checkPrefix(L.get(i),L.get(j), k-1) && checkPruning(L.get(i),L.get(j), L)){
                             int hashValue;
-                            hashValue = Hash(L.get(i), L.get(j));
                             List<Integer> temp = new ArrayList<>(L.get(i));
                             temp.add(L.get(j).get(L.get(j).size()-1));
+                            hashValue = Hash(temp);
                             int supportcount = supportCount(temp);
                             if(supportcount>0){
                                 hashTable.get(hashValue).add(new ArrayList<>(temp));
@@ -91,13 +95,13 @@ public class Main{
                        
                     }
                 }
-                System.out.println(91);
-                for(int i=0;i<tableSize;i++){                                                                
-                    if(sizeOfBuckets[i]>=100){
+              
+                for(int i=0;i<tableSize;i++){
+                    if(sizeOfBuckets[i]>=minimumSupport){
                         for(List<Integer> x:hashTable.get(i)){
                             C_Kplus1.add(new ArrayList<>(x));
                         }
-                    }
+                    } 
                 }
                 
                 Collections.sort(C_Kplus1,
@@ -123,16 +127,15 @@ public class Main{
                     }
                 }
             }
-            for(List<Integer> x:C_Kplus1){
+            for(List<Integer> x:L){
                 result.add(x);
             }
             L.clear();
             C=C_Kplus1;
             System.out.println();
-            ot.println();
+            
             k++;
         }
-        ot.println();
     }   
 
     static boolean checkPrefix(List<Integer> l1, List<Integer> l2,int k){
@@ -146,7 +149,7 @@ public class Main{
         List<Integer> temp = new ArrayList<>(l1);
         temp.add(l2.get(l2.size()-1));
         subsets=new ArrayList<>();
-        generateSubsets(temp, 0, new ArrayList<>());
+        findSubsets(temp, temp.size() - 1);
         for(List<Integer> subset:subsets){
             
             boolean flag = false;
@@ -189,17 +192,23 @@ public class Main{
         return i == l1.size();
 
     }
-    static void generateSubsets(List<Integer> l, int ind, List<Integer> tempL){
-        if(ind>=l.size()){
-            if(tempL.size()<l.size())
-                subsets.add(new ArrayList<>(tempL));
+    static void findSubsets(List<Integer> list, int k){
+        findSubsetsUtil(list, 0, k, new ArrayList<>());
+    }
+
+    static void findSubsetsUtil(List<Integer> list, int ind, int k, List<Integer> temp){
+        if(temp.size() > k) return;
+        if(ind==list.size()){
+            if(temp.size() != k) return;
+            subsets.add(new ArrayList<>(temp));
             return;
         }
-        generateSubsets(l, ind+1, tempL);
-        tempL.add(l.get(ind));
-        generateSubsets(l, ind+1, tempL);
-        tempL.remove(tempL.size()-1);
+        findSubsetsUtil(list, ind+1, k, temp);
+        temp.add(list.get(ind));
+        findSubsetsUtil(list, ind+1, k, temp);
+        temp.remove(temp.size()-1);
     }
+
     static void printDatasetToFile(){
         ot.println("Dataset -");
         for(List<Integer> x : list){
@@ -209,17 +218,18 @@ public class Main{
             ot.println();
         }
     }
-    static int hash(int x, int y){
-        return (x*10 + y)%7;
-    }
-    static int Hash(List<Integer> l1, List<Integer> l2){
+
+    static int Hash(List<Integer> list){
         int count = 0;
-        for(int i=0;i<l1.size();i++){
-            count+=((l1.get(i)*179) + l2.get(i)*181);
+        if(list.size()==2){
+            count = list.get(0)*10 + list.get(1);
+        } else if(list.size() == 3){
+            count = list.get(0)*10 + list.get(1)*5 + list.get(2);
         }
         
-        return count%32768;
+        return count%7;
     }
     static List<List<Integer>> subsets;
     static List<List<Integer>> list;
+    static int minimumSupport = 3;
 }
