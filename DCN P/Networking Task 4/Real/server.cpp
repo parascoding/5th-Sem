@@ -1,5 +1,7 @@
 #include <iostream>
 #include <string>
+// #include<vector>
+#include<bits/stdc++.h>
 #include <stdio.h>
 #include <sys/types.h>
 #include <sys/socket.h>
@@ -19,6 +21,31 @@ using namespace std;
 sockaddr_in servAddr;
 char msg[1500];
 int port, serverSd, bindStatus;
+
+bool findRestaurantList(string &s){
+    fstream fin;
+    fin.open("Restaurants.csv", ios::in);
+    string temp;
+    
+    while(fin >> temp){
+        vector<string> vec;
+        vec.clear();
+        string line;
+        getline(fin, line);
+
+        stringstream ss(line);
+        string word;
+        while(getline(ss, word, ',')){
+            vec.push_back(word);
+        }
+        if(vec.size()>0){
+            s+=vec[0];
+            s+="\n";
+        }
+    
+    }
+    return true;
+}
 void fun(){
     sockaddr_in newSockAddr;
     socklen_t newSockAddrSize = sizeof(newSockAddr);
@@ -38,18 +65,37 @@ void fun(){
     int bytesRead, bytesWritten = 0;
     while(1)
     {
-        char tempMsg[1000];
-        string s = "Welcome to FoodKurnool\n";
-        s+="Please select one restaurant from the list given below"
-        memset(&msg, 0, sizeof(msg));//clear the buffer
-        recv(newSd, (char*)&msg, sizeof(msg), 0);
+        string s="Select restaurant from the list of available ones";
+        
+        bool x = findRestaurantList(s);
+        
+        int n = s.length();
+        
+        char tempMsg[n+1];
+        
+        int ind = 0;
+        for(int i=0;i<=n;i++){
+            tempMsg[ind]=s[i];
+            if(tempMsg[ind]=='\0')
+            ind--;
+            ind++;
             
-        if(!strcmp(msg, "exit"))
-        {
+        }
+        
+        
+        send(newSd, (char*)&tempMsg, strlen(tempMsg), 0);
+
+        memset(&tempMsg, 0, sizeof(tempMsg));//clear the buffer
+
+        recv(newSd, (char*)&tempMsg, sizeof(tempMsg), 0);
+            
+        if(!strcmp(msg, "exit")){
             cout << "Client has quit the session" << endl;
             break;
+        } else{
+            int num = atoi(tempMsg);
+            cout<<num;
         }
-        cout << "Client: " << msg << endl;
         // cout << ">";
         string data;
         // getline(cin, data);
@@ -73,6 +119,7 @@ void fun(){
 }
 int main(int argc, char *argv[])
 {
+    ios::sync_with_stdio(false);
     //for the server, we only need to specify a port number
     if(argc != 2)
     {
@@ -108,7 +155,9 @@ int main(int argc, char *argv[])
     cout << "Waiting for a client to connect..." << endl;
     //listen for up to 5 requests at a time
     listen(serverSd, 5);
-    
+    // fun();
+    // ----------------------------------------------------------------
+    //                                    Multi 
     thread th1[100];
     int ind = 0;
     while(ind<100){
@@ -118,6 +167,7 @@ int main(int argc, char *argv[])
     while(ind<100){
         th1[ind++].join();
     }
+    // ----------------------------------------------------------------
 
 
     close(serverSd);
