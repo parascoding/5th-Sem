@@ -22,52 +22,123 @@ sockaddr_in servAddr;
 char msg[1500];
 int port, serverSd, bindStatus;
 
-bool findRestaurantList(string &s){
-    fstream fin;
-    fin.open("Restaurants.csv", ios::in);
-    string temp;
-    
-    while(fin >> temp){
-        vector<string> vec;
-        vec.clear();
-        string line;
-        getline(fin, line);
-
-        stringstream ss(line);
-        string word;
-        while(getline(ss, word, ',')){
-            vec.push_back(word);
-        }
-        if(vec.size()>0){
-            s+=vec[0];
-            s+="\n";
-        }
-    
+void sendToClient(int Sd, string s){
+    char tempMsg[s.length()+1];
+    memset(&tempMsg, 0, sizeof(tempMsg));
+    int ind = 0;
+    for(int i=0;i<s.length();i++){
+        tempMsg[ind]=s[i];
+        if(tempMsg[ind]=='\0')
+            ind--;
+        ind++;
     }
-    return true;
+
+    send(Sd, (char*)&tempMsg, strlen(tempMsg), 0);
+}
+
+string receiveFromClient(int Sd){
+    char tempMsg[100];
+    memset(&tempMsg, 0, sizeof(tempMsg));
+    recv(Sd, (char*)&tempMsg, sizeof(tempMsg), 0);
+    string s(tempMsg);    
+    return s;
+}
+void findRestaurantList(string &s){
+    fstream file;
+    file.open("Restaurants.txt");
+
+    while(file){
+        string temp;
+        getline(file, temp);
+        s+=temp;
+        s+='\n';
+    }
+
+}
+vector<string> splitString(string &s){
+    stringstream ss(s);
+    string temp;
+    vector<string> v;
+    while(getline(ss, temp, ' '))
+        v.push_back(temp);
+    return v;
+}
+bool checkIfUserExists(string &userNameResponse, string &passwordResponse){
+    fstream file;
+    file.open("Users.txt");
+
+    while(file){
+        string temp;
+        
+        getline(file, temp);
+        if(temp.length() == 0)
+            break;
+        vector<string> v = splitString(temp);
+        if(v[0]==userNameResponse && v[1] == passwordResponse)
+            return true;
+    }
+    return false;
+}
+
+bool login(int Sd){
+    string s = "Weclcome to Food-Kurnool\n Please log in - \n";
+    s+="Username/email: ";
+    sendToClient(Sd, s);
+    usleep(30000);
+    string userNameResponse = receiveFromClient(Sd);
+    usleep(30000);
+    cout << "UserName: "<<userNameResponse << flush;
+    memset(&s, 0, sizeof(s));
+    s = "\nPassword: ";
+    sendToClient(Sd, s);
+    usleep(30000);
+    string passwordResponse = receiveFromClient(Sd);
+    usleep(30000);
+    cout << "\nPassword: "<<passwordResponse << flush;
+    
+    if(checkIfUserExists(userNameResponse, passwordResponse)){
+        s = "SUCCESS";
+        sendToClient(Sd, s);
+        return true;
+    } else{
+        s = "FAILURE";
+        sendToClient(Sd, s);
+        return false;
+    }
+    
+    
+}
+
+void showDashboard(){
+    
 }
 void fun(){
     sockaddr_in newSockAddr;
     socklen_t newSockAddrSize = sizeof(newSockAddr);
     //accept, create a new socket descriptor to 
     //handle the new connection with client
-    int newSd = accept(serverSd, (sockaddr *)&newSockAddr, &newSockAddrSize);
-    if(newSd < 0)
+    int Sd = accept(serverSd, (sockaddr *)&newSockAddr, &newSockAddrSize);
+    if(Sd < 0)
     {
         cerr << "Error accepting request from client!" << endl;
         exit(1);
     }
     cout << "Connected with client!" << endl;
-    //lets keep track of the session time
-    struct timeval start1, end1;
-    gettimeofday(&start1, NULL);
-    //also keep track of the amount of data sent as well
-    int bytesRead, bytesWritten = 0;
+    
+    
     while(1)
     {
+        usleep(30000);
+        bool isLoggedIn = login(Sd);
+
+        cout << "IsLoggedIn: "<<isLoggedIn << flush;
+        if(!isLoggedIn)
+            continue;
+        
+        showDashboard();
         string s="Select restaurant from the list of available ones";
         
-        bool x = findRestaurantList(s);
+        findRestaurantList(s);
         
         int n = s.length();
         
@@ -77,17 +148,15 @@ void fun(){
         for(int i=0;i<=n;i++){
             tempMsg[ind]=s[i];
             if(tempMsg[ind]=='\0')
-            ind--;
+                ind--;
             ind++;
-            
         }
         
+        sendToClient(Sd, s);
         
-        send(newSd, (char*)&tempMsg, strlen(tempMsg), 0);
-
-        memset(&tempMsg, 0, sizeof(tempMsg));//clear the buffer
-
-        recv(newSd, (char*)&tempMsg, sizeof(tempMsg), 0);
+        s = receiveFromClient(Sd);
+        
+        // recv(Sd, (char*)&tempMsg, sizeof(tempMsg), 0);
             
         if(!strcmp(msg, "exit")){
             cout << "Client has quit the session" << endl;
@@ -96,30 +165,31 @@ void fun(){
             int num = atoi(tempMsg);
             cout<<num;
         }
-        // cout << ">";
-        string data;
-        // getline(cin, data);
+        
+        
+        
         // memset(&msg, 0, sizeof(msg)); //clear the buffer
         // strcpy(msg, data.c_str());
         if(msg == "exit")
         {
             //send to the client that server has closed the connection
-            send(newSd, (char*)&msg, strlen(msg), 0);
+            send(Sd, (char*)&msg, strlen(msg), 0);
             break;
         }
         //send the message to client
-        int temp = send(newSd, (char*)&msg, strlen(msg), 0);
+        int temp = send(Sd, (char*)&msg, strlen(msg), 0);
         if(temp<=0)
             break;
         
     }
-    //we need to close the socket descriptors after we're all done
-    gettimeofday(&end1, NULL);
-    close(newSd);
+    
+    
+    close(Sd);
 }
 int main(int argc, char *argv[])
 {
-    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    // ios::sync_with_stdio(true);
     //for the server, we only need to specify a port number
     if(argc != 2)
     {
@@ -154,7 +224,7 @@ int main(int argc, char *argv[])
     }
     cout << "Waiting for a client to connect..." << endl;
     //listen for up to 5 requests at a time
-    listen(serverSd, 5);
+    listen(serverSd, 100);
     // fun();
     // ----------------------------------------------------------------
     //                                    Multi 
