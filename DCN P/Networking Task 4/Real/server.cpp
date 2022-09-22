@@ -1,7 +1,6 @@
+#include<bits/stdc++.h>
 #include <iostream>
 #include <string>
-// #include<vector>
-#include<bits/stdc++.h>
 #include <stdio.h>
 #include <sys/types.h>
 #include <sys/socket.h>
@@ -13,6 +12,7 @@
 #include <netdb.h>
 #include <sys/uio.h>
 #include <sys/time.h>
+#include<boost/algorithm/string.hpp>
 #include <sys/wait.h>
 #include <fcntl.h>
 #include <fstream>
@@ -41,10 +41,12 @@ string receiveFromClient(int Sd){
     memset(&tempMsg, 0, sizeof(tempMsg));
     recv(Sd, (char*)&tempMsg, sizeof(tempMsg), 0);
     string s(tempMsg);    
+    
     return s;
 }
-void findRestaurantList(string &s){
+string findRestaurantList(){
     fstream file;
+    string s;
     file.open("Restaurants.txt");
 
     while(file){
@@ -53,6 +55,7 @@ void findRestaurantList(string &s){
         s+=temp;
         s+='\n';
     }
+    return s;
 
 }
 vector<string> splitString(string &s){
@@ -109,10 +112,29 @@ bool login(int Sd){
     
 }
 
-void showDashboard(){
+int showDashboard(int Sd){
+    string s = "Press 1 to Proceed to Cart \nPress 2 to see list of available restaurants\n";
+    sendToClient(Sd, s);
+    usleep(30000);
+    memset(&s, 0, sizeof(s));
+    string ss = receiveFromClient(Sd);
+    cout << "At 119" << ss << flush;
+    boost::trim_right(ss);
+    boost::trim_left(ss);
+    int temp = stoi(ss);
+    cout << "DBRES: " << temp << endl <<flush;
+
+    return temp;
+}
+
+void proceedToBrowse(int Sd){
+    string s = findRestaurantList();
     
+    sendToClient(Sd, s);
+
 }
 void fun(){
+    // cout << "I have been called " << flush;
     sockaddr_in newSockAddr;
     socklen_t newSockAddrSize = sizeof(newSockAddr);
     //accept, create a new socket descriptor to 
@@ -121,7 +143,7 @@ void fun(){
     if(Sd < 0)
     {
         cerr << "Error accepting request from client!" << endl;
-        exit(1);
+        // exit(1);
     }
     cout << "Connected with client!" << endl;
     
@@ -135,51 +157,59 @@ void fun(){
         if(!isLoggedIn)
             continue;
         
-        showDashboard();
-        string s="Select restaurant from the list of available ones";
-        
-        findRestaurantList(s);
-        
-        int n = s.length();
-        
-        char tempMsg[n+1];
-        
-        int ind = 0;
-        for(int i=0;i<=n;i++){
-            tempMsg[ind]=s[i];
-            if(tempMsg[ind]=='\0')
-                ind--;
-            ind++;
-        }
-        
-        sendToClient(Sd, s);
-        
-        s = receiveFromClient(Sd);
-        
-        // recv(Sd, (char*)&tempMsg, sizeof(tempMsg), 0);
-            
-        if(!strcmp(msg, "exit")){
-            cout << "Client has quit the session" << endl;
-            break;
+        int temp = showDashboard(Sd);
+
+        if(temp == 2){
+            proceedToBrowse(Sd);
+        } else if(temp == 1){
+
         } else{
-            int num = atoi(tempMsg);
-            cout<<num;
-        }
-        
-        
-        
-        // memset(&msg, 0, sizeof(msg)); //clear the buffer
-        // strcpy(msg, data.c_str());
-        if(msg == "exit")
-        {
-            //send to the client that server has closed the connection
-            send(Sd, (char*)&msg, strlen(msg), 0);
             break;
         }
-        //send the message to client
-        int temp = send(Sd, (char*)&msg, strlen(msg), 0);
-        if(temp<=0)
-            break;
+        // string s="Select restaurant from the list of available ones";
+        
+        // findRestaurantList(s);
+        
+        // int n = s.length();
+        
+        // char tempMsg[n+1];
+        
+        // int ind = 0;
+        // for(int i=0;i<=n;i++){
+        //     tempMsg[ind]=s[i];
+        //     if(tempMsg[ind]=='\0')
+        //         ind--;
+        //     ind++;
+        // }
+        
+        // sendToClient(Sd, s);
+        
+        // s = receiveFromClient(Sd);
+        
+        // // recv(Sd, (char*)&tempMsg, sizeof(tempMsg), 0);
+            
+        // if(!strcmp(msg, "exit")){
+        //     cout << "Client has quit the session" << endl;
+        //     break;
+        // } else{
+        //     int num = atoi(tempMsg);
+        //     cout<<num;
+        // }
+        
+        
+        
+        // // memset(&msg, 0, sizeof(msg)); //clear the buffer
+        // // strcpy(msg, data.c_str());
+        // if(msg == "exit")
+        // {
+        //     //send to the client that server has closed the connection
+        //     send(Sd, (char*)&msg, strlen(msg), 0);
+        //     break;
+        // }
+        // //send the message to client
+        // int temp = send(Sd, (char*)&msg, strlen(msg), 0);
+        // if(temp<=0)
+        //     break;
         
     }
     
@@ -228,15 +258,18 @@ int main(int argc, char *argv[])
     // fun();
     // ----------------------------------------------------------------
     //                                    Multi 
-    thread th1[100];
-    int ind = 0;
-    while(ind<100){
-        th1[ind++]=thread(fun);
-    }
-    ind =0;
-    while(ind<100){
-        th1[ind++].join();
-    }
+    server:
+        thread th1[100];
+        int ind = 0;
+        while(ind<100){
+            th1[ind++]=thread(fun);
+        }
+        ind =0;
+        while(ind<100){
+            th1[ind++].join();
+        }
+    goto server;
+
     // ----------------------------------------------------------------
 
 

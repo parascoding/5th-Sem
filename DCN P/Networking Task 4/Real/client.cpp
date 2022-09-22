@@ -1,3 +1,4 @@
+#include <bits/stdc++.h>
 #include <iostream>
 #include <string>
 #include <stdio.h>
@@ -58,16 +59,34 @@ bool login(int Sd){
     usleep(30000);
     s = receiveFromServer(Sd);
     cout << s << endl << flush;
-    if(s=="SUCCESS")
+    if(s == "SUCCESS")
         return true;
     else
         return false;
 }
 
-void showDashboard(){
+int showDashboard(int Sd){
+    string s = receiveFromServer(Sd);
+    cout << s << flush;
+    usleep(30000);
+    string response;
+    cin >> response;
+    usleep(30000);
+    sendToServer(Sd, response);
+    usleep(30000);
+    int temp = stoi(response);
+    
+    
+    return temp;
+}
+
+void proceedToBrowse(int Sd){
+
+    string s = receiveFromServer(Sd);
+    cout << s << flush;
 
 }
-//Client side
+
 int main(int argc, char *argv[])
 {
     cin.tie(nullptr);
@@ -104,16 +123,22 @@ int main(int argc, char *argv[])
     {
         string data;
         usleep(30000);
-        // getline(cin, data);
         bool isLoggedIn = login(Sd);
+        usleep(30000);
         if(!isLoggedIn){
             cout << "Login  Failed " << endl << flush;
             continue;
         }
 
-        showDashboard();
-
-
+        int dahsBoard = showDashboard(Sd);
+        
+        if(dahsBoard == -1)
+            break;
+        else if(dahsBoard == 2){
+            proceedToBrowse(Sd);
+        }
+        else if(dahsBoard == 1)
+            continue;
         recv(Sd, (char*)&msg, sizeof(msg), 0);
         cout << msg << endl;
         memset(&msg, 0, sizeof(msg));//clear the buffer
