@@ -26,9 +26,9 @@ void sendToServer(int Sd, string s){
             ind--;
         ind++;
     }
-    // cout<<"Sending"<<endl<<flush;
+    
     send(Sd, (char*)&tempMsg, strlen(tempMsg), 0);
-    // cout<<"Sended"<<endl<<flush;
+    
 }
 
 string receiveFromServer(int Sd){
@@ -39,24 +39,24 @@ string receiveFromServer(int Sd){
     return s;
 }
 bool login(int Sd){
-    usleep(30000);
+    sleep(0.1);
     string s = receiveFromServer(Sd);
-    usleep(30000);
+    sleep(0.1);
     cout << s << flush;
     string response;
-    usleep(30000);
+    sleep(0.1);
     cin >> response;
-    usleep(30000);
+    sleep(0.1);
     sendToServer(Sd, response);
-    usleep(30000);
+    sleep(0.1);
     s = receiveFromServer(Sd);
-    usleep(30000);
+    sleep(0.1);
     cout<<"Password: " << flush;
-    usleep(30000);
+    sleep(0.1);
     cin >> response;
-    usleep(30000);
+    sleep(0.1);
     sendToServer(Sd, response);
-    usleep(30000);
+    sleep(0.1);
     s = receiveFromServer(Sd);
     cout << s << endl << flush;
     if(s == "SUCCESS")
@@ -68,12 +68,12 @@ bool login(int Sd){
 int showDashboard(int Sd){
     string s = receiveFromServer(Sd);
     cout << s << flush;
-    usleep(30000);
+    sleep(0.1);
     string response;
     cin >> response;
-    usleep(30000);
+    sleep(0.1);
     sendToServer(Sd, response);
-    usleep(30000);
+    sleep(0.1);
     int temp = stoi(response);
     
     
@@ -84,12 +84,51 @@ void proceedToBrowse(int Sd){
 
     string s = receiveFromServer(Sd);
     cout << s << flush;
+    cout << "Enter the number of restaurant to see available dishes\n";
+    string number;
+    cin >> number;
 
+    sendToServer(Sd, number);
+
+    cout<<"Dishesh Available are - \n" << flush;
+    memset(&s, 0, sizeof(s));
+
+    s = receiveFromServer(Sd);
+    
+    cout << s << endl << flush;
+
+    cout << "Enter Dish Number to add order them\n" << flush;
+
+    string dishNumber;
+
+    cin >> dishNumber;
+    sendToServer(Sd, dishNumber);
+
+    memset(&s, 0, sizeof(s));
+
+    s = receiveFromServer(Sd);
+    
+    cout << s << endl << flush;
+    
+    
+}
+
+void proceedToCart(int Sd){
+    string s = receiveFromServer(Sd);
+
+    cout << s << flush;
+
+    cout << "Press 1 to Checkout\n";
+
+    string resp;
+    cin >> resp;
+
+    sendToServer(Sd, resp);
 }
 
 int main(int argc, char *argv[])
 {
-    cin.tie(nullptr);
+    std::ios::sync_with_stdio(false);
     //we need 2 things: ip address and port number, in that order
     if(argc != 3)
     {
@@ -119,55 +158,28 @@ int main(int argc, char *argv[])
     int bytesRead, bytesWritten = 0;
     struct timeval start1, end1;
     gettimeofday(&start1, NULL);
-    while(1)
-    {
+    while(1){
         string data;
-        usleep(30000);
+        sleep(0.1);
         bool isLoggedIn = login(Sd);
-        usleep(30000);
+        sleep(0.1);
         if(!isLoggedIn){
-            cout << "Login  Failed " << endl << flush;
             continue;
         }
 
-        int dahsBoard = showDashboard(Sd);
+        int dashBoard = showDashboard(Sd);
         
-        if(dahsBoard == -1)
+        if(dashBoard == -1)
             break;
-        else if(dahsBoard == 2){
+        else if(dashBoard == 2){
             proceedToBrowse(Sd);
         }
-        else if(dahsBoard == 1)
-            continue;
-        recv(Sd, (char*)&msg, sizeof(msg), 0);
-        cout << msg << endl;
-        memset(&msg, 0, sizeof(msg));//clear the buffer
-
-        
-        cout << ">";
-        getline(cin, data);
-        strcpy(msg, data.c_str());
-        send(Sd, (char*)&msg, strlen(msg), 0);
-        // break;
-        
-        // bytesWritten += send(Sd, (char*)&msg, strlen(msg), 0);
-        // cout << "Awaiting server response..." << endl;
-        memset(&msg, 0, sizeof(msg));//clear the buffer
-        // bytesRead += recv(Sd, (char*)&msg, sizeof(msg), 0);
-        if(!strcmp(msg, "exit"))
-        {
-            cout << "Server has quit the session" << endl;
-            break;
+        else if(dashBoard == 1){
+            proceedToCart(Sd);
         }
-        {cout << msg << endl;}
     }
-    gettimeofday(&end1, NULL);
     close(Sd);
-    cout << "********Session********" << endl;
-    cout << "Bytes written: " << bytesWritten << 
-    " Bytes read: " << bytesRead << endl;
-    cout << "Elapsed time: " << (end1.tv_sec- start1.tv_sec) 
-      << " secs" << endl;
+    
     cout << "Connection closed" << endl;
     return 0;    
 }

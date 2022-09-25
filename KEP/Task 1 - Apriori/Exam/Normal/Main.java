@@ -5,7 +5,7 @@ public class Main{
     static PrintWriter ot;
     public static void main(String args[]) throws IOException{
         try{
-            br = new BufferedReader(new FileReader("input_rand5.txt"));
+            br = new BufferedReader(new FileReader("input_rand1.txt"));
             ot = new PrintWriter(new FileWriter("output.txt"));
             list = new ArrayList<>();
             String S;
@@ -17,14 +17,14 @@ public class Main{
                 }
                 list.add(new ArrayList<>(temp));
             }
-            generateSets();
+            HashBasedApriori();
             ot.close();
         } catch(Exception e){
             e.printStackTrace();
             return;
         }
     }
-    static void generateSets(){
+    static void HashBasedApriori(){
         Set<Integer> set = new HashSet<>();
         for(List<Integer> x:list){
             for(int y:x){
