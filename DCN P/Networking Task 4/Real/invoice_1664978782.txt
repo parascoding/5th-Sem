@@ -1,0 +1,14 @@
+				 !! INVOICE !!
+
+
+Date: Wednesday 05/10/2022
+
+
+Customer's User Name: newUser
+
+
+
+				 Items
+1 Restaurant: Cinnamon Lemon Restaurant  Dish: Rice Price: 30
+
+Total : 30 Only

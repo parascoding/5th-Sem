@@ -15,115 +15,216 @@
 #include <sys/wait.h>
 #include <fcntl.h>
 #include <fstream>
+#include <sys/stat.h>
+#include <sys/types.h>
 using namespace std;
-void sendToServer(int Sd, string s){
-    char tempMsg[s.length()+1];
-    memset(&tempMsg, 0, sizeof(tempMsg));
-    int ind = 0;
-    for(int i=0;i<s.length();i++){
-        tempMsg[ind]=s[i];
-        if(tempMsg[ind]=='\0')
-            ind--;
-        ind++;
+
+void generateInvoice(string invoice){
+    try{
+        mkdir("invoices", 0777);
+        string t = to_string(time(nullptr));
+        string filePath = "invoice_";
+        filePath+=t;
+        filePath+=".txt";
+        fstream file(filePath, ios::out);
+
+        file << invoice;
+    } catch(const std::exception& e){
+         std::cout << "Caught exception 76 \"" << e.what() << "\"\n";
     }
-    
-    send(Sd, (char*)&tempMsg, strlen(tempMsg), 0);
+}
+
+void sendToServer(int Sd, string s){
+    try{
+        char tempMsg[s.length()+1];
+        memset(&tempMsg, 0, sizeof(tempMsg));
+        int ind = 0;
+        for(int i=0;i<s.length();i++){
+            tempMsg[ind]=s[i];
+            if(tempMsg[ind]=='\0')
+                ind--;
+            ind++;
+        }
+        
+        send(Sd, (char*)&tempMsg, strlen(tempMsg), 0);
+    } catch(const std::exception& e){
+         std::cout << "Caught exception 76 \"" << e.what() << "\"\n";
+    }
     
 }
 
 string receiveFromServer(int Sd){
-    char tempMsg[200];
-    memset(&tempMsg, 0, sizeof(tempMsg));
-    recv(Sd, (char*)&tempMsg, sizeof(tempMsg), 0);
-    string s(tempMsg);    
-    return s;
+    try{
+        char tempMsg[10000];
+        memset(&tempMsg, 0, sizeof(tempMsg));
+        recv(Sd, (char*)&tempMsg, sizeof(tempMsg), 0);
+        string s(tempMsg);    
+        return s;
+    } catch(const std::exception& e){
+         std::cout << "Caught exception 76 \"" << e.what() << "\"\n";
+    }
+    return "";
 }
+
 bool login(int Sd){
-    sleep(0.1);
-    string s = receiveFromServer(Sd);
-    sleep(0.1);
-    cout << s << flush;
-    string response;
-    sleep(0.1);
-    cin >> response;
-    sleep(0.1);
-    sendToServer(Sd, response);
-    sleep(0.1);
-    s = receiveFromServer(Sd);
-    sleep(0.1);
-    cout<<"Password: " << flush;
-    sleep(0.1);
-    cin >> response;
-    sleep(0.1);
-    sendToServer(Sd, response);
-    sleep(0.1);
-    s = receiveFromServer(Sd);
-    cout << s << endl << flush;
-    if(s == "SUCCESS")
-        return true;
-    else
-        return false;
+    try{
+        sleep(0.5);
+        string s = receiveFromServer(Sd);
+        sleep(0.5);
+        cout << s << flush;
+        string response;
+        sleep(0.5);
+        cin >> response;
+        sleep(0.5);
+        sendToServer(Sd, response);
+        sleep(0.5);
+        s = receiveFromServer(Sd);
+        sleep(0.5);
+        cout<<"Password: " << flush;
+        sleep(0.5);
+        cin >> response;
+        sleep(0.5);
+        sendToServer(Sd, response);
+        sleep(0.5);
+        s = receiveFromServer(Sd);
+        cout << s << endl << flush;
+        if(s == "SUCCESS")
+            return true;
+        else
+            return false;
+    } catch(const std::exception& e){
+         std::cout << "Caught exception 76 \"" << e.what() << "\"\n";
+    }
+    return false;
 }
 
 int showDashboard(int Sd){
-    string s = receiveFromServer(Sd);
-    cout << s << flush;
-    sleep(0.1);
-    string response;
-    cin >> response;
-    sleep(0.1);
-    sendToServer(Sd, response);
-    sleep(0.1);
-    int temp = stoi(response);
-    
-    
-    return temp;
+    try{
+        string s = receiveFromServer(Sd);
+        cout << s << flush;
+        sleep(0.5);
+        string response;
+        cin >> response;
+        sleep(0.5);
+        sendToServer(Sd, response);
+        sleep(0.5);
+        int temp = stoi(response);
+        
+        
+        return temp;
+    } catch(const std::exception& e){
+         std::cout << "Caught exception 76 \"" << e.what() << "\"\n";
+    }
+    return -1;
 }
 
 void proceedToBrowse(int Sd){
+    try{
 
-    string s = receiveFromServer(Sd);
-    cout << s << flush;
-    cout << "Enter the number of restaurant to see available dishes\n";
-    string number;
-    cin >> number;
+        string s = receiveFromServer(Sd);
+        cout << s << flush;
+        cout << "Enter the number of restaurant to see available dishes\n";
+        string number;
+        cin >> number;
 
-    sendToServer(Sd, number);
+        sendToServer(Sd, number);
 
-    cout<<"Dishesh Available are - \n" << flush;
-    memset(&s, 0, sizeof(s));
+        cout<<"Dishesh Available are - \n" << flush;
+        memset(&s, 0, sizeof(s));
 
-    s = receiveFromServer(Sd);
-    
-    cout << s << endl << flush;
+        s = receiveFromServer(Sd);
+        
+        cout << s << endl << flush;
 
-    cout << "Enter Dish Number to add order them\n" << flush;
+        cout << "Enter Dish Number to add order them\n" << flush;
 
-    string dishNumber;
+        string dishNumber;
 
-    cin >> dishNumber;
-    sendToServer(Sd, dishNumber);
+        cin >> dishNumber;
+        sendToServer(Sd, dishNumber);
 
-    memset(&s, 0, sizeof(s));
+        memset(&s, 0, sizeof(s));
 
-    s = receiveFromServer(Sd);
-    
-    cout << s << endl << flush;
-    
+        s = receiveFromServer(Sd);
+        
+        cout << s << endl << flush;
+        
+    } catch(const std::exception& e){
+         std::cout << "Caught exception 76 \"" << e.what() << "\"\n";
+    }
     
 }
 
+void cancelOrder(int Sd){
+    try{
+        string s = receiveFromServer(Sd);
+        cout << s << endl << flush;
+    } catch(const std::exception& e){
+         std::cout << "Caught exception 76 \"" << e.what() << "\"\n";
+    }
+}
+
 void proceedToCart(int Sd){
-    string s = receiveFromServer(Sd);
+    try{
+        string s = receiveFromServer(Sd);
 
-    cout << s << flush;
+        cout << s << flush;
 
-    cout << "Press 1 to Checkout\n";
+        cout << "Press 1 to Checkout\n";
 
-    string resp;
-    cin >> resp;
+        string resp;
+        cin >> resp;
 
-    sendToServer(Sd, resp);
+        sendToServer(Sd, resp);
+
+        if(resp == "1"){
+
+            string invoice = receiveFromServer(Sd);
+            generateInvoice(invoice);
+
+            string temp = receiveFromServer(Sd);
+            cout << temp << endl << flush;
+            cout << "Invoice Downloaded Successfully\n" << flush;
+
+        }
+
+    } catch(const std::exception& e){
+         std::cout << "Caught exception 76 \"" << e.what() << "\"\n";
+    }
+}
+
+void loginSignUpPrompt(int Sd){
+    try{
+        string temp = receiveFromServer(Sd);
+        cout << temp << endl << flush;
+
+        string s;
+        cin >> s;
+        sleep(0.5);
+        sendToServer(Sd, s);
+        sleep(1);
+        if(s == "2")
+            return;
+        string t1 = receiveFromServer(Sd);
+        cout << t1 << flush;
+
+        string userName;
+        cin >> userName;
+
+        sendToServer(Sd, userName);
+
+        string t2 = receiveFromServer(Sd);
+        cout << t2 << flush;
+
+        string password;
+        cin >> password;
+
+        sendToServer(Sd, password);
+        receiveFromServer(Sd);
+        
+    } catch(...){
+
+    }
 }
 
 int main(int argc, char *argv[])
@@ -158,17 +259,21 @@ int main(int argc, char *argv[])
     int bytesRead, bytesWritten = 0;
     struct timeval start1, end1;
     gettimeofday(&start1, NULL);
+    bool isLoggedIn = false;
     while(1){
         string data;
-        sleep(0.1);
-        bool isLoggedIn = login(Sd);
-        sleep(0.1);
+        if(!isLoggedIn)
+            loginSignUpPrompt(Sd);
+        sleep(0.5);;;
+        if(!isLoggedIn)
+            isLoggedIn = login(Sd);
+        sleep(0.5);;;
         if(!isLoggedIn){
             continue;
         }
-
+        sleep(0.5);;;
         int dashBoard = showDashboard(Sd);
-        
+        sleep(0.5);;;
         if(dashBoard == -1)
             break;
         else if(dashBoard == 2){
@@ -176,6 +281,8 @@ int main(int argc, char *argv[])
         }
         else if(dashBoard == 1){
             proceedToCart(Sd);
+        } else if(dashBoard == 3){
+            cancelOrder(Sd);
         }
     }
     close(Sd);

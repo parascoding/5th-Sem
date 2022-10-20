@@ -1,0 +1,14 @@
+				 !! INVOICE !!
+
+
+Date: Wednesday 05/10/2022
+
+
+Customer's User Name: newUser123
+
+
+
+				 Items
+1 Restaurant: Cinnamon Lemon Restaurant  Dish: Biryani Price: 200
+
+Total : 200 Only

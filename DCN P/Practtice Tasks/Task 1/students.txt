@@ -1,0 +1,9 @@
+1 Srinivas 60
+2 Siri 70
+3 Paras 80
+4 Ankit 70
+5 Amit 90
+6 Prathvi 100
+7 Awdhesh 80
+9 Nagendra 75
+10 Adarsh 78

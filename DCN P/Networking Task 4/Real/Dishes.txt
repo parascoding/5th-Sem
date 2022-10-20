@@ -1,2 +1,6 @@
-1 Paneer Chola Rice Biryani
-2 Roti Chapart Poori Other
+1 Paneer 100 Chola 50 Rice 30 Biryani 200
+2 Roti 20 Chapart 25 Poori 20 Other 100
+3 Roti 20
+4 Dosa 50
+5 Rice 10
+6 Pulihara 20

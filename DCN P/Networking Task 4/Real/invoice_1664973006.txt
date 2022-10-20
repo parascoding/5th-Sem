@@ -1,0 +1,20 @@
+				 !! INVOICE !!
+
+
+Date: Wednesday 05/10/2022
+
+
+Customer's User Name: 120cs0005
+
+
+
+				 Items
+1 Restaurant: Cinnamon Lemon Restaurant  Dish: Paneer Price: 100
+
+2 Restaurant: Cinnamon Lemon Restaurant  Dish: Chola Price: 50
+
+3 Restaurant: Supreme Bull Supper Club  Dish: Chapart Price: 25
+
+4 Restaurant: Supreme Bull Supper Club  Dish: Poori Price: 20
+
+Total : 195 Only

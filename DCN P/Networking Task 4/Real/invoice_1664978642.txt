@@ -1,0 +1,14 @@
+				 !! INVOICE !!
+
+
+Date: Wednesday 05/10/2022
+
+
+Customer's User Name: paras
+
+
+
+				 Items
+1 Restaurant: Cinnamon Lemon Restaurant  Dish: Paneer Price: 100
+
+Total : 100 Only
