@@ -132,8 +132,8 @@ public class Main{
             this.priority = priority;
         }
         public String toString(){
-            return "PID: "+pid+", AT: "+at+", BT: "+bt+
-                ", CT: "+ct+", TAT: "+tat+", WT: "+wt;
+            return "{PID: "+pid+", AT: "+at+", BT: "+bt+
+                ", CT: "+ct+", TAT: "+tat+", WT: "+wt+"}";
             
         }
     }

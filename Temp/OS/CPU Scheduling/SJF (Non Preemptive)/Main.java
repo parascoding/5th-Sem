@@ -13,27 +13,27 @@ public class Main{
 
         sortProcessesBasedOnAT();
         
-        PriorityBased();
+        SJF();
 
         sortProcessesBasedOnCT();
-
         printProcesses();
 
         computeAvgTimes();
 
+        
         ot.close();
         br.close();
     }
-    static void PriorityBased(){
+    static void SJF(){
         PriorityQueue<Process> pq = new PriorityQueue<>(
             new Comparator<Process>(){
                 public int compare(Process p1, Process p2){
-                    if(p1.priority == p2.priority){
+                    if(p1.bt == p2.bt){
                         if(p1.at > p2.at)
                             return 1;
                         return -1;
                     }
-                    if(p1.priority > p2.priority)
+                    if(p1.bt > p2.bt)
                         return 1;
                     return -1;
                 }
@@ -83,6 +83,9 @@ public class Main{
         Collections.sort(listOfProcesses,
             new Comparator<Process>(){
                 public int compare(Process p1, Process p2){
+                    // if(p1.at == p2.at){
+                    //     return p1.pid - p2.pid;
+                    // }
                     if(p1.ct > p2.ct)
                         return 1;
                     return -1;
@@ -109,8 +112,7 @@ public class Main{
                 listOfProcesses.add(new Process(
                     Integer.parseInt(s[0]),
                     Double.parseDouble(s[1]),
-                    Double.parseDouble(s[2]),
-                    Integer.parseInt(s[3])
+                    Double.parseDouble(s[2])
                 ));
             }
         } catch(Exception e){
@@ -124,16 +126,15 @@ public class Main{
     static class Process{
         int pid;
         double at, bt, ct, wt, tat;
-        int priority;
-        Process(int pid, double at, double bt, int priority){
+        
+        Process(int pid, double at, double bt){
             this.pid = pid;
             this.at = at;
             this.bt = bt;
-            this.priority = priority;
         }
         public String toString(){
-            return "PID: "+pid+", AT: "+at+", BT: "+bt+
-                ", CT: "+ct+", TAT: "+tat+", WT: "+wt;
+            return "{PID: "+pid+", AT: "+at+", BT: "+bt+
+                ", CT: "+ct+", TAT: "+tat+", WT: "+wt+"}";
             
         }
     }
