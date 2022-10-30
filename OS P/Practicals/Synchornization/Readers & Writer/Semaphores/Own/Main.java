@@ -4,8 +4,8 @@ import java.util.*;
 public class Main{
     public static void main(String args[]) throws Exception{
         try{
-            int n = 4;
-            int m = 3;
+            int n = 2;
+            int m = 2;
             DataBase database = new DataBase();
             for(int i = 0; i < m; i++)
                 new Writer(i, database).start();
@@ -21,7 +21,7 @@ class Semaphore{
     Semaphore(int val){
         this.val = val;
     }
-    public void down(){
+    public synchronized void down(){
         while(val == 0){
             // Busy wait
             try{
@@ -31,8 +31,9 @@ class Semaphore{
             
         this.val--;
     }
-    public void up(){
+    public synchronized void up(){
         this.val++;
+        this.notify();
     }
 }
 class DataBase{
