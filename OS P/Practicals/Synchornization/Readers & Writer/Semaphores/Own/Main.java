@@ -4,13 +4,13 @@ import java.util.*;
 public class Main{
     public static void main(String args[]) throws Exception{
         try{
-            int n = 1;
-            int m = 2;
+            int n = 4;
+            int m = 3;
             DataBase database = new DataBase();
-            for(int i = 0; i < n; i++)
-                new Reader(i, database).start();
             for(int i = 0; i < m; i++)
                 new Writer(i, database).start();
+            for(int i = 0; i < n; i++)
+                new Reader(i, database).start();
         } catch(Exception e){
             e.printStackTrace();
         }
@@ -24,6 +24,9 @@ class Semaphore{
     public void down(){
         while(val == 0){
             // Busy wait
+            try{
+                this.wait();
+            } catch(Exception e){}
         }
             
         this.val--;
